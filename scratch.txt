@@ -1,0 +1,147 @@
+DT1 = DriveTrain(KDE4213XF360,DUAL18p5x6p3,TURNIGY_20x6s,2811,17.9,4035)
+
+DT2 = DriveTrain(Motor(230,155,"KDE4213XF360"),
+                 Propeller(18.8,230,3,"TRIPLE18p5x6p3"),
+                 TURNIGY_20x6s,
+                 3064,
+                 21.6,
+                 4320)
+
+DT3 = DriveTrain(KDE4215XF465,
+                 DUAL18p5x6p3,
+                 TURNIGY_20x6s,
+                 4250,
+                 36.9,
+                 5608)
+
+DT4 = DriveTrain(KDE4215XF465,
+                 DUAL15p5x5p3,
+                 TURNIGY_20x6s,
+                 3124,
+                 23.7,
+                 4691)
+
+DT4 = DriveTrain(KDE5215XF435,
+                 DUAL18p5x6p3,
+                 TURNIGY_20x6s,
+                 5077,
+                 41.8,
+                 7279)
+
+DT4 = DriveTrain(KDE5215XF435,
+                 DUAL15p5x5p3,
+                 TURNIGY_20x6s,
+                 3320,
+                 26.5,
+                 5227)
+
+DT1p1 = DriveTrain(KDE4213XF360,DUAL18p5x6p3,DBL_TURNIGY_20x6s,2811,17.9,4035)
+
+DT2p1 = DriveTrain(Motor(230,155,"KDE4213XF360"),
+                 Propeller(18.8,230,3,"TRIPLE18p5x6p3"),
+                 DBL_TURNIGY_20x6s,
+                 3064,
+                 21.6,
+                 4320)
+
+DT3p1 = DriveTrain(KDE4215XF465,
+                 DUAL18p5x6p3,
+                 DBL_TURNIGY_20x6s,
+                 4250,
+                 36.9,
+                 5608)
+
+DT4p1 = DriveTrain(KDE4215XF465,
+                 DUAL15p5x5p3,
+                 DBL_TURNIGY_20x6s,
+                 3124,
+                 23.7,
+                 4691)
+
+DT5p1 = DriveTrain(KDE5215XF435,
+                 DUAL18p5x6p3,
+                 DBL_TURNIGY_20x6s,
+                 5077,
+                 41.8,
+                 7279)
+
+DT6p1 = DriveTrain(KDE5215XF435,
+                 DUAL15p5x5p3,
+                 DBL_TURNIGY_20x6s,
+                 3320,
+                 26.5,
+                 5227)
+
+DT1 = DriveTrain(KDE4213XF360,DUAL18p5x6p3,TURNIGY_20x4s,2811,17.9,4035)
+
+DT2 = DriveTrain(Motor(230,155,"KDE4213XF360"),
+                 Propeller(18.8,230,3,"TRIPLE18p5x6p3"),
+                 TURNIGY_20x4s,
+                 3064,
+                 21.6,
+                 4320)
+
+DT3 = DriveTrain(KDE4215XF465,
+                 DUAL18p5x6p3,
+                 TURNIGY_20x4s,
+                 4250,
+                 36.9,
+                 5608)
+
+DT4 = DriveTrain(KDE4215XF465,
+                 DUAL15p5x5p3,
+                 TURNIGY_20x4s,
+                 3124,
+                 23.7,
+                 4691)
+
+DT4 = DriveTrain(KDE5215XF435,
+                 DUAL18p5x6p3,
+                 TURNIGY_20x4s,
+                 5077,
+                 41.8,
+                 7279)
+
+DT4 = DriveTrain(KDE5215XF435,
+                 DUAL15p5x5p3,
+                 TURNIGY_20x4s,
+                 3320,
+                 26.5,
+                 5227)
+
+DT1p1 = DriveTrain(KDE4213XF360,DUAL18p5x6p3,DBL_TURNIGY_20x4s,2811,17.9,4035)
+
+DT2p1 = DriveTrain(Motor(230,155,"KDE4213XF360"),
+                 Propeller(18.8,230,3,"TRIPLE18p5x6p3"),
+                 DBL_TURNIGY_20x4s,
+                 3064,
+                 21.6,
+                 4320)
+
+DT3p1 = DriveTrain(KDE4215XF465,
+                 DUAL18p5x6p3,
+                 DBL_TURNIGY_20x4s,
+                 4250,
+                 36.9,
+                 5608)
+
+DT4p1 = DriveTrain(KDE4215XF465,
+                 DUAL15p5x5p3,
+                 DBL_TURNIGY_20x4s,
+                 3124,
+                 23.7,
+                 4691)
+
+DT5p1 = DriveTrain(KDE5215XF435,
+                 DUAL18p5x6p3,
+                 DBL_TURNIGY_20x4s,
+                 5077,
+                 41.8,
+                 7279)
+
+DT6p1 = DriveTrain(KDE5215XF435,
+                 DUAL15p5x5p3,
+                 DBL_TURNIGY_20x4s,
+                 3320,
+                 26.5,
+                 5227)
