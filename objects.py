@@ -53,6 +53,7 @@ class DriveTrain:
         self.number_of_batteries = number_of_batteries
         self.weight = self.motor.weight*4 + self.prop.weight * self.prop.blades * 4 + self.battery.weight * self.number_of_batteries
         self.useful_thrust = self.hover_thrust - self.weight
+        self.thrust_to_weight = self.max_thrust / self.hover_thrust
         self.endurance = ((self.battery.capacity * self.number_of_batteries * 0.8) / (self.amperage*1000))*60
         self.cost = self.motor.cost*4 + self.prop.cost * 4 + self.battery.cost * self.number_of_batteries
         drivetrains.append(self)
@@ -84,7 +85,14 @@ DT_29x = DriveTrain(36.9,4250,5608,KDE4215XF_465,_18p5__x_6_3_DUAL_EDN__KDE_,Tur
 DT_41x = DriveTrain(7.5,1635,2467,KDE5215XF_220,_18p5__x_6_3_DUAL_EDN__KDE_,Turnigy_16000mAh_6S,'41x',2)
 DT_42x = DriveTrain(9,2016,2967,KDE5215XF_220,_18p5__x_6_3_TRIPLE_EDN__KDE_,Turnigy_16000mAh_6S,'42x',1)
 DT_43x = DriveTrain(12.6,2705,4012,KDE5215XF_220,_21p5__x_7_3_DUAL_EDN__KDE_,Turnigy_16000mAh_6S,'43x',2)
+DT_43x2 = DriveTrain(12.6,2705,4012,KDE5215XF_220,_21p5__x_7_3_DUAL_EDN__KDE_,Turnigy_16000mAh_6S,'43x2',3)
 DT_44x = DriveTrain(16.3,3070,4506,KDE5215XF_220,_21p5__x_7_3_TRIPLE_EDN__KDE_,Turnigy_16000mAh_6S,'44x',1)
+DT_CURRENT = DriveTrain(17.9,2811,4035,KDE4213XF_360,_18p5__x_6_3_DUAL_EDN__KDE_,Turnigy_20000mAh_6S,'C',1)
+DT_CURRENTx = DriveTrain(21.6,3064,4320,KDE4213XF_360,_18p5__x_6_3_TRIPLE_EDN__KDE_,Turnigy_20000mAh_6S,'CT',1)
+DT_CURRENTy = DriveTrain(17.9,2811,4035,KDE4213XF_360,_18p5__x_6_3_DUAL_EDN__KDE_,Turnigy_20000mAh_6S,'Cy',2)
+DT_CURRENTy1 = DriveTrain(21.6,3064,4320,KDE4213XF_360,_18p5__x_6_3_TRIPLE_EDN__KDE_,Turnigy_20000mAh_6S,'CTy',2)
+DT_CURRENTz = DriveTrain(17.9,2811,4035,KDE4213XF_360,_18p5__x_6_3_DUAL_EDN__KDE_,Turnigy_16000mAh_6S,'Cz',2)
+DT_CURRENTz1 = DriveTrain(21.6,3064,4320,KDE4213XF_360,_18p5__x_6_3_TRIPLE_EDN__KDE_,Turnigy_16000mAh_6S,'CTz',2)
 
 
 def plot_drivetrain_3d(drivetrains):
@@ -113,11 +121,78 @@ def plot_drivetrain_3d(drivetrains):
     plt.title('DriveTrain Performance')
     plt.show()
     
-plot_drivetrain_3d(drivetrains)
-print(DT_43x.weight)
-print(DT_43x.useful_thrust)
-print(DT_43x.useful_thrust+DT_43x.weight)
-print('\n')
-print(DT_43.weight)
-print(DT_43.useful_thrust)
-print(DT_43.useful_thrust+DT_43x.weight)
+def plot_drivetrain_2d(drivetrains):
+    """
+    Creates 3 separate 2D plots for DriveTrain objects showing relationships between:
+    - Useful Thrust vs Endurance
+    - Useful Thrust vs Cost
+    - Endurance vs Cost
+
+    Args:
+        drivetrains (list): A list of DriveTrain objects.
+    """
+    useful_thrust = [dt.useful_thrust for dt in drivetrains]
+    hover_thrust = [dt.hover_thrust for dt in drivetrains]
+    endurance = [dt.endurance for dt in drivetrains]
+    cost = [dt.cost for dt in drivetrains]
+    ids = [dt.id for dt in drivetrains]
+
+    # Plot 1: Useful Thrust vs Endurance
+    plt.figure(figsize=(8, 6))
+    plt.scatter(useful_thrust, endurance, c='b', marker='o')
+    for i, dt_id in enumerate(ids):
+        plt.text(useful_thrust[i], endurance[i], dt_id, color='black', fontsize=10)
+    plt.xlabel('Useful Thrust (g)')
+    plt.ylabel('Endurance (minutes)')
+    plt.title('Useful Thrust vs Endurance')
+    plt.grid(True)
+    plt.show()
+    
+    # Plot 1a: Hover Thrust vs Endurance
+    plt.figure(figsize=(8, 6))
+    plt.scatter(hover_thrust, endurance, c='b', marker='o')
+    for i, dt_id in enumerate(ids):
+        plt.text(hover_thrust[i], endurance[i], dt_id, color='black', fontsize=10)
+    plt.xlabel('Hover Thrust (g)')
+    plt.ylabel('Endurance (minutes)')
+    plt.title('Hover Thrust vs Endurance')
+    plt.grid(True)
+    plt.show()
+
+    # Plot 2: Useful Thrust vs Cost
+    plt.figure(figsize=(8, 6))
+    plt.scatter(useful_thrust, cost, c='g', marker='o')
+    for i, dt_id in enumerate(ids):
+        plt.text(useful_thrust[i], cost[i], dt_id, color='black', fontsize=10)
+    plt.xlabel('Useful Thrust (g)')
+    plt.ylabel('Cost (CAD)')
+    plt.title('Useful Thrust vs Cost')
+    plt.grid(True)
+    plt.show()
+
+    # Plot 3: Endurance vs Cost
+    plt.figure(figsize=(8, 6))
+    plt.scatter(endurance, cost, c='r', marker='o')
+    for i, dt_id in enumerate(ids):
+        plt.text(endurance[i], cost[i], dt_id, color='black', fontsize=10)
+    plt.xlabel('Endurance (minutes)')
+    plt.ylabel('Cost (CAD)')
+    plt.title('Endurance vs Cost')
+    plt.grid(True)
+    plt.show()
+    
+# plot_drivetrain_2d(drivetrains)
+# print(DT_43x.weight)
+# print(DT_43x.useful_thrust)
+# print(DT_43x.thrust_to_weight)
+# print(DT_43x.useful_thrust+DT_43x.weight)
+# print('\n')
+# print(DT_43.weight)
+# print(DT_43.useful_thrust)
+# print(DT_43.useful_thrust+DT_43x.weight)
+
+# print(DT_43.useful_thrust)
+# print(DT_43x.useful_thrust)
+# print(DT_44.useful_thrust)
+
+print(DT_CURRENTy.useful_thrust)
