@@ -151,12 +151,19 @@ class DroneConfiguration:
 
     def total_useful_hover_thrust(self, thrust_to_weight_ratio):
         return self.total_hover_thrust(thrust_to_weight_ratio) - self.weight()
+    
+    def total_available_weight_capacity(self):
+        '''
+        drone is capped at 15kg MTOW
+        '''
+        return 15000 - self.weight()
 
     def naive_endurance(self, thrust_to_weight_ratio):
         '''
         returns: naive endurance estimate in minutes
         '''
-        total_battery_capacity = self.battery.capacity_watt_hours * self.number_of_batteries
+        fudge_factor = 0.8
+        total_battery_capacity = self.battery.capacity_watt_hours * self.number_of_batteries * fudge_factor
         return (total_battery_capacity / self.ideal_total_power_setting(thrust_to_weight_ratio))*60
 
     def plot_endurance_vs_useful_thrust(self, thrust_to_weight_ratio):
