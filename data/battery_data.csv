@@ -1,3 +1,12 @@
-NAME,WEIGHT (g),COST ($CAD),VOLTAGE (V),CELL COUNT,CAPACITY (mAh)
-Turnigy High Capacity 10000mAh 6S 12C Lipo Pack w/XT90,1320,119.99,22.2,6,10000
-Turnigy High Capacity 16000mAh 6S 12C Lipo Pack w/XT90,2015,235.17,22.2,6,16000
+NAME,WEIGHT (g),COST ($CAD),VOLTAGE (V),CELL COUNT,CAPACITY (mAh),LINK
+Turnigy High Capacity 10000mAh 6S 12C Lipo Pack w/XT90,1320,119.99,22.2,6,10000,
+Turnigy High Capacity 16000mAh 6S 12C Lipo Pack w/XT90,2015,235.17,22.2,6,16000,
+Turnigy Heavy Duty 5000mAh 6S 60C LiPo Pack w/XT90,750,84.82,22.2,6,5000,
+Turnigy High Capacity 20000mAh 6S 12C Lipo Pack w/XT90,2630,302.28,22.2,6,20000,
+Turnigy High Capacity 14000mAh 6S 12C Lipo Pack w/XT90,1820,212.27,22.2,6,14000,
+Turnigy Graphene Professional 12000mAh 6S 15C LiPo Pack w/ XT90,1610,188.86,22.2,6,12000,
+Turnigy High Capacity 12000mAh 6S 12C Lipo Pack w/XT90,1650,184.26,22.2,6,12000,
+Turnigy Graphene Panther 6000mAh 6S 75C Battery Pack w/XT90,950,98.74,22.2,6,6000,
+LiPo 4000mAh 12S 44.4v Battery Pack,1131,544.98,44.4,12,4000,https://maxamps.com/products/lipo-4000-12s-44-4v-battery-pack
+Turnigy Graphene Professional 8000mAh 6S 15C LiPo Pack w/XT90,1110,119.77,22.2,6,8000,
+Turnigy Nano-Tech Plus 6000mAh 6S 70C LiPo Pack w/XT90,1034,108.86,22.2,6,6000,

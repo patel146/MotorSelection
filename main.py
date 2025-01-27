@@ -146,8 +146,8 @@ def create_battery_objects(battery_data):
 drivetrains = create_drivetrain_objects(drivetrain_data)
 batteries = create_battery_objects(battery_data)
     
-for index,drivetrain in enumerate(drivetrains):
-    print(index,drivetrain)
+# for index,drivetrain in enumerate(drivetrains):
+#     print(index,drivetrain)
     
 def create_drone_configurations():
     drone_configurations: List[DroneConfiguration] = []
@@ -155,15 +155,18 @@ def create_drone_configurations():
     for drivetrain in drivetrains:
         for battery in batteries:
             if battery.cell_count == drivetrain.cell_count:
-                for number_of_batteries in range(1,4):
+                for number_of_batteries in range(1,6):
                     drone_configurations.append(DroneConfiguration(drivetrain,battery,number_of_batteries))
     return drone_configurations
 drone_configurations = create_drone_configurations()
+print(f'{len(drone_configurations)} total configurations')
 
 thrust_to_weight_ratio = 2
 fig, ax = plt.subplots()
 plt.xlabel('Endurance [min.]', fontsize=12)
 plt.ylabel('Useful Thrust (g)', fontsize=12)
+ax.set_ylim([0,16000])
+ax.set_xlim([0,60])
 plt.title('Performance Data: Endurance vs. Useful Thrust', fontsize=14)
 
 for drone_configuration in drone_configurations:
