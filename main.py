@@ -110,7 +110,7 @@ def create_drivetrain_objects(drivetrain_data):
             thrust = float(entry['THRUST (g)'])
             
             # Check if a DrivetrainData object with the same motor, propeller already exists
-            existing_drivetrain = next((d for d in drivetrains if d.motor == motor and d.propeller == propeller), None)
+            existing_drivetrain = next((d for d in drivetrains if d.motor == motor and d.propeller == propeller and d.cell_count == cell_count), None)
 
             if existing_drivetrain:
                 # If the object already exists, add the performance data
@@ -155,25 +155,60 @@ def create_drone_configurations():
     for drivetrain in drivetrains:
         for battery in batteries:
             if battery.cell_count == drivetrain.cell_count:
-                for number_of_batteries in range(1,6):
+                for number_of_batteries in range(1,4):
                     drone_configurations.append(DroneConfiguration(drivetrain,battery,number_of_batteries))
     return drone_configurations
+
 drone_configurations = create_drone_configurations()
+
 print(f'{len(drone_configurations)} total configurations')
 
-thrust_to_weight_ratio = 2
-fig, ax = plt.subplots()
-plt.xlabel('Endurance [min.]', fontsize=12)
-plt.ylabel('Useful Thrust (g)', fontsize=12)
-ax.set_ylim([0,16000])
-ax.set_xlim([0,60])
-plt.title('Performance Data: Endurance vs. Useful Thrust', fontsize=14)
+# thrust_to_weight_ratio = 2
+# fig, ax = plt.subplots()
+# plt.xlabel('Endurance [min.]', fontsize=12)
+# plt.ylabel('Useful Thrust (g)', fontsize=12)
+# ax.set_ylim([0,16000])
+# ax.set_xlim([0,60])
+# plt.title('Performance Data: Endurance vs. Useful Thrust', fontsize=14)
 
+# for drone_configuration in drone_configurations:
+#     sc = plt.scatter(drone_configuration.naive_endurance(thrust_to_weight_ratio), drone_configuration.total_useful_hover_thrust(
+#         thrust_to_weight_ratio), marker='o', linestyle='-', color='b', label=f'{drone_configuration.id}')
+#     sc = plt.scatter(drone_configuration.naive_endurance(thrust_to_weight_ratio=1.9), drone_configuration.total_useful_hover_thrust(
+#         thrust_to_weight_ratio=1.9), marker='o', linestyle='-', color='r', label=f'{drone_configuration.id}')
+#     sc = plt.scatter(drone_configuration.naive_endurance(thrust_to_weight_ratio=1.8), drone_configuration.total_useful_hover_thrust(
+#         thrust_to_weight_ratio=1.8), marker='o', linestyle='-', color='g', label=f'{drone_configuration.id}')
+#     sc = plt.scatter(drone_configuration.naive_endurance(thrust_to_weight_ratio=1.7), drone_configuration.total_useful_hover_thrust(
+#         thrust_to_weight_ratio=1.7), marker='o', linestyle='-', color='k', label=f'{drone_configuration.id}')
+#     # mplcursors.cursor(sc, hover=True)
+#     plt.grid(True, linestyle='--', alpha=0.6)
+#     # Show the plot
+#     plt.tight_layout()
+# plt.show()
+
+# Define the range of thrust_to_weight_ratio
+thrust_to_weight_ratios = np.linspace(1.5, 2.0, 5)  # Adjust the range and number of points as needed
+fig, ax = plt.subplots()
+ax.set_ylim([0,20000])
+ax.set_xlim([0,60])
+
+# Create a grid for endurance and hover thrust for all drone configurations
 for drone_configuration in drone_configurations:
-    sc = plt.scatter(drone_configuration.naive_endurance(thrust_to_weight_ratio), drone_configuration.total_useful_hover_thrust(
-        thrust_to_weight_ratio), marker='o', linestyle='-', color='b', label=f'{drone_configuration.id}')
-    mplcursors.cursor(sc, hover=True)
-    plt.grid(True, linestyle='--', alpha=0.6)
-    # Show the plot
-    plt.tight_layout()
+    # Calculate values
+    endurance = []
+    hover_thrust = []
+    for ratio in thrust_to_weight_ratios:
+        endurance.append(drone_configuration.naive_endurance(thrust_to_weight_ratio=ratio))
+        hover_thrust.append(drone_configuration.total_useful_hover_thrust(thrust_to_weight_ratio=ratio))
+    
+    # Create a carpet plot (or line plot) with thrust_to_weight_ratio as the third variable
+    plt.plot(endurance, hover_thrust, label=f'{drone_configuration.id}')
+    plt.scatter(endurance, hover_thrust, c=thrust_to_weight_ratios, cmap='viridis', s=10)  # Color by thrust_to_weight_ratio
+
+# Add labels and legend
+plt.colorbar(label="Thrust-to-Weight Ratio")
+plt.xlabel("Naive Endurance [min.]")
+plt.ylabel("Total Useful Hover Thrust [g]")
+# plt.legend(title="Drone Configurations")
+plt.title("Carpet Plot of Endurance vs. Hover Thrust")
 plt.show()
