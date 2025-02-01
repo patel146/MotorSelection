@@ -179,7 +179,7 @@ def create_drone_configurations_lookup_table(drone_configurations: List[DroneCon
     - number_of_batteries: Number of batteries in the configuration.
     """
     # Define the CSV header
-    header = ["id", "motor", "propeller", "battery", "number_of_batteries"]
+    header = ["id", "motor", "propeller", "battery", "number_of_batteries","cost","useful_thrust","avail_weight","endurance"]
     
     # Open the file in write mode
     with open(filename, mode="w", newline="") as csvfile:
@@ -195,12 +195,48 @@ def create_drone_configurations_lookup_table(drone_configurations: List[DroneCon
                 "motor": config.drivetrain.motor,
                 "propeller": config.drivetrain.propeller,
                 "battery": config.battery,
-                "number_of_batteries": config.number_of_batteries
+                "number_of_batteries": config.number_of_batteries,
+                "cost": config.cost(),
+                "useful_thrust":config.total_useful_hover_thrust(1.7),
+                "avail_weight": config.total_available_weight_capacity(),
+                "endurance": config.naive_endurance(1.7) 
             })
 
     print(f"Lookup table created: {filename}")
     
 create_drone_configurations_lookup_table(drone_configurations)
+
+def create_drone_configurations_decision_table(drone_configurations: List[DroneConfiguration],  thrust_to_weight_ratio, filename="data/drone_configurations_decision.csv"):
+    """
+    Create a CSV file containing a decision table of drone configurations and key stats.
+
+    """
+    # Define the CSV header
+    header = ["id", "motor", "propeller", "battery", "number_of_batteries","useful thrust","endurance","score"]
+    
+    # Open the file in write mode
+    with open(filename, mode="w", newline="") as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=header)
+        
+        # Write the header
+        writer.writeheader()
+        
+        # Write each drone configuration as a row
+        for config in drone_configurations:
+            writer.writerow({
+                "id": config.id,
+                "motor": config.drivetrain.motor,
+                "propeller": config.drivetrain.propeller,
+                "battery": config.battery.name,
+                "number_of_batteries": config.number_of_batteries,
+                "useful thrust": config.total_useful_hover_thrust(thrust_to_weight_ratio),
+                "endurance": config.naive_endurance(thrust_to_weight_ratio),
+                "score": config.total_useful_hover_thrust(thrust_to_weight_ratio)/config.weight() + config.naive_endurance(thrust_to_weight_ratio)/60
+            })
+
+    print(f"decision table created: {filename}")
+    
+# create_drone_configurations_decision_table(drone_configurations,1.7)
 
 # thrust_to_weight_ratio = 2
 # fig, ax = plt.subplots()
@@ -225,7 +261,7 @@ create_drone_configurations_lookup_table(drone_configurations)
 #     plt.tight_layout()
 # plt.show()
 
-def carpet_plot():
+def carpet_plot(budget):
     # Define the range of thrust_to_weight_ratio
     thrust_to_weight_ratios = np.linspace(1.2, 2.2, 10)  # Adjust the range and number of points as needed
     fig, ax = plt.subplots()
@@ -234,16 +270,18 @@ def carpet_plot():
 
     # Create a grid for endurance and hover thrust for all drone configurations
     for drone_configuration in drone_configurations:
-        # Calculate values
-        endurance = []
-        hover_thrust = []
-        for ratio in thrust_to_weight_ratios:
-            endurance.append(drone_configuration.naive_endurance(thrust_to_weight_ratio=ratio))
-            hover_thrust.append(drone_configuration.total_useful_hover_thrust(thrust_to_weight_ratio=ratio))
-        
-        # Create a carpet plot (or line plot) with thrust_to_weight_ratio as the third variable
-        plt.plot(endurance, hover_thrust, label=f'{drone_configuration.id}')
-        plt.scatter(endurance, hover_thrust, c=thrust_to_weight_ratios, cmap='viridis', s=10)  # Color by thrust_to_weight_ratio
+        if drone_configuration.cost() < budget:
+            if drone_configuration.total_useful_hover_thrust(1.8) > drone_configuration.total_available_weight_capacity():
+                # Calculate values
+                endurance = []
+                hover_thrust = []
+                for ratio in thrust_to_weight_ratios:
+                    endurance.append(drone_configuration.naive_endurance(thrust_to_weight_ratio=ratio))
+                    hover_thrust.append(drone_configuration.total_useful_hover_thrust(thrust_to_weight_ratio=ratio))
+                
+                # Create a carpet plot (or line plot) with thrust_to_weight_ratio as the third variable
+                plt.plot(endurance, hover_thrust, label=f'{drone_configuration.id}')
+                plt.scatter(endurance, hover_thrust, c=thrust_to_weight_ratios, cmap='viridis', s=10)  # Color by thrust_to_weight_ratio
 
     # Add labels and legend
     plt.colorbar(label="Thrust-to-Weight Ratio")
@@ -283,4 +321,4 @@ def carpet_plot_available_weight():
     mplcursors.cursor(fig, hover=True)
     plt.show()
     
-carpet_plot()
+carpet_plot(5000)

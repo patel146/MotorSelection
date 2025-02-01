@@ -21,6 +21,9 @@ class DrivetrainData:
 
     def add_performance_data(self, throttle, power, thrust):
         self.performance_data.append(PerformanceData(throttle, power, thrust))
+        
+    def cost(self):
+        return self.motor_cost*4 + self.propeller_cost*4
 
     def plot_performance_data(self):
         performance_data = self.performance_data
@@ -102,6 +105,9 @@ class DroneConfiguration:
                 f"drivetrain=({self.drivetrain}), "
                 f"battery=({self.battery}), "
                 f"number_of_batteries={self.number_of_batteries})")
+        
+    def cost(self):
+        return self.drivetrain.cost() + self.battery.cost * self.number_of_batteries
 
     def max_thrust(self):
         '''
