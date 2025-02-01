@@ -271,7 +271,7 @@ def carpet_plot(budget):
     # Create a grid for endurance and hover thrust for all drone configurations
     for drone_configuration in drone_configurations:
         if drone_configuration.cost() < budget:
-            if drone_configuration.total_useful_hover_thrust(1.8) > drone_configuration.total_available_weight_capacity():
+            if drone_configuration.total_useful_hover_thrust(1.8) > drone_configuration.total_available_weight_capacity() and drone_configuration.total_available_weight_capacity() > 6000:
                 # Calculate values
                 endurance = []
                 hover_thrust = []

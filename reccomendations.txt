@@ -12,3 +12,6 @@ e23bb6bc,P60 KV340,T-motor 22*6.6CF,"Battery(name=Turnigy High Capacity 20000mAh
 
 
 412838ea,P60 KV340,T-motor 22*6.6CF,"Battery(name=Turnigy High Capacity 14000mAh 6S 12C Lipo Pack w/XT90, weight=1820.0, cost=212.27, voltage=22.2, capacity_milliamp_hours=14000.0, capacity_watt_hours=310.80)",5,2492.3900000000003,5054.588235294121,4144.0,31.37745802764364
+
+IDEAL:
+d33f3ccc,P60 KV340,T-motor 22*6.6CF,"Battery(name=Turnigy High Capacity 16000mAh 6S 12C Lipo Pack w/XT90, weight=2015.0, cost=235.17, voltage=22.2, capacity_milliamp_hours=16000.0, capacity_watt_hours=355.20)",3,2136.55,8109.588235294121,7199.0,21.51597121895564
