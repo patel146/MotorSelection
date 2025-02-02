@@ -179,7 +179,7 @@ def create_drone_configurations_lookup_table(drone_configurations: List[DroneCon
     - number_of_batteries: Number of batteries in the configuration.
     """
     # Define the CSV header
-    header = ["id", "motor", "propeller", "battery", "number_of_batteries","cost","useful_thrust","avail_weight","endurance"]
+    header = ["id", "motor", "propeller", "battery", "number_of_batteries","cost","useful_thrust","avail_weight","endurance","throttle"]
     
     # Open the file in write mode
     with open(filename, mode="w", newline="") as csvfile:
@@ -197,9 +197,10 @@ def create_drone_configurations_lookup_table(drone_configurations: List[DroneCon
                 "battery": config.battery,
                 "number_of_batteries": config.number_of_batteries,
                 "cost": config.cost(),
-                "useful_thrust":config.total_useful_hover_thrust(1.7),
+                "useful_thrust":config.total_useful_hover_thrust(1.8),
                 "avail_weight": config.total_available_weight_capacity(),
-                "endurance": config.naive_endurance(1.7) 
+                "endurance": config.naive_endurance(1.8),
+                "throttle": config.ideal_throttle_setting(1.8)
             })
 
     print(f"Lookup table created: {filename}")
@@ -231,7 +232,8 @@ def create_drone_configurations_decision_table(drone_configurations: List[DroneC
                 "number_of_batteries": config.number_of_batteries,
                 "useful thrust": config.total_useful_hover_thrust(thrust_to_weight_ratio),
                 "endurance": config.naive_endurance(thrust_to_weight_ratio),
-                "score": config.total_useful_hover_thrust(thrust_to_weight_ratio)/config.weight() + config.naive_endurance(thrust_to_weight_ratio)/60
+                "score": config.total_useful_hover_thrust(thrust_to_weight_ratio)/config.weight() + config.naive_endurance(thrust_to_weight_ratio)/60,
+                "throttle": config.ideal_throttle_setting(1.8)
             })
 
     print(f"decision table created: {filename}")
