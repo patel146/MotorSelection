@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.interpolate import interp1d
 import hashlib
+import math
 
 
 class DrivetrainData:
@@ -164,6 +165,30 @@ class DroneConfiguration:
         '''
         return 15000 - self.weight()
 
+    def drag_force(self,velocity, frontal_area=0.25, Cd=0.6, air_density=1.293):
+        '''
+        frontal area in m2
+        velocity in m/s
+        returns Drag Force in N
+        '''
+        drag_newtons = 0.5*Cd*air_density*(velocity**2)*frontal_area
+        drag_kgs = drag_newtons / 9.81
+        drag_grams = drag_kgs * 1000
+        return drag_grams
+    
+    def thrust_for_cruise(self,cruise_velocity):
+        thrust = math.sqrt(self.drag_force(cruise_velocity)**2 + self.weight()**2)
+        return thrust
+    
+    def available_payload_at_cruise(self,thrust_to_weight_ratio,cruise_velocity):
+        available_thrust = (self.max_thrust() / thrust_to_weight_ratio) * 4 
+        angle = math.atan(self.drag_force(cruise_velocity)/self.weight()) # radians
+        total_weight = math.cos(angle)*available_thrust
+        available_payload = total_weight - self.weight()
+        return available_payload
+    
+    
+    
     def naive_endurance(self, thrust_to_weight_ratio):
         '''
         returns: naive endurance estimate in minutes
@@ -190,4 +215,87 @@ class DroneConfiguration:
         print(self)
         # Show the plot
         plt.tight_layout()
+        plt.show()
+        
+    # def carpet_plot_Cd(self):
+    #     # Define the range of thrust_to_weight_ratio
+    #     thrust_to_weight_ratios = np.linspace(1.2, 2.2, 10)  # Adjust the range and number of points as needed
+    #     Cd_values = np.linspace(0.4,0.75,10)
+    #     fig, ax = plt.subplots()
+    #     ax.set_ylim([0,20000])
+    #     ax.set_xlim([0,60])
+
+    #     # Create a grid for endurance and hover thrust for all drone configurations
+    #     endurance = []
+    #     available_payload_at_cruise = []
+    #     for ratio in thrust_to_weight_ratios:
+    #         endurance.append(self.naive_endurance(thrust_to_weight_ratio=ratio))
+    #         available_payload_at_cruise.append(self.available_payload_at_cruise(thrust_to_weight_ratio=ratio, cruise_velocity=10))
+        
+    #     # Create a carpet plot (or line plot) with thrust_to_weight_ratio as the third variable
+    #     plt.plot(endurance, available_payload_at_cruise, label=f'{self.id}')
+    #     plt.scatter(endurance, available_payload_at_cruise, c=thrust_to_weight_ratios, cmap='viridis', s=10)  # Color by thrust_to_weight_ratio
+
+    #     # Add labels and legend
+    #     plt.colorbar(label="Thrust-to-Weight Ratio")
+    #     plt.xlabel("Naive Endurance [min.]")
+    #     plt.ylabel("Available Payload at Cruise [g]")
+    #     # plt.legend(title="Drone Configurations")
+    #     plt.title("Carpet Plot of Endurance vs. Available payload at cruise")
+    #     plt.show()
+    
+    def carpet_plot_Cd(self):
+        # Define the range of thrust_to_weight_ratio and Cd values
+        thrust_to_weight_ratios = np.linspace(1.2, 2.2, 10)  # Adjust the range and number of points as needed
+        Cd_values = np.linspace(0.4, 0.75, 10)
+        fig, ax = plt.subplots()
+        ax.set_ylim([0, 20000])
+        ax.set_xlim([0, 60])
+
+        # Create lists for endurance and available payload at cruise
+        endurance = []
+        available_payload_at_cruise = []
+        Cd_data = []
+        
+        for Cd in Cd_values:
+            for ratio in thrust_to_weight_ratios:
+                self.drag_force = lambda v: 0.5 * Cd * 1.293 * (v**2) * 0.25 / 9.81 * 1000  # Modify drag function dynamically
+                endurance.append(self.naive_endurance(thrust_to_weight_ratio=ratio))
+                available_payload_at_cruise.append(self.available_payload_at_cruise(thrust_to_weight_ratio=ratio, cruise_velocity=10))
+                Cd_data.append(Cd)
+        
+        # Create a carpet plot with Cd as an additional variable
+        scatter = plt.scatter(endurance, available_payload_at_cruise, c=Cd_data, cmap='plasma', s=10)  # Color by Cd value
+        plt.colorbar(scatter, label="Drag Coefficient (Cd)")
+        plt.xlabel("Naive Endurance [min.]")
+        plt.ylabel("Available Payload at Cruise [g]")
+        plt.title("Carpet Plot of Endurance vs. Available Payload at Cruise with Cd Variation")
+        plt.show()
+        
+    def carpet_plot_velocity(self):
+        # Define the range of thrust_to_weight_ratio and Cd values
+        thrust_to_weight_ratios = np.linspace(1.2, 2.2, 10)  # Adjust the range and number of points as needed
+        velocity_values = np.linspace(10, 50, 100)
+        fig, ax = plt.subplots()
+        ax.set_ylim([0, 20000])
+        ax.set_xlim([0, 60])
+
+        # Create lists for endurance and available payload at cruise
+        endurance = []
+        available_payload_at_cruise = []
+        velocity_data = []
+        
+        for velocity in velocity_values:
+            for ratio in thrust_to_weight_ratios:
+                self.drag_force = lambda v: 0.5 * 0.5 * 1.293 * (velocity**2) * 0.25 / 9.81 * 1000  # Modify drag function dynamically
+                endurance.append(self.naive_endurance(thrust_to_weight_ratio=ratio))
+                available_payload_at_cruise.append(self.available_payload_at_cruise(thrust_to_weight_ratio=ratio, cruise_velocity=velocity))
+                velocity_data.append(velocity)
+        
+        # Create a carpet plot with Cd as an additional variable
+        scatter = plt.scatter(endurance, available_payload_at_cruise, c=velocity_data, cmap='plasma', s=10)  # Color by Cd value
+        plt.colorbar(scatter, label="Cruise Velocity (m/s)")
+        plt.xlabel("Naive Endurance [min.]")
+        plt.ylabel("Available Payload at Cruise [g]")
+        plt.title("Carpet Plot of Endurance vs. Available Payload at Cruise with Velocity Variation")
         plt.show()

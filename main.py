@@ -6,6 +6,7 @@ import csv
 from classes import DrivetrainData,Battery,DroneConfiguration
 from typing import List
 import mplcursors
+import math
 
 data_file_path = 'data/data.csv'
 battery_data_file_path = 'data/battery_data.csv'
@@ -323,4 +324,51 @@ def carpet_plot_available_weight():
     mplcursors.cursor(fig, hover=True)
     plt.show()
     
-carpet_plot(5000)
+def carpet_plot_cruise(budget,vel):
+    # Define the range of thrust_to_weight_ratio
+    thrust_to_weight_ratios = np.linspace(1.2, 2.2, 10)  # Adjust the range and number of points as needed
+    fig, ax = plt.subplots()
+    ax.set_ylim([0,20000])
+    ax.set_xlim([0,60])
+
+    # Create a grid for endurance and hover thrust for all drone configurations
+    for drone_configuration in drone_configurations:
+        if drone_configuration.cost() < budget:
+            if drone_configuration.total_useful_hover_thrust(1.8) > drone_configuration.total_available_weight_capacity() and drone_configuration.total_available_weight_capacity() > 6000:
+                # Calculate values
+                endurance = []
+                available_payload_at_cruise = []
+                for ratio in thrust_to_weight_ratios:
+                    endurance.append(drone_configuration.naive_endurance(thrust_to_weight_ratio=ratio))
+                    available_payload_at_cruise.append(drone_configuration.available_payload_at_cruise(thrust_to_weight_ratio=ratio, cruise_velocity=vel))
+                
+                # Create a carpet plot (or line plot) with thrust_to_weight_ratio as the third variable
+                plt.plot(endurance, available_payload_at_cruise, label=f'{drone_configuration.id}')
+                plt.scatter(endurance, available_payload_at_cruise, c=thrust_to_weight_ratios, cmap='viridis', s=10)  # Color by thrust_to_weight_ratio
+
+    # Add labels and legend
+    plt.colorbar(label="Thrust-to-Weight Ratio")
+    plt.xlabel("Naive Endurance [min.]")
+    plt.ylabel("Available Payload at Cruise [g]")
+    # plt.legend(title="Drone Configurations")
+    plt.title("Carpet Plot of Endurance vs. Available payload at cruise")
+    mplcursors.cursor(fig, hover=True)
+    plt.grid()
+    plt.show()
+    
+# carpet_plot(6000)
+# carpet_plot_cruise(6000,15)
+candidate = next((obj for obj in drone_configurations if obj.id == 'd33f3ccc'), None)
+# d = candidate.drag_force(10)
+# w = candidate.weight()
+# tw = 1.2
+# vel = 20
+# cr = candidate.available_payload_at_cruise(tw,vel)
+# hvr = candidate.total_useful_hover_thrust(tw)
+# print(cr)
+# print(hvr)
+# print(hvr-cr)
+# print(math.degrees(math.atan(d/w)))
+
+candidate.carpet_plot_velocity()
+# carpet_plot(6000)
