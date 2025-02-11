@@ -39,7 +39,7 @@ def download_data():
     download_drivetrain_data()
     download_battery_data()
 
-download_data()
+# download_data()
 
 def read_drivetrain_data():
     '''
@@ -370,5 +370,12 @@ candidate = next((obj for obj in drone_configurations if obj.id == 'd33f3ccc'), 
 # print(hvr-cr)
 # print(math.degrees(math.atan(d/w)))
 
-candidate.carpet_plot_velocity()
+# candidate.carpet_plot_velocity()
 # carpet_plot(6000)
+
+print(candidate.weight())
+print(candidate.total_available_weight_capacity())
+
+print(candidate.drivetrain.weight())
+print(candidate.battery_weight())
+print(candidate.max_thrust()*4)

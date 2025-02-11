@@ -25,6 +25,9 @@ class DrivetrainData:
         
     def cost(self):
         return self.motor_cost*4 + self.propeller_cost*4
+    
+    def weight(self):
+        return self.motor_weight*4 + self.propeller_weight_per_blade*8
 
     def plot_performance_data(self):
         performance_data = self.performance_data
@@ -109,6 +112,9 @@ class DroneConfiguration:
         
     def cost(self):
         return self.drivetrain.cost() + self.battery.cost * self.number_of_batteries
+    
+    def battery_weight(self):
+        return self.battery.weight * self.number_of_batteries
 
     def max_thrust(self):
         '''
