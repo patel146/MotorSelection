@@ -373,11 +373,50 @@ candidate = next((obj for obj in drone_configurations if obj.id == 'd33f3ccc'), 
 # candidate.carpet_plot_velocity()
 # carpet_plot(6000)
 
-print(candidate.weight())
-print(candidate.total_available_weight_capacity())
+def get_battery_config_performance(target):
+    ''' Returns the overall weight and cost of a battery configuration, given a target capacity
+    '''
+    battery_config = candidate.get_battery_configuration(batteries,target)
 
-print(candidate.drivetrain.weight())
-print(candidate.battery_weight())
-print(candidate.max_thrust()*4)
-# carpet_plot()
-carpet_plot_available_weight()
+    total_weight = sum(battery.weight for battery in battery_config)
+    total_cost = sum(battery.cost for battery in battery_config)
+
+    return total_weight, total_cost
+
+def plot_battery_configs():
+    targets = np.linspace(800,1200,10)
+    weights = []
+    costs = []
+    available_payloads = []
+    endurances = []
+
+    with open('data/battery_configs.csv', mode='w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(['Weight (g)', 'Cost ($CAD)', 'Available Payload (g)', 'Endurance (min)', 'Battery Config'])
+
+        for target in targets:
+            weight, cost = get_battery_config_performance(target)
+            weights.append(weight)
+            costs.append(cost)
+            battery_config = candidate.get_battery_configuration(batteries,target)
+            available_payload, endurance = candidate.drone_summary_given_battery_config(battery_config,1.8,15)
+            available_payloads.append(available_payload)
+            endurances.append(endurance)
+
+            battery_config_str = ', '.join([battery.name for battery in battery_config])
+            
+            writer.writerow([weight, cost, available_payload, endurance, battery_config_str])
+
+
+    plt.scatter(weights, costs)
+    plt.xlabel('Total Weight (g)')
+    plt.ylabel('Total Cost ($CAD)')
+
+    for i, (weight, cost) in enumerate(zip(weights, costs)):
+        plt.annotate(f'Payload: {available_payloads[i]}g\nEndurance: {endurances[i]}min', (weight, cost),
+                        textcoords="offset points", xytext=(0, 10), ha='center')
+    plt.show()
+
+
+
+plot_battery_configs()

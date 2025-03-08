@@ -305,3 +305,78 @@ class DroneConfiguration:
         plt.ylabel("Available Payload at Cruise [g]")
         plt.title("Carpet Plot of Endurance vs. Available Payload at Cruise with Velocity Variation")
         plt.show()
+
+    def summary(self,carpetPlot=False):
+        print(self.weight())
+        print(self.total_available_weight_capacity())
+
+        print(self.drivetrain.weight())
+        print(self.battery_weight())
+        print(self.max_thrust()*4)
+        if carpetPlot:
+            self.carpet_plot_Cd()
+
+    def get_battery_configuration(self, batteries, target_capacity):
+        ''' Finds an optimal battery configuration
+    
+        Args:
+            batteries: A list of available batteries List[Battery]
+            target capacity: The target capacity we are trying to reach. float.
+    
+        Returns:
+            A list of batteries that meet the target capacity while minimizing weight. 
+        '''
+        # Sort batteries by capacity_watt_hours in descending order
+        batteries.sort(key=lambda x: x.capacity_watt_hours, reverse=True)
+
+        battery_config = []
+        current_capacity = 0
+
+        for battery in batteries:
+            diff = target_capacity - current_capacity
+            if diff < 0:
+                break
+            if diff > 0:
+                viable_number_of_batteries = math.floor(diff / battery.capacity_watt_hours)
+                if viable_number_of_batteries > 0:
+                    for i in range(viable_number_of_batteries):
+                        battery_config.append(battery)
+                        current_capacity += battery.capacity_watt_hours
+
+
+        return battery_config
+    
+    def drone_summary_given_battery_config(self, battery_config,thrust_to_weight_ratio,velocity):
+        naive_endurance = 0
+
+        total_battery_capacity_watt_hours = 0
+        total_battery_cost = 0
+        total_battery_weight = 0
+
+        for battery in battery_config:
+            fudge_factor = 0.8
+            battery_capacity = battery.capacity_watt_hours * fudge_factor
+            naive_endurance += (battery_capacity / self.ideal_total_power_setting(thrust_to_weight_ratio))*60
+            total_battery_capacity_watt_hours += battery.capacity_watt_hours
+            total_battery_cost += battery.cost
+            total_battery_weight += battery.weight
+
+        def weight():
+            motor_and_prop_weight = (self.drivetrain.motor_weight +
+                                    self.drivetrain.propeller_weight_per_blade*self.drivetrain.propeller_configuration)*4
+            return motor_and_prop_weight + total_battery_weight
+        
+        def available_payload_at_cruise():
+            available_thrust = (self.max_thrust() / thrust_to_weight_ratio) * 4 
+            angle = math.atan(self.drag_force(velocity)/weight()) # radians
+            total_weight = math.cos(angle)*available_thrust
+            available_payload = total_weight - weight()
+            return available_payload
+        
+        return available_payload_at_cruise(),naive_endurance
+        
+
+
+        
+
+
