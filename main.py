@@ -324,7 +324,6 @@ def carpet_plot_available_weight():
     mplcursors.cursor(fig, hover=True)
     plt.show()
     
-<<<<<<< Updated upstream
 def carpet_plot_cruise(budget,vel):
     # Define the range of thrust_to_weight_ratio
     thrust_to_weight_ratios = np.linspace(1.2, 2.2, 10)  # Adjust the range and number of points as needed
@@ -380,7 +379,5 @@ print(candidate.total_available_weight_capacity())
 print(candidate.drivetrain.weight())
 print(candidate.battery_weight())
 print(candidate.max_thrust()*4)
-=======
 # carpet_plot()
 carpet_plot_available_weight()
->>>>>>> Stashed changes
