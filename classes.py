@@ -333,15 +333,16 @@ class DroneConfiguration:
         current_capacity = 0
 
         for battery in batteries:
-            diff = target_capacity - current_capacity
-            if diff < 0:
-                break
-            if diff > 0:
-                viable_number_of_batteries = math.floor(diff / battery.capacity_watt_hours)
-                if viable_number_of_batteries > 0:
-                    for i in range(viable_number_of_batteries):
-                        battery_config.append(battery)
-                        current_capacity += battery.capacity_watt_hours
+            if battery.cell_count == 6:
+                diff = target_capacity - current_capacity
+                if diff < 0:
+                    break
+                if diff > 0:
+                    viable_number_of_batteries = math.floor(diff / battery.capacity_watt_hours)
+                    if viable_number_of_batteries > 0:
+                        for i in range(viable_number_of_batteries):
+                            battery_config.append(battery)
+                            current_capacity += battery.capacity_watt_hours
 
 
         return battery_config
