@@ -357,7 +357,7 @@ def carpet_plot_cruise(budget,vel):
     plt.show()
     
 # carpet_plot(6000)
-# carpet_plot_cruise(6000,15)
+carpet_plot_cruise(6000,15)
 candidate = next((obj for obj in drone_configurations if obj.id == 'd33f3ccc'), None)
 # d = candidate.drag_force(10)
 # w = candidate.weight()
@@ -370,7 +370,7 @@ candidate = next((obj for obj in drone_configurations if obj.id == 'd33f3ccc'), 
 # print(hvr-cr)
 # print(math.degrees(math.atan(d/w)))
 
-# candidate.carpet_plot_velocity()
+candidate.carpet_plot_velocity()
 # carpet_plot(6000)
 
 print(candidate.weight())
