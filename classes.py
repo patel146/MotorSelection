@@ -22,10 +22,10 @@ class DrivetrainData:
 
     def add_performance_data(self, throttle, power, thrust):
         self.performance_data.append(PerformanceData(throttle, power, thrust))
-        
+
     def cost(self):
         return self.motor_cost*4 + self.propeller_cost*4
-    
+
     def weight(self):
         return self.motor_weight*4 + self.propeller_weight_per_blade*8
 
@@ -103,16 +103,16 @@ class DroneConfiguration:
         # Create a hash from the concatenated string
         # Taking only the first 8 characters for brevity
         self.id = hashlib.md5(id_string.encode('utf-8')).hexdigest()[:8]
-        
+
     def __repr__(self):
         return (f"DroneConfiguration(id={self.id}, "
                 f"drivetrain=({self.drivetrain}), "
                 f"battery=({self.battery}), "
                 f"number_of_batteries={self.number_of_batteries})")
-        
+
     def cost(self):
         return self.drivetrain.cost() + self.battery.cost * self.number_of_batteries
-    
+
     def battery_weight(self):
         return self.battery.weight * self.number_of_batteries
 
@@ -164,14 +164,14 @@ class DroneConfiguration:
 
     def total_useful_hover_thrust(self, thrust_to_weight_ratio):
         return self.total_hover_thrust(thrust_to_weight_ratio) - self.weight()
-    
+
     def total_available_weight_capacity(self):
         '''
         drone is capped at 15kg MTOW
         '''
         return 15000 - self.weight()
 
-    def drag_force(self,velocity, frontal_area=0.25, Cd=0.6, air_density=1.293):
+    def drag_force(self, velocity, frontal_area=0.25, Cd=0.6, air_density=1.293):
         '''
         frontal area in m2
         velocity in m/s
@@ -181,20 +181,18 @@ class DroneConfiguration:
         drag_kgs = drag_newtons / 9.81
         drag_grams = drag_kgs * 1000
         return drag_grams
-    
-    def thrust_for_cruise(self,cruise_velocity):
+
+    def thrust_for_cruise(self, cruise_velocity):
         thrust = math.sqrt(self.drag_force(cruise_velocity)**2 + self.weight()**2)
         return thrust
-    
-    def available_payload_at_cruise(self,thrust_to_weight_ratio,cruise_velocity):
-        available_thrust = (self.max_thrust() / thrust_to_weight_ratio) * 4 
-        angle = math.atan(self.drag_force(cruise_velocity)/self.weight()) # radians
+
+    def available_payload_at_cruise(self, thrust_to_weight_ratio, cruise_velocity):
+        available_thrust = (self.max_thrust() / thrust_to_weight_ratio) * 4
+        angle = math.atan(self.drag_force(cruise_velocity)/self.weight())  # radians
         total_weight = math.cos(angle)*available_thrust
         available_payload = total_weight - self.weight()
         return available_payload
-    
-    
-    
+
     def naive_endurance(self, thrust_to_weight_ratio):
         '''
         returns: naive endurance estimate in minutes
@@ -222,7 +220,7 @@ class DroneConfiguration:
         # Show the plot
         plt.tight_layout()
         plt.show()
-        
+
     # def carpet_plot_Cd(self):
     #     # Define the range of thrust_to_weight_ratio
     #     thrust_to_weight_ratios = np.linspace(1.2, 2.2, 10)  # Adjust the range and number of points as needed
@@ -237,7 +235,7 @@ class DroneConfiguration:
     #     for ratio in thrust_to_weight_ratios:
     #         endurance.append(self.naive_endurance(thrust_to_weight_ratio=ratio))
     #         available_payload_at_cruise.append(self.available_payload_at_cruise(thrust_to_weight_ratio=ratio, cruise_velocity=10))
-        
+
     #     # Create a carpet plot (or line plot) with thrust_to_weight_ratio as the third variable
     #     plt.plot(endurance, available_payload_at_cruise, label=f'{self.id}')
     #     plt.scatter(endurance, available_payload_at_cruise, c=thrust_to_weight_ratios, cmap='viridis', s=10)  # Color by thrust_to_weight_ratio
@@ -249,7 +247,7 @@ class DroneConfiguration:
     #     # plt.legend(title="Drone Configurations")
     #     plt.title("Carpet Plot of Endurance vs. Available payload at cruise")
     #     plt.show()
-    
+
     def carpet_plot_Cd(self):
         # Define the range of thrust_to_weight_ratio and Cd values
         thrust_to_weight_ratios = np.linspace(1.2, 2.2, 10)  # Adjust the range and number of points as needed
@@ -262,22 +260,25 @@ class DroneConfiguration:
         endurance = []
         available_payload_at_cruise = []
         Cd_data = []
-        
+
         for Cd in Cd_values:
             for ratio in thrust_to_weight_ratios:
-                self.drag_force = lambda v: 0.5 * Cd * 1.293 * (v**2) * 0.25 / 9.81 * 1000  # Modify drag function dynamically
+                self.drag_force = lambda v: 0.5 * Cd * 1.293 * \
+                    (v**2) * 0.25 / 9.81 * 1000  # Modify drag function dynamically
                 endurance.append(self.naive_endurance(thrust_to_weight_ratio=ratio))
-                available_payload_at_cruise.append(self.available_payload_at_cruise(thrust_to_weight_ratio=ratio, cruise_velocity=10))
+                available_payload_at_cruise.append(self.available_payload_at_cruise(
+                    thrust_to_weight_ratio=ratio, cruise_velocity=10))
                 Cd_data.append(Cd)
-        
+
         # Create a carpet plot with Cd as an additional variable
-        scatter = plt.scatter(endurance, available_payload_at_cruise, c=Cd_data, cmap='plasma', s=10)  # Color by Cd value
+        scatter = plt.scatter(endurance, available_payload_at_cruise, c=Cd_data,
+                              cmap='plasma', s=10)  # Color by Cd value
         plt.colorbar(scatter, label="Drag Coefficient (Cd)")
         plt.xlabel("Naive Endurance [min.]")
         plt.ylabel("Available Payload at Cruise [g]")
         plt.title("Carpet Plot of Endurance vs. Available Payload at Cruise with Cd Variation")
         plt.show()
-        
+
     def carpet_plot_velocity(self):
         # Define the range of thrust_to_weight_ratio and Cd values
         thrust_to_weight_ratios = np.linspace(1.2, 2.2, 10)  # Adjust the range and number of points as needed
@@ -290,18 +291,37 @@ class DroneConfiguration:
         endurance = []
         available_payload_at_cruise = []
         velocity_data = []
-        
+
         for velocity in velocity_values:
             for ratio in thrust_to_weight_ratios:
-                self.drag_force = lambda v: 0.5 * 0.5 * 1.293 * (velocity**2) * 0.25 / 9.81 * 1000  # Modify drag function dynamically
+                self.drag_force = lambda v: 0.5 * 0.5 * 1.293 * \
+                    (velocity**2) * 0.25 / 9.81 * 1000  # Modify drag function dynamically
                 endurance.append(self.naive_endurance(thrust_to_weight_ratio=ratio))
-                available_payload_at_cruise.append(self.available_payload_at_cruise(thrust_to_weight_ratio=ratio, cruise_velocity=velocity))
+                available_payload_at_cruise.append(self.available_payload_at_cruise(
+                    thrust_to_weight_ratio=ratio, cruise_velocity=velocity))
                 velocity_data.append(velocity)
-        
+
         # Create a carpet plot with Cd as an additional variable
-        scatter = plt.scatter(endurance, available_payload_at_cruise, c=velocity_data, cmap='plasma', s=10)  # Color by Cd value
+        scatter = plt.scatter(endurance, available_payload_at_cruise, c=velocity_data,
+                              cmap='plasma', s=10)  # Color by Cd value
         plt.colorbar(scatter, label="Cruise Velocity (m/s)")
         plt.xlabel("Naive Endurance [min.]")
         plt.ylabel("Available Payload at Cruise [g]")
         plt.title("Carpet Plot of Endurance vs. Available Payload at Cruise with Velocity Variation")
+        plt.show()
+
+    def efficiency(self, thrust_to_weight_ratio):
+        '''
+        returns: efficiency in g/W
+        '''
+        return self.total_useful_hover_thrust(thrust_to_weight_ratio) / self.ideal_total_power_setting(thrust_to_weight_ratio)
+
+    def plot_efficiency_vs_thrust_to_weight_ratio(self):
+        # Define the range of thrust_to_weight_ratio
+        thrust_to_weight_ratios = np.linspace(1.2, 2.2, 10)
+        efficiencies = [self.efficiency(ratio) for ratio in thrust_to_weight_ratios]
+        plt.plot(thrust_to_weight_ratios, efficiencies, label=f'{self.id}')
+        plt.xlabel('Thrust-to-Weight Ratio')
+        plt.ylabel('Efficiency [g/W]')
+        plt.legend()
         plt.show()

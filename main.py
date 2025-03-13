@@ -3,13 +3,14 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.interpolate import interp1d
 import csv
-from classes import DrivetrainData,Battery,DroneConfiguration
+from classes import DrivetrainData, Battery, DroneConfiguration
 from typing import List
 import mplcursors
 import math
 
 data_file_path = 'data/data.csv'
 battery_data_file_path = 'data/battery_data.csv'
+
 
 def download_drivetrain_data():
     '''
@@ -23,6 +24,7 @@ def download_drivetrain_data():
 
     print("CSV file downloaded successfully!")
 
+
 def download_battery_data():
     '''
     Get data from google sheets and download locally. This sheet will be used as the source data to run analysis on.
@@ -35,11 +37,13 @@ def download_battery_data():
 
     print("CSV file downloaded successfully!")
 
+
 def download_data():
     download_drivetrain_data()
     download_battery_data()
 
 # download_data()
+
 
 def read_drivetrain_data():
     '''
@@ -49,7 +53,7 @@ def read_drivetrain_data():
         file_path (str): The path to the CSV file.
 
     Returns:
-        list[dict]: A list of dictionaries where each row in the CSV file 
+        list[dict]: A list of dictionaries where each row in the CSV file
                     corresponds to a dictionary with column headers as keys.
     '''
     drivetrain_data = []
@@ -58,12 +62,14 @@ def read_drivetrain_data():
     with open(data_file_path, mode='r', newline='') as csvfile:
         # Use csv.DictReader to map rows to dictionaries
         reader = csv.DictReader(csvfile)
-        
+
         # Add each row dictionary to the list
         for row in reader:
             drivetrain_data.append(row)
 
     return drivetrain_data
+
+
 def read_battery_data():
     '''
     Read a CSV file into a dictionary.
@@ -72,7 +78,7 @@ def read_battery_data():
         file_path (str): The path to the CSV file.
 
     Returns:
-        list[dict]: A list of dictionaries where each row in the CSV file 
+        list[dict]: A list of dictionaries where each row in the CSV file
                     corresponds to a dictionary with column headers as keys.
     '''
     battery_data = []
@@ -81,19 +87,21 @@ def read_battery_data():
     with open(battery_data_file_path, mode='r', newline='') as csvfile:
         # Use csv.DictReader to map rows to dictionaries
         reader = csv.DictReader(csvfile)
-        
+
         # Add each row dictionary to the list
         for row in reader:
             battery_data.append(row)
 
     return battery_data
 
+
 drivetrain_data = read_drivetrain_data()
 battery_data = read_battery_data()
 
+
 def create_drivetrain_objects(drivetrain_data):
     drivetrains = []
-    
+
     for entry in drivetrain_data:
         try:
             # Extract values from the CSV row (entry is a dictionary)
@@ -109,25 +117,26 @@ def create_drivetrain_objects(drivetrain_data):
             throttle = float(entry['THROTTLE (%)'])
             power = float(entry['POWER (W)'])
             thrust = float(entry['THRUST (g)'])
-            
+
             # Check if a DrivetrainData object with the same motor, propeller already exists
-            existing_drivetrain = next((d for d in drivetrains if d.motor == motor and d.propeller == propeller and d.cell_count == cell_count), None)
+            existing_drivetrain = next((d for d in drivetrains if d.motor ==
+                                       motor and d.propeller == propeller and d.cell_count == cell_count), None)
 
             if existing_drivetrain:
                 # If the object already exists, add the performance data
                 existing_drivetrain.add_performance_data(throttle, power, thrust)
             else:
                 # If it doesn't exist, create a new DrivetrainData object
-                drivetrain = DrivetrainData(motor, propeller, motor_weight, propeller_weight_per_blade, 
+                drivetrain = DrivetrainData(motor, propeller, motor_weight, propeller_weight_per_blade,
                                             propeller_configuration, motor_cost, propeller_cost, battery_voltage, cell_count)
                 drivetrain.add_performance_data(throttle, power, thrust)
                 drivetrains.append(drivetrain)
-                
+
         except KeyError as e:
             print(f"Error: Missing key {e} in entry {entry}")
         except ValueError as e:
             print(f"Error: Invalid value for {e} in entry {entry}")
-    
+
     return drivetrains
 
 
@@ -140,29 +149,33 @@ def create_battery_objects(battery_data):
         voltage = float(entry['VOLTAGE (V)'])
         cell_count = int(entry['CELL COUNT'])
         capacity_milliamp_hours = float(entry['CAPACITY (mAh)'])
-        
+
         batteries.append(Battery(name, weight, cost, voltage, cell_count, capacity_milliamp_hours))
     return batteries
 
+
 drivetrains = create_drivetrain_objects(drivetrain_data)
 batteries = create_battery_objects(battery_data)
-    
+
 # for index,drivetrain in enumerate(drivetrains):
 #     print(index,drivetrain)
-    
+
+
 def create_drone_configurations():
     drone_configurations: List[DroneConfiguration] = []
     print(f'{len(drivetrains)} drivetrains, {len(batteries)} batteries')
     for drivetrain in drivetrains:
         for battery in batteries:
             if battery.cell_count == drivetrain.cell_count:
-                for number_of_batteries in range(1,6):
-                    drone_configurations.append(DroneConfiguration(drivetrain,battery,number_of_batteries))
+                for number_of_batteries in range(1, 6):
+                    drone_configurations.append(DroneConfiguration(drivetrain, battery, number_of_batteries))
     return drone_configurations
+
 
 drone_configurations = create_drone_configurations()
 
 print(f'{len(drone_configurations)} total configurations')
+
 
 def create_drone_configurations_lookup_table(drone_configurations: List[DroneConfiguration], filename="data/drone_configurations_lookup.csv"):
     """
@@ -180,15 +193,16 @@ def create_drone_configurations_lookup_table(drone_configurations: List[DroneCon
     - number_of_batteries: Number of batteries in the configuration.
     """
     # Define the CSV header
-    header = ["id", "motor", "propeller", "battery", "number_of_batteries","cost","useful_thrust","avail_weight","endurance","throttle"]
-    
+    header = ["id", "motor", "propeller", "battery", "number_of_batteries",
+              "cost", "useful_thrust", "avail_weight", "endurance", "throttle"]
+
     # Open the file in write mode
     with open(filename, mode="w", newline="") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=header)
-        
+
         # Write the header
         writer.writeheader()
-        
+
         # Write each drone configuration as a row
         for config in drone_configurations:
             writer.writerow({
@@ -198,15 +212,17 @@ def create_drone_configurations_lookup_table(drone_configurations: List[DroneCon
                 "battery": config.battery,
                 "number_of_batteries": config.number_of_batteries,
                 "cost": config.cost(),
-                "useful_thrust":config.total_useful_hover_thrust(1.8),
+                "useful_thrust": config.total_useful_hover_thrust(1.8),
                 "avail_weight": config.total_available_weight_capacity(),
                 "endurance": config.naive_endurance(1.8),
                 "throttle": config.ideal_throttle_setting(1.8)
             })
 
     print(f"Lookup table created: {filename}")
-    
+
+
 create_drone_configurations_lookup_table(drone_configurations)
+
 
 def create_drone_configurations_decision_table(drone_configurations: List[DroneConfiguration],  thrust_to_weight_ratio, filename="data/drone_configurations_decision.csv"):
     """
@@ -214,15 +230,15 @@ def create_drone_configurations_decision_table(drone_configurations: List[DroneC
 
     """
     # Define the CSV header
-    header = ["id", "motor", "propeller", "battery", "number_of_batteries","useful thrust","endurance","score"]
-    
+    header = ["id", "motor", "propeller", "battery", "number_of_batteries", "useful thrust", "endurance", "score"]
+
     # Open the file in write mode
     with open(filename, mode="w", newline="") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=header)
-        
+
         # Write the header
         writer.writeheader()
-        
+
         # Write each drone configuration as a row
         for config in drone_configurations:
             writer.writerow({
@@ -238,7 +254,7 @@ def create_drone_configurations_decision_table(drone_configurations: List[DroneC
             })
 
     print(f"decision table created: {filename}")
-    
+
 # create_drone_configurations_decision_table(drone_configurations,1.7)
 
 # thrust_to_weight_ratio = 2
@@ -264,12 +280,13 @@ def create_drone_configurations_decision_table(drone_configurations: List[DroneC
 #     plt.tight_layout()
 # plt.show()
 
+
 def carpet_plot(budget):
     # Define the range of thrust_to_weight_ratio
     thrust_to_weight_ratios = np.linspace(1.2, 2.2, 10)  # Adjust the range and number of points as needed
     fig, ax = plt.subplots()
-    ax.set_ylim([0,20000])
-    ax.set_xlim([0,60])
+    ax.set_ylim([0, 20000])
+    ax.set_xlim([0, 60])
 
     # Create a grid for endurance and hover thrust for all drone configurations
     for drone_configuration in drone_configurations:
@@ -281,10 +298,11 @@ def carpet_plot(budget):
                 for ratio in thrust_to_weight_ratios:
                     endurance.append(drone_configuration.naive_endurance(thrust_to_weight_ratio=ratio))
                     hover_thrust.append(drone_configuration.total_useful_hover_thrust(thrust_to_weight_ratio=ratio))
-                
+
                 # Create a carpet plot (or line plot) with thrust_to_weight_ratio as the third variable
                 plt.plot(endurance, hover_thrust, label=f'{drone_configuration.id}')
-                plt.scatter(endurance, hover_thrust, c=thrust_to_weight_ratios, cmap='viridis', s=10)  # Color by thrust_to_weight_ratio
+                plt.scatter(endurance, hover_thrust, c=thrust_to_weight_ratios,
+                            cmap='viridis', s=10)  # Color by thrust_to_weight_ratio
 
     # Add labels and legend
     plt.colorbar(label="Thrust-to-Weight Ratio")
@@ -294,13 +312,14 @@ def carpet_plot(budget):
     plt.title("Carpet Plot of Endurance vs. Hover Thrust")
     mplcursors.cursor(fig, hover=True)
     plt.show()
-    
+
+
 def carpet_plot_available_weight():
     # Define the range of thrust_to_weight_ratio
     thrust_to_weight_ratios = np.linspace(1.2, 2.2, 10)  # Adjust the range and number of points as needed
     fig, ax = plt.subplots()
-    ax.set_ylim([0,20000])
-    ax.set_xlim([0,60])
+    ax.set_ylim([0, 20000])
+    ax.set_xlim([0, 60])
 
     # Create a grid for endurance and hover thrust for all drone configurations
     for drone_configuration in drone_configurations:
@@ -310,10 +329,11 @@ def carpet_plot_available_weight():
         for ratio in thrust_to_weight_ratios:
             endurance.append(drone_configuration.naive_endurance(thrust_to_weight_ratio=ratio))
             available_weight.append(drone_configuration.total_available_weight_capacity())
-        
+
         # Create a carpet plot (or line plot) with thrust_to_weight_ratio as the third variable
         plt.plot(endurance, available_weight, label=f'{drone_configuration.id}')
-        plt.scatter(endurance, available_weight, c=thrust_to_weight_ratios, cmap='viridis', s=10)  # Color by thrust_to_weight_ratio
+        plt.scatter(endurance, available_weight, c=thrust_to_weight_ratios,
+                    cmap='viridis', s=10)  # Color by thrust_to_weight_ratio
 
     # Add labels and legend
     plt.colorbar(label="Thrust-to-Weight Ratio")
@@ -323,14 +343,14 @@ def carpet_plot_available_weight():
     plt.title("Carpet Plot of Endurance vs. Available Weight")
     mplcursors.cursor(fig, hover=True)
     plt.show()
-    
-<<<<<<< Updated upstream
-def carpet_plot_cruise(budget,vel):
+
+
+def carpet_plot_cruise(budget, vel):
     # Define the range of thrust_to_weight_ratio
     thrust_to_weight_ratios = np.linspace(1.2, 2.2, 10)  # Adjust the range and number of points as needed
     fig, ax = plt.subplots()
-    ax.set_ylim([0,20000])
-    ax.set_xlim([0,60])
+    ax.set_ylim([0, 20000])
+    ax.set_xlim([0, 60])
 
     # Create a grid for endurance and hover thrust for all drone configurations
     for drone_configuration in drone_configurations:
@@ -341,11 +361,13 @@ def carpet_plot_cruise(budget,vel):
                 available_payload_at_cruise = []
                 for ratio in thrust_to_weight_ratios:
                     endurance.append(drone_configuration.naive_endurance(thrust_to_weight_ratio=ratio))
-                    available_payload_at_cruise.append(drone_configuration.available_payload_at_cruise(thrust_to_weight_ratio=ratio, cruise_velocity=vel))
-                
+                    available_payload_at_cruise.append(drone_configuration.available_payload_at_cruise(
+                        thrust_to_weight_ratio=ratio, cruise_velocity=vel))
+
                 # Create a carpet plot (or line plot) with thrust_to_weight_ratio as the third variable
                 plt.plot(endurance, available_payload_at_cruise, label=f'{drone_configuration.id}')
-                plt.scatter(endurance, available_payload_at_cruise, c=thrust_to_weight_ratios, cmap='viridis', s=10)  # Color by thrust_to_weight_ratio
+                plt.scatter(endurance, available_payload_at_cruise, c=thrust_to_weight_ratios,
+                            cmap='viridis', s=10)  # Color by thrust_to_weight_ratio
 
     # Add labels and legend
     plt.colorbar(label="Thrust-to-Weight Ratio")
@@ -356,9 +378,10 @@ def carpet_plot_cruise(budget,vel):
     mplcursors.cursor(fig, hover=True)
     plt.grid()
     plt.show()
-    
+
+
 # carpet_plot(6000)
-carpet_plot_cruise(6000,15)
+carpet_plot_cruise(6000, 15)
 candidate = next((obj for obj in drone_configurations if obj.id == 'd33f3ccc'), None)
 # d = candidate.drag_force(10)
 # w = candidate.weight()
@@ -371,16 +394,4 @@ candidate = next((obj for obj in drone_configurations if obj.id == 'd33f3ccc'), 
 # print(hvr-cr)
 # print(math.degrees(math.atan(d/w)))
 
-candidate.carpet_plot_velocity()
-# carpet_plot(6000)
-
-print(candidate.weight())
-print(candidate.total_available_weight_capacity())
-
-print(candidate.drivetrain.weight())
-print(candidate.battery_weight())
-print(candidate.max_thrust()*4)
-=======
-# carpet_plot()
-carpet_plot_available_weight()
->>>>>>> Stashed changes
+candidate.plot_efficiency_vs_thrust_to_weight_ratio()
