@@ -419,4 +419,5 @@ def plot_battery_configs():
 
 
 
-plot_battery_configs()
+print(candidate.ideal_total_power_setting(2))
+

@@ -33,3 +33,9 @@ TO DO: (1-2 weeks)
 AFTER ORDERING:
 - combine batteries in mixed configurations
 - look at specific energy of battery
+
+check c rating
+need
+budget -> 2600 left (1600 raw 1100)
+- current around 1200
+
