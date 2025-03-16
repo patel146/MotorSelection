@@ -13,10 +13,13 @@
 # result = scraper.run(url=url, elements=elements)
 # print(result)
 
+import asyncio
 import requests
 from scraper import get_html_soup
 from dotenv import load_dotenv
 import os
+from langchain_ollama import ChatOllama
+from parsera import Parsera
 
 load_dotenv()
 PARSERA_API_KEY = os.getenv("PARSERA_API_KEY")
@@ -53,4 +56,18 @@ def get_weight_from_text(text):
     return weight
 
 
-print(get_weight_from_text(get_weight_text_ore("https://rotorvillage.ca/smc-hcl-rs-22-2v-1600mah-lipo-xt60/")))
+async def test_local(url):
+    elements = {
+        "weight": "weight of the battery in grams (just the number)"
+    }
+    llm = ChatOllama(
+        model="qwen2.5:14b",
+        temperature=0,
+    )
+    scraper = Parsera(model=llm)
+    result = await scraper.arun(url=url, elements=elements)
+    return result
+
+
+result = asyncio.run(test_local("https://rotorvillage.ca/smc-hcl-rs-22-2v-1600mah-lipo-xt60/"))
+print(result)
