@@ -4,6 +4,7 @@ import numpy as np
 from scipy.interpolate import interp1d
 import hashlib
 import math
+from typing import List
 
 
 class DrivetrainData:
@@ -380,3 +381,96 @@ class DroneConfiguration:
             return available_payload
 
         return available_payload_at_cruise(), naive_endurance
+
+
+class BatteryConfiguration:
+    def __init__(self, name, batteries: List[Battery]):
+        self.name = name
+        self.batteries = batteries
+
+    def weight(self):
+        return sum(battery.weight for battery in self.batteries)
+
+    def average_weight(self):
+        return self.weight() / len(self.batteries)
+
+    def number_of_batteries(self):
+        return len(self.batteries)
+
+    def total_waste_weight(self, waste_weight_per_battery):
+        return self.number_of_batteries()*waste_weight_per_battery
+
+    def useful_weight(self, waste_weight_per_battery):
+        return self.weight() - self.total_waste_weight(waste_weight_per_battery)
+
+    def weight_efficiency(self, waste_weight_per_battery):
+        return waste_weight_per_battery / self.average_weight()
+
+
+large_batteries = BatteryConfiguration("large batteries", [
+    Battery("Turnigy High Capacity 20000mAh 6S 12C Lipo Pack w/XT90", 2630, 302.28, 22.2, 6, 20000),
+    Battery("Turnigy High Capacity 20000mAh 6S 12C Lipo Pack w/XT90", 2630, 302.28, 22.2, 6, 20000),
+    Battery("Turnigy High Capacity 14000mAh 6S 12C Lipo Pack w/XT90", 1820, 212.27, 22.2, 6, 14000)
+])
+
+small_batteries = BatteryConfiguration("small batteries", [
+    Battery("Turnigy 4500mAh 6S 30C Lipo Pack w/XT-90", 745, 61.83, 22.2, 6, 4500),
+    Battery("Turnigy 4500mAh 6S 30C Lipo Pack w/XT-90", 745, 61.83, 22.2, 6, 4500),
+    Battery("Turnigy 4500mAh 6S 30C Lipo Pack w/XT-90", 745, 61.83, 22.2, 6, 4500),
+    Battery("Turnigy 4500mAh 6S 30C Lipo Pack w/XT-90", 745, 61.83, 22.2, 6, 4500),
+    Battery("Turnigy 4500mAh 6S 30C Lipo Pack w/XT-90", 745, 61.83, 22.2, 6, 4500),
+    Battery("Turnigy 4500mAh 6S 30C Lipo Pack w/XT-90", 745, 61.83, 22.2, 6, 4500),
+    Battery("Turnigy 4500mAh 6S 30C Lipo Pack w/XT-90", 745, 61.83, 22.2, 6, 4500),
+    Battery("Turnigy 4500mAh 6S 30C Lipo Pack w/XT-90", 745, 61.83, 22.2, 6, 4500),
+    Battery("Turnigy 4500mAh 6S 30C Lipo Pack w/XT-90", 745, 61.83, 22.2, 6, 4500),
+    Battery("Turnigy 4500mAh 6S 30C Lipo Pack w/XT-90", 745, 61.83, 22.2, 6, 4500),
+    Battery("Turnigy 4500mAh 6S 30C Lipo Pack w/XT-90", 745, 61.83, 22.2, 6, 4500)
+])
+
+
+class BatteryComparison:
+    def __init__(self, configurations: List[BatteryConfiguration]):
+        self.configurations = configurations
+
+    def compare_makeup(self, per_battery_waste_weight):
+        conf1 = self.configurations[0]
+        conf2 = self.configurations[1]
+
+        weight_dist = {
+            'Useful': np.array([conf1.useful_weight(per_battery_waste_weight), conf2.useful_weight(per_battery_waste_weight)]),
+            'Waste': np.array([conf1.total_waste_weight(per_battery_waste_weight), conf2.total_waste_weight(per_battery_waste_weight)]),
+        }
+
+        # plt.bar([0, 1], [conf1.weight(), conf2.weight()],  color=['r', 'b'], label=[conf1.name, conf2.name])
+        plt.bar([0, 1], weight_dist['Useful'])
+        plt.bar([0, 1], weight_dist['Waste'], color='r')
+        plt.xlabel = 'configuration'
+        plt.ylabel = 'weight [g]'
+        plt.legend()
+        plt.show()
+
+    def test_efficiency(self, waste_weight_per_battery_range):
+        conf1 = self.configurations[0]
+        conf2 = self.configurations[1]
+        effs1 = []
+        effs2 = []
+        diff = []
+        for waste_weight in waste_weight_per_battery_range:
+            effs1.append(conf1.weight_efficiency(waste_weight))
+            effs2.append(conf2.weight_efficiency(waste_weight))
+            diff.append(conf1.weight_efficiency(waste_weight) - conf2.weight_efficiency(waste_weight))
+
+        plt.plot(waste_weight_per_battery_range, effs1, label=conf1.name)
+        plt.plot(waste_weight_per_battery_range, effs2, label=conf2.name)
+        plt.plot(waste_weight_per_battery_range, diff, label="efficiency difference", color='r')
+        plt.legend()
+        plt.ylabel("Weight Efficiency (waste weight/average battery weight)")
+        plt.xlabel("Assumed weight of cables + connectors per battery")
+        plt.show()
+
+
+large_vs_small = BatteryComparison([small_batteries, large_batteries])
+
+if __name__ == "__main__":
+    large_vs_small.compare_makeup(50)
+    # large_vs_small.test_efficiency(np.linspace(1, 500, 10))
