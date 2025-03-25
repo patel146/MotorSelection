@@ -1,0 +1,17 @@
+ef456756,KDE6815XF-205,"24.5""x8.1 DUAL-EDN (KDE)","Battery(name=LiPo 22000mAh 8S2P 29.6v Battery Pack, weight=3294.0, cost=1174.0, voltage=29.6, capacity_milliamp_hours=22000.0, capacity_watt_hours=651.20)",2,4929.12
+e0fa6257,P60 KV340,T-motor 22*6.6CF,"Battery(name=Turnigy High Capacity 16000mAh 6S 12C Lipo Pack w/XT90, weight=2015.0, cost=235.17, voltage=22.2, capacity_milliamp_hours=16000.0, capacity_watt_hours=355.20)",5,1999.06
+485ec55e,P60 KV340,T-motor 22*6.6CF,"Battery(name=Turnigy High Capacity 20000mAh 6S 12C Lipo Pack w/XT90, weight=2630.0, cost=302.28, voltage=22.2, capacity_milliamp_hours=20000.0, capacity_watt_hours=444.00)",5,2334.6099999999997
+e23bb6bc,P60 KV340,T-motor 22*6.6CF,"Battery(name=Turnigy High Capacity 20000mAh 6S 12C Lipo Pack w/XT90, weight=2630.0, cost=302.28, voltage=22.2, capacity_milliamp_hours=20000.0, capacity_watt_hours=444.00)",4,2032.33
+1dda957d,P60 KV340,T-motor 22*6.6CF,"Battery(name=Turnigy High Capacity 16000mAh 6S 12C Lipo Pack w/XT90, weight=2015.0, cost=235.17, voltage=22.2, capacity_milliamp_hours=16000.0, capacity_watt_hours=355.20)",4,1763.8899999999999
+
+Ideal? not too much available weight.
+e0fa6257,P60 KV340,T-motor 22*6.6CF,"Battery(name=Turnigy High Capacity 16000mAh 6S 12C Lipo Pack w/XT90, weight=2015.0, cost=235.17, voltage=22.2, capacity_milliamp_hours=16000.0, capacity_watt_hours=355.20)",5,2606.89,4079.5882352941208,3169.0,35.859952031592734
+
+
+e23bb6bc,P60 KV340,T-motor 22*6.6CF,"Battery(name=Turnigy High Capacity 20000mAh 6S 12C Lipo Pack w/XT90, weight=2630.0, cost=302.28, voltage=22.2, capacity_milliamp_hours=20000.0, capacity_watt_hours=444.00)",4,2640.16,3634.5882352941208,2724.0,35.859952031592734
+
+
+412838ea,P60 KV340,T-motor 22*6.6CF,"Battery(name=Turnigy High Capacity 14000mAh 6S 12C Lipo Pack w/XT90, weight=1820.0, cost=212.27, voltage=22.2, capacity_milliamp_hours=14000.0, capacity_watt_hours=310.80)",5,2492.3900000000003,5054.588235294121,4144.0,31.37745802764364
+
+IDEAL:
+d33f3ccc,P60 KV340,T-motor 22*6.6CF,"Battery(name=Turnigy High Capacity 16000mAh 6S 12C Lipo Pack w/XT90, weight=2015.0, cost=235.17, voltage=22.2, capacity_milliamp_hours=16000.0, capacity_watt_hours=355.20)",3,2136.55,8109.588235294121,7199.0,21.51597121895564
