@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/n7dz/m-brotherhobby-vy-15045-p-gf-6035-cut-02
+https://database.tytorobotics.com/tests/ere6/x-nova-rm1804-3100kv-with-master-as-6045
+https://database.tytorobotics.com/tests/jqd4/x-nova-t1804-3100kv-with-hqprop-t5x3
+https://database.tytorobotics.com/tests/d9mk/x-nova-t1804-3100kv-with-gemfan-sl-5130-3
+https://database.tytorobotics.com/tests/qr9x/x-nova-t1804-3100kv-with-gemfan-lr-6026-2

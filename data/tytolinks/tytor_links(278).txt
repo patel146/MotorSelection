@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/7zr/mr-steele-2306-2345kv-with-nylon-6030
+https://database.tytorobotics.com/tests/gk9/qav-2206-2000kv-with-dalprop-6040
+https://database.tytorobotics.com/tests/nmk/qav-2206-2000kv-with-gemfan-6030-thick-hub
+https://database.tytorobotics.com/tests/446/qav-2206-2000kv-with-5030-carbon
+https://database.tytorobotics.com/tests/m9n/qav-2206-2000kv-with-6030-nylon

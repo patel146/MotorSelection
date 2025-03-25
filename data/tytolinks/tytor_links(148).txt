@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/m9gn/lumenier-v2-2407-2550kv-with-gemfan-4x45
+https://database.tytorobotics.com/tests/ew9d/lumenier-v2-2407-2550kv-with-gemfan-4x45
+https://database.tytorobotics.com/tests/jgmw/lumenier-v2-2407-2550kv-with-gemfan-5x4
+https://database.tytorobotics.com/tests/d4zg/lumenier-v2-2407-2550kv-with-gemfan-5x4
+https://database.tytorobotics.com/tests/q7g9/lumenier-v2-2407-2550kv-with-gemfan-513dx3

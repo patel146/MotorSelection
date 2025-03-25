@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/3ymw/mamba-toka-2004-2900kv-with-gemfan-lr-5126x2
+https://database.tytorobotics.com/tests/k7gw/brotherhobby-2005-3450kv-with-gemfan-wr-5043x3
+https://database.tytorobotics.com/tests/ymnq/brotherhobby-2005-2800kv-with-gemfan-flash-5552x3
+https://database.tytorobotics.com/tests/rzkm/brotherhobby-2005-2800kv-with-gemfan-sl-5130x3
+https://database.tytorobotics.com/tests/9kmr/brotherhobby-2005-2800kv-with-gemfan-lr-5126x2

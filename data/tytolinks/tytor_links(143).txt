@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/d474/tmotor-f22035-3550kv-with-gemfan-w-5043x3-rev
+https://database.tytorobotics.com/tests/q7mm/tmotor-f22035-3550kv-with-hqprop-48x34x4-rev
+https://database.tytorobotics.com/tests/wn3k/tmotor-f22035-3550kv-with-lumenier-5x37x4-rev
+https://database.tytorobotics.com/tests/6xyd/tmotor-f22035-3550kv-with-gemfan-513dx3-rev
+https://database.tytorobotics.com/tests/xm39/tmotor-f22035-3550kv-with-hqprop-55x22x3-rev

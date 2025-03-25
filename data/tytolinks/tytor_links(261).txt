@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/x79/dys-samguk-wu-2206-2400kv-gemfan-5040
+https://database.tytorobotics.com/tests/e6m/rcx-rs1407-4200kv-hq-3040-3s
+https://database.tytorobotics.com/tests/jyq/rcx-rs1407-4200kv-gemfan-3028-windancer-3s
+https://database.tytorobotics.com/tests/dx4/rcx-rs1407-4200kv-gemfan-3028-windancer
+https://database.tytorobotics.com/tests/qem/hglrc-hf1407-3600kv-hq-3040-no-cool

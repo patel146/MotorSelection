@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/jx6w/xilo-stealth-2206-2600kv-with-gemfan-5152-2
+https://database.tytorobotics.com/tests/d7eg/xilo-stealth-2206-2600kv-with-gemfan-5x4
+https://database.tytorobotics.com/tests/qmk9/sunnysky-x1806s-2300kv-with-gemfan-6x4-bullnose
+https://database.tytorobotics.com/tests/w37j/sunnysky-x1806s-2300kv-with-gemfan-windance-5043x3
+https://database.tytorobotics.com/tests/6y3w/flashhobby-k2004-3150kv-with-iflight-nazgul-5030x3

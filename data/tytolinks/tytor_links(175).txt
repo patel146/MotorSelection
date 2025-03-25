@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/nr6e/t-motor-u7-490kv-w-tmotor-16x54-carbon
+https://database.tytorobotics.com/tests/47yq/2306-1700kv-7x45x2-3s
+https://database.tytorobotics.com/tests/mzxq/2306-870kv-7x45x2-3s
+https://database.tytorobotics.com/tests/ez6w/tmotor-f40-pro2-1750kv-with-hq-r38-prop
+https://database.tytorobotics.com/tests/jxyx/engine-unknown-dia-28mm-kv1155-2s

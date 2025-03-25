@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/zqnq/esc-test-with-cf004
+https://database.tytorobotics.com/tests/ywj4/tmotor-rpm-verification
+https://database.tytorobotics.com/tests/x6q9/tmotor-rpm-verification
+https://database.tytorobotics.com/tests/9nyx/tmotor-rpm-verification
+https://database.tytorobotics.com/tests/k3zz/tmotor-rpm-verification

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/jx9w/flashhobby-be1806-2300kv-with-gemfan-6040
+https://database.tytorobotics.com/tests/d7ng/flashhobby-be1806-1400kv-with-emax-avan-6x38x2
+https://database.tytorobotics.com/tests/qmw9/flashhobby-be1806-1400kv-with-gemfan-wind-5043x3
+https://database.tytorobotics.com/tests/w3gj/flashhobby-be1806-1400kv-with-gemfan-flash-6042x3
+https://database.tytorobotics.com/tests/6yqw/flashhobby-be1806-1400kv-with-lumenier-gb-6x5x3

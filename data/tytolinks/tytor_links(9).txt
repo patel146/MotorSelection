@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/eknm/flywoo-nin-1404-3750kv-hq-t5x3
+https://database.tytorobotics.com/tests/n4x4/flywoo-nin-1404-3750kv-nazgul-t4030
+https://database.tytorobotics.com/tests/9znm/velox-2207-v30-kv2550-with-ghd-3-blade-2mm-4023-2s
+https://database.tytorobotics.com/tests/zwqq/velox-2207-v3-kv2550-with-ghd-3-blade-2mm-4023
+https://database.tytorobotics.com/tests/m4xn/tmotor5008-340kv-apc15x12ep

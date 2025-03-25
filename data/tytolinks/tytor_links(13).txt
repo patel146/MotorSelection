@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/rj3j/t-motor-antigravity-4006-380kv-with-cust-cf
+https://database.tytorobotics.com/tests/9yq9/t-motor-antigravity-4006-380kv-with-cust-cf-15x12
+https://database.tytorobotics.com/tests/zekx/t-motor-antigravity-5006-450kv-with-cust-cf-15x12
+https://database.tytorobotics.com/tests/yq7d/vertiq-60-08-kv300-x-t-motor-p22
+https://database.tytorobotics.com/tests/xkn6/unmartmoto-as2820-880kv-g-camfold-28x15-11x6-hub45

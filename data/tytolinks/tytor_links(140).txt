@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/6xxd/lumenier-zip-v2-2407-1700kv-with-gemfan-6042x3-rev
+https://database.tytorobotics.com/tests/xmj9/lumenier-zip-v2-2407-1700kv-with-gemfan-7035-rev
+https://database.tytorobotics.com/tests/3y6q/lumenier-zip-v2-2407-2550kv-with-gemfan-6x4-rev
+https://database.tytorobotics.com/tests/k7jr/lumenier-zip-v2-2407-2550kv-with-hqprop-6x35x3-rev
+https://database.tytorobotics.com/tests/ym64/lumenier-zip-v2-2407-2550kv-with-gemfan-6042x3-rev

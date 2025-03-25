@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/ymwq/brotherhobby-tc2004-3150kv-with-gemfan-sl-5130x3
+https://database.tytorobotics.com/tests/rz9m/brotherhobby-tc2004-3150kv-with-gemfan-lr-5126x2
+https://database.tytorobotics.com/tests/9knr/brotherhobby-tc2004-3150kv-with-hqprop-t5x3
+https://database.tytorobotics.com/tests/zyqy/flashhobby-k2004-3150kv-with-gemfan-sl-5130-3
+https://database.tytorobotics.com/tests/7gwk/flashhobby-k2004-3150kv-with-gemfan-lr-5126x2

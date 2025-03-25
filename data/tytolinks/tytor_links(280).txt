@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/6xw/gemfan-m2306l-2200kv-with-lumenier-3x4x3
+https://database.tytorobotics.com/tests/xme/gemfan-m2306l-2200kv-with-dalprop-6040
+https://database.tytorobotics.com/tests/3yj/gemfan-m2306l-2200kv-with-gemfan-6030-thick-hub
+https://database.tytorobotics.com/tests/k7z/gemfan-m2306l-2200kv-with-5030-carbon
+https://database.tytorobotics.com/tests/ymr/gemfan-m2306l-2200kv-with-6030-nylon

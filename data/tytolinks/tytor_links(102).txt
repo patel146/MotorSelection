@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/nmxd/flashhobby-arthur-1506-3100kv-with-gemfan-5x4
+https://database.tytorobotics.com/tests/44zy/brotherhobby-1507-3100kv-with-gemfan-wd-5043x3
+https://database.tytorobotics.com/tests/m934/brotherhobby-1507-3100kv-with-gemfan-flash-5552x3
+https://database.tytorobotics.com/tests/ewd3/brotherhobby-1507-3100kv-with-gemfan-5152x2
+https://database.tytorobotics.com/tests/jgre/brotherhobby-1507-3100kv-with-gemfan-5x4

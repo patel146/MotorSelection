@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/7gge/tmotor-f22053-2850kv-with-gemfan-flash-6042-rev
+https://database.tytorobotics.com/tests/gkkz/tmotor-f22053-2850kv-with-lumenier-67x3x3-rev
+https://database.tytorobotics.com/tests/nmm4/tmotor-f22053-2850kv-with-gemfan-floppy-6030-rev
+https://database.tytorobotics.com/tests/444n/tmotor-f22053-2850kv-with-gemfan-52x26x3-rev
+https://database.tytorobotics.com/tests/m99w/tmotor-f22053-2850kv-with-hqprop-dp6x35x3-rev

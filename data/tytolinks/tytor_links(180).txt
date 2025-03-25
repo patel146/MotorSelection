@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/kje7/mini2-hubsan-prop
+https://database.tytorobotics.com/tests/y6q6/mini2-fimi-x8-prop
+https://database.tytorobotics.com/tests/ryg6/testwithprop
+https://database.tytorobotics.com/tests/9x9q/exampletest1
+https://database.tytorobotics.com/tests/zmx3/2350-with-5

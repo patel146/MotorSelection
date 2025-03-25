@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/eem/multistar-elite-2306-2150kv-ccw-plastic-6045
+https://database.tytorobotics.com/tests/jdq/multistar-elite-2306-2150kv-ccw-gemfan-5040r
+https://database.tytorobotics.com/tests/dm4/ta130-25kv80-xoar47x10-and-ta110-20kv80-xoar36x12
+https://database.tytorobotics.com/tests/q9m/hypetrain-blaster-2207-2450kv-plastic-6045
+https://database.tytorobotics.com/tests/6nd/emax-rsii-2207-2300kv-gemfan-5040

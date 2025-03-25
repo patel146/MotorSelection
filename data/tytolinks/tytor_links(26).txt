@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/3nw9/t-motor-as2820-880kv-aeronaut-camcarb-z-23x18-9x7
+https://database.tytorobotics.com/tests/kz4y/t-motor-as2820-880kv-aeronaut-camcarb-24x15-95x6
+https://database.tytorobotics.com/tests/y3dn/t-motor-as2820-880kv-graupner-camfold-25x15-10x6
+https://database.tytorobotics.com/tests/rme9/t-motor-as2820-880kv-super-camfold-25x15-10x6
+https://database.tytorobotics.com/tests/d6k3/t-motor-at2814-kv900-graupner-10x5

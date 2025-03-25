@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/d7g/multistar-elite-2306-2150kv-with-5030-carbon-fiber
+https://database.tytorobotics.com/tests/qm9/multistar-elite-2306-2150kv-with-6030-nylon
+https://database.tytorobotics.com/tests/z66/turnigy-aerodrive-d2836-1100kv-with-hy-1047
+https://database.tytorobotics.com/tests/5nk/turnigy-2836-1000kv-emax-blheli-80a-hy-1047
+https://database.tytorobotics.com/tests/p46/turnigy-2836-1000kv-emax-blheli-80a-hy-1147

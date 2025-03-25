@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/7q74/t-motor-at2814-kv900-cam-carbon-z-10x8-25x20-test
+https://database.tytorobotics.com/tests/gqew/t-motor-at2814-kv900-cam-carbon-z-9x5-23x12-test
+https://database.tytorobotics.com/tests/nyee/t-motor-at2814-kv900-camcarbon-z-10x6-3-25x16-test
+https://database.tytorobotics.com/tests/4qjq/t-motor-at2814-kv900-cam-carbon-z-10x5-25x12-test
+https://database.tytorobotics.com/tests/q4xg/im-8012-115kv-legatus-12-60-pf28

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/mxw4/emax-1404-4800kv
+https://database.tytorobotics.com/tests/7xzn/brother-hobby-1404-4600kv
+https://database.tytorobotics.com/tests/wjzx/emax-eco-ii-2004-2000kv
+https://database.tytorobotics.com/tests/jyxn/ethix-flat-rats-v2-1507-kv2800
+https://database.tytorobotics.com/tests/7xjk/flywoo-nin-1404-3750kv-avan-3-5x2-8x3

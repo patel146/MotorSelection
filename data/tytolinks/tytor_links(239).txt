@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/7jkn/x8pro100kv-47v-02
+https://database.tytorobotics.com/tests/g4yg/x8pro100kv-47v-01
+https://database.tytorobotics.com/tests/n9rd/x8pro100kv-50v-03
+https://database.tytorobotics.com/tests/4x7y/x8pro100kv-50v-02
+https://database.tytorobotics.com/tests/mez4/x8pro100kv-50v-01

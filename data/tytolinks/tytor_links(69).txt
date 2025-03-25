@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/3zk6/m-xnova-1804-p-hq-t6x25x3-02
+https://database.tytorobotics.com/tests/yrwg/rcinpower-gtsv31804-2450kv-with-gemfan-g-sl-5125x3
+https://database.tytorobotics.com/tests/r7rx/x-nova-rm1804-3100kv-with-gemfan-5x3
+https://database.tytorobotics.com/tests/9r47/x-nova-rm1804-3100kv-with-gemfan-6x4
+https://database.tytorobotics.com/tests/7ze3/m-brotherhobby-vy-15045-p-hq-t6x25x3-02

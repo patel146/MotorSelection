@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/jegn/t-motor-antigravity-5006-450kv-apc-16x10e-10mps
+https://database.tytorobotics.com/tests/dj4q/t-motor-antigravity-5006-450kv-apc-16x10e-5mps
+https://database.tytorobotics.com/tests/qx7y/t-motor-antigravity-5006-450kv-apc-16x12e-10mps
+https://database.tytorobotics.com/tests/wynx/t-motor-antigravity-5006-450kv-apc-16x12e-5mps
+https://database.tytorobotics.com/tests/wy3k/tmotor-antigravity-5006-450kv-with-apc-16x12e

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/d336/turnigy-d3548-4-1100-kv-prop-13x4-rotation-ccw
+https://database.tytorobotics.com/tests/q33r/turnigy-d3548-4-1100-kv-prop-12x6-rotation-ccw
+https://database.tytorobotics.com/tests/9wq6/test-2-w16x55
+https://database.tytorobotics.com/tests/z6kg/test1-w16x55
+https://database.tytorobotics.com/tests/g4rg/u15xxl-with-62-prop

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/q4jg/t-motor-at2814-kv900-graupner-10x5
+https://database.tytorobotics.com/tests/wwy7/t-motor-at2814-kv900-graupner-10x5
+https://database.tytorobotics.com/tests/64je/tmotor-f22035-2850kv-with-prop
+https://database.tytorobotics.com/tests/xxkz/tmotor-f22035-2850kv-with-prop
+https://database.tytorobotics.com/tests/3nj9/tmotor-f22035-2850kv-with-prop

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/xj9e/flashhobby-k2004-3150kv-with-iflight-nazgul-t4030
+https://database.tytorobotics.com/tests/367j/primopal-pm2316-2280kv-with-dalprop-fold-f7
+https://database.tytorobotics.com/tests/kjqz/primopal-pm2316-2280kv-with-gemfan-6042x3
+https://database.tytorobotics.com/tests/y6yr/primopal-pm2316-2280kv-with-gemfan-6x4-bullnose
+https://database.tytorobotics.com/tests/ryxz/primopal-pm2316-2280kv-with-gemfan-flash-5552x3

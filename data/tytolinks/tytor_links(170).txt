@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/kjdy/t-motor-4014-330-kv-w-apc-16x55
+https://database.tytorobotics.com/tests/y6jn/t-motor-4014-330-kv-w-apc12x45
+https://database.tytorobotics.com/tests/ryr9/cody-motor-2-prop-2
+https://database.tytorobotics.com/tests/9x44/cody-motor-2-prop-1
+https://database.tytorobotics.com/tests/zmj9/rajiv-motor-2-prop-2

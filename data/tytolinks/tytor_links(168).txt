@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/473q/t-motor-u5-kv400-with-t-motor-16x54
+https://database.tytorobotics.com/tests/mz6q/t-motor-u5-kv400-with-t-motor-18x61
+https://database.tytorobotics.com/tests/ez7w/t-motor-mn4014-330-kv-with-t-motor-18x61
+https://database.tytorobotics.com/tests/jxkx/t-motor-u7-280-kv-with-apc-16x55
+https://database.tytorobotics.com/tests/d7g3/t-motor-u7-490-kv-with-t-motor-18x61

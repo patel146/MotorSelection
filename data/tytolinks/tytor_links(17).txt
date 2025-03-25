@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/6jyd/tmotor-antigravity-5006-450kv-with-apc-15x10e
+https://database.tytorobotics.com/tests/xk39/tmotor-antigravity-5006-450kv-with-apc-1610e
+https://database.tytorobotics.com/tests/3j4q/sunnysky-v4010-375kv-with-apc-1612e
+https://database.tytorobotics.com/tests/ke6r/sunnysky-v4010-375kv-with-apc-1510ep
+https://database.tytorobotics.com/tests/yqx4/sunnysky-v4010-375kv-with-apc-1610e

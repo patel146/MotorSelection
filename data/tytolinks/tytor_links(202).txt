@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/7j67/t-motor-3510-25-360kv-tarot-1555-foldable
+https://database.tytorobotics.com/tests/g49q/mn501-kv-240-22-11-v31
+https://database.tytorobotics.com/tests/n9n7/flywoonin-1404-ii-2750kv16v-wi-gemfan-4024x2-blhs
+https://database.tytorobotics.com/tests/4x94/flywoonin-1404-ii-2750kv16v-wi-gemfan-4024x2-kiss
+https://database.tytorobotics.com/tests/7jd7/brother-2004-1950kv-gemfan-7035-2s

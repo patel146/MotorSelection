@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/d6x3/t-motor-as2820-1050kv-graupner-camfold-25x15-10x6
+https://database.tytorobotics.com/tests/q4eg/t-motor-as2820-1050kv-aeronaut-camcarb-24x15-95x6
+https://database.tytorobotics.com/tests/wwd7/t-motor-as2820-1050kv-aerona-camcarb-z-23x18-9x7
+https://database.tytorobotics.com/tests/64we/t-motor-as2820-1050kv-aerona-camcarb-z-255x15-10x6
+https://database.tytorobotics.com/tests/xxqz/t-motor-as2820-880kv-aeronau-camcarb-z-255x15-10x6

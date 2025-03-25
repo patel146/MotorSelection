@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/47d6/primopal-pm2316-1400kv-with-gemfan-hurricane-5536
+https://database.tytorobotics.com/tests/mzyn/primopal-pm2316-1400kv-with-gemfan-5x4
+https://database.tytorobotics.com/tests/ezjd/cropped-4-bladed-10x8
+https://database.tytorobotics.com/tests/jxzw/apc-8x4-with-iris-motor
+https://database.tytorobotics.com/tests/d7dg/flashhobby-be1806-1400kv-with-hqprop-7x5x3

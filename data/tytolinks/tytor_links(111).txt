@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/gkg4/flashhobby-k2004-3150kv-with-iflight-naz-5030x3
+https://database.tytorobotics.com/tests/nmwq/tmotor-f22035-3550kv-with-gemfan-h-51499x3
+https://database.tytorobotics.com/tests/44e9/tmotor-f22035-3550kv-with-apc-d-5x37x3
+https://database.tytorobotics.com/tests/m9dy/tmotor-f22035-3550kv-with-gemfan-wind-5043x3
+https://database.tytorobotics.com/tests/ewen/tmotor-f22035-3550kv-with-gamfan-5x4

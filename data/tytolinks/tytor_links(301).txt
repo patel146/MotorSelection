@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/p3j/testing-motor-of-the-quadcopter-3
+https://database.tytorobotics.com/tests/5kz/testing-motor-of-the-quadcopter-2
+https://database.tytorobotics.com/tests/pyr/testing-motor-of-the-quadcopter-1
+https://database.tytorobotics.com/tests/prz/testing-motor-and-propeller-of-the-quadcopter
+https://database.tytorobotics.com/tests/p9x/testing-motor-of-the-quacdopter-4

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/q3gr/rcbenchmark-2407-1500kv-9x4-propeller-v2
+https://database.tytorobotics.com/tests/wk9n/rcbenchmark-2407-1500kv-8x8-propeller-v2
+https://database.tytorobotics.com/tests/3433/rcbenchmark-2407-1500kv-7x4-propeller-v2
+https://database.tytorobotics.com/tests/kqq/rcbenchmark-2407-2300kv-8x8-propeller-v2
+https://database.tytorobotics.com/tests/yy7/rcbenchmark-2407-2300kv-7x4-propeller-v2

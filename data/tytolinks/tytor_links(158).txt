@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/7kmr/master-airscrew-10x7-three-blader
+https://database.tytorobotics.com/tests/gyn9/e-flite-4-blader-105x8
+https://database.tytorobotics.com/tests/nr3k/master-airscrew-10x47
+https://database.tytorobotics.com/tests/4766/holybro-10x45
+https://database.tytorobotics.com/tests/mzkn/hello-world

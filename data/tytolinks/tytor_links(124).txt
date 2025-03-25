@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/3ydw/tmotor-22035-2850kv-with-master-as-6x45x3
+https://database.tytorobotics.com/tests/k7ww/tmotor-22035-1500kv-with-hqprop-6x35x3
+https://database.tytorobotics.com/tests/ymeq/tmotor-22035-1500kv-with-master-as-6x45x3
+https://database.tytorobotics.com/tests/rzjm/tmotor-22035-1500kv-with-apc-6x45x3
+https://database.tytorobotics.com/tests/9kyr/tmotor-22035-1500kv-with-gemfan-7035

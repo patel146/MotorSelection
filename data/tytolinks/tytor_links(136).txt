@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/q7rm/emax-ecoii-2306-1700kv-with-gemfan-7035-rev
+https://database.tytorobotics.com/tests/wnzk/tmotor-f22053-1500kv-with-gemfan-7037-3-rev
+https://database.tytorobotics.com/tests/6x7d/tmotor-f22053-1500kv-with-gemfan-7035-rev
+https://database.tytorobotics.com/tests/xmm9/tmotor-f22053-1500kv-with-gemfan-flash-6042x3-rev
+https://database.tytorobotics.com/tests/3yyq/tmotor-f22053-1500kv-with-hqprop-6x35x3-rev

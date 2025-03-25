@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/7kgm/t-motor-antigravity-6007ii-160-x-t-motor-ns24x72
+https://database.tytorobotics.com/tests/gykn/test-x2820-01
+https://database.tytorobotics.com/tests/474z/t-motor-antigravity-7005-230-with-t-motor-ns28x92
+https://database.tytorobotics.com/tests/mz97/t-motor-antigravity-7005-230-with-t-motor-ns26x85
+https://database.tytorobotics.com/tests/ezw7/t-motor-antigravity-7005-230-with-t-motor-ns24x72

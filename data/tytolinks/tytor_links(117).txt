@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/k7kw/custom-1808-1300kv-with-hqprop-7x5x3
+https://database.tytorobotics.com/tests/ymzq/custom-1808-1300kv-with-lumenier-6x5x3
+https://database.tytorobotics.com/tests/rz4m/custom-1808-1300kv-with-master-as-6x45
+https://database.tytorobotics.com/tests/9kdr/custom-1808-1300kv-with-hqprop-6x35x3
+https://database.tytorobotics.com/tests/zy9y/custom-1808-1300kv-with-gemfan-6042x3

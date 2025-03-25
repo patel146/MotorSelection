@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/9rez/t-motor-u7-280kv-with-t-motor-mf1806
+https://database.tytorobotics.com/tests/z7re/t-motor-u7-280kv-with-triple-t-motor-p16x54
+https://database.tytorobotics.com/tests/7zd7/t-motor-u7-280kv-with-t-motor-p16x54
+https://database.tytorobotics.com/tests/g6nq/t-motor-u7-280kv-with-dual-t-motor-p16x54
+https://database.tytorobotics.com/tests/mqkz/hover-test-7

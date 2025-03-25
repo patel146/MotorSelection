@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/red/hglrc-hf1407-3600kv-gemfan-3052-flash-3s-pack
+https://database.tytorobotics.com/tests/9zm/ta130-25-kv80-xoar-47x10-ta110-20-kv80-xoar-40x10
+https://database.tytorobotics.com/tests/zwq/rcx-rs1407-4200kv-gemfan-3052-flash-3s-pack
+https://database.tytorobotics.com/tests/74e/rcx-rs1407-4200kv-gemfan-3052-flash
+https://database.tytorobotics.com/tests/m4w/dys-samguk-wei-hq-5146

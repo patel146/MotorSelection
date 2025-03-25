@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/wn9j/lumenier-v2-2407-2550kv-with-gemfan-513dx3
+https://database.tytorobotics.com/tests/6xdw/tmotor-f90-1300kv-with-gemfan-6042x3
+https://database.tytorobotics.com/tests/xmre/tmotor-f90-1300kv-with-gemfan-7042x2
+https://database.tytorobotics.com/tests/3y3j/xilo-stealth-2206-2600kv-with-gemfan-513dx3
+https://database.tytorobotics.com/tests/k7mz/emax-fs2208-2500kv-with-gemfan-513dx3

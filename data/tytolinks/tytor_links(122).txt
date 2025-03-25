@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/nm4q/tmotor-f60-1950kv-with-master-as-6x45
+https://database.tytorobotics.com/tests/44n9/lumenier-zip-v2-2407-1700kv-with-lumenier-6x4-sf
+https://database.tytorobotics.com/tests/m9jy/lumenier-zip-v2-2407-1700kv-with-gemfan-6042x3
+https://database.tytorobotics.com/tests/ew3n/lumenier-zip-v2-2407-1700kv-with-apc-6x42x3
+https://database.tytorobotics.com/tests/jgjn/lumenier-zip-v2-2407-1700kv-with-hqprop-6x35x3

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/nymg/t-motor-at2814-kv900-cam-carbon-z-10x8-255x20
+https://database.tytorobotics.com/tests/4q4z/t-motor-at2814-kv900-cam-carbon-z-10x6-255x15
+https://database.tytorobotics.com/tests/mr97/t-motor-at2814-kv900-cam-carbon-z-95x6-24x15
+https://database.tytorobotics.com/tests/emw7/t-motor-at2814-kv900-cam-carbon-z-9x7-23x18
+https://database.tytorobotics.com/tests/j7gd/t-motor-at2814-kv900-cam-carbon-z-9x5-23x125

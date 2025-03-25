@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/qr3n/group-2-motor-test-2207-2400kv
+https://database.tytorobotics.com/tests/wzkr/group-1-motor-test-2506-1850kv
+https://database.tytorobotics.com/tests/679m/tmotor-f22035-2850kv-with-gemfan-6045
+https://database.tytorobotics.com/tests/xg36/tmotor-f22035-2850kv-with-emax-avan-lr-6
+https://database.tytorobotics.com/tests/3z4e/tmotor-f22035-2850kv-with-gemfan-6030

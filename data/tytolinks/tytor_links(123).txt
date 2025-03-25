@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/d4kq/lumenier-zip-v2-2407-1700kv-with-master-as-6x45
+https://database.tytorobotics.com/tests/q7jy/lumenier-zip-v2-2407-1700kv-with-master-as-6x45x3
+https://database.tytorobotics.com/tests/wnex/lumenier-zip-v2-2407-1700kv-with-gemfan-7035
+https://database.tytorobotics.com/tests/6xzn/tmotor-22035-2850kv-with-master-as-6x45
+https://database.tytorobotics.com/tests/xme7/tmotor-22035-2850kv-with-hqprop-6x35x3

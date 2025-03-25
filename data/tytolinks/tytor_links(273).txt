@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/7qe/racerstar-br2306s-2400kv-gemfan-6030-thick-hub
+https://database.tytorobotics.com/tests/wwj/racerstar-br2306s-2400kv-carbon-5030
+https://database.tytorobotics.com/tests/64w/t-motor-f40-pro-ii-2400kv-popo-gemfan-hurricane
+https://database.tytorobotics.com/tests/3nj/lumenier-zip-2207-1750kv-popo-gemfan-hurricane
+https://database.tytorobotics.com/tests/kzz/hypertrain-blaster-2207-2450kv-quanum-6045-carbon

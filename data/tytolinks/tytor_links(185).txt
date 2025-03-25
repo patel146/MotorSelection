@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/nr7g/mn7005-kv-230-24-72-v32
+https://database.tytorobotics.com/tests/47gz/mn501-kv-240-new-tmotor-prop-3-v32
+https://database.tytorobotics.com/tests/mzq7/mn501-kv-240-new-tmotor-prop2-v32
+https://database.tytorobotics.com/tests/ezr7/mn501-kv-240-24-72-v32
+https://database.tytorobotics.com/tests/jxqd/mn501-kv-240-222-72-v32

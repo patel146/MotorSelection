@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/g6z7/tmotor-f1408-2-3950kv-with-hqprop-t5x3
+https://database.tytorobotics.com/tests/n76z/tmotor-f1408-2-3950kv-with-gemfan-sl-5130-3
+https://database.tytorobotics.com/tests/4gy3/tmotor-f1408-2-3950kv-with-gemfan-lr5126
+https://database.tytorobotics.com/tests/mqxd/m-loki2-anafi-01
+https://database.tytorobotics.com/tests/er66/m-loki2-loki2-01

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/kzey/tmotor-f22035-2850kv-with-prop
+https://database.tytorobotics.com/tests/y3qn/tmotor-f22035-2850kv-with-prop
+https://database.tytorobotics.com/tests/rmg9/tmotor-f22035-2850kv-with-lm-6x4
+https://database.tytorobotics.com/tests/9g94/tmotor-f22035-2850kv-with-apc-6x4ep
+https://database.tytorobotics.com/tests/zxd9/t-motor-u5-kv400-with-t-motor-mf1806

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/qeqn/tmotor5008-340kv-apc16x10ep
+https://database.tytorobotics.com/tests/e674/tmotor5008-340kv-apc16x10ep
+https://database.tytorobotics.com/tests/6gny/tmotor5008-340kv-apc16x10e
+https://database.tytorobotics.com/tests/jy4e/tmotor5008-340kv-cf15x12ccw
+https://database.tytorobotics.com/tests/dxy6/tmotor5008-340kv-cf15x12ccw

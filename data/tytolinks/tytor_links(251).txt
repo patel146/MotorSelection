@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/mky/t-motor-u7-280kv-tarot-1760
+https://database.tytorobotics.com/tests/enn/elite-2306-2150kv-5030-tri-blade-prop-series-1520
+https://database.tytorobotics.com/tests/dnq/lf40-2305-with-5040-prop
+https://database.tytorobotics.com/tests/qwy/t-motor-3510-25-360kv-tarot-1355
+https://database.tytorobotics.com/tests/wgx/tarot-4114-320kv-tarot-1255

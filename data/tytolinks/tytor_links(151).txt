@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/gy99/emax-fs2208-2500kv-with-gemfan-5x4
+https://database.tytorobotics.com/tests/nrnk/xilo-stealth-2206-2600kv-with-gemfan-5152-2
+https://database.tytorobotics.com/tests/4796/xilo-stealth-2206-2600kv-with-gemfan-5x3
+https://database.tytorobotics.com/tests/mzmn/xilo-stealth-2206-2600kv-with-gemfan-4x45-bullnose
+https://database.tytorobotics.com/tests/ez4d/xilo-stealth-2206-2600kv-with-gemfan-w-5043

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/67rk/loki3-gf-h4023-3s
+https://database.tytorobotics.com/tests/xgyy/loki3-gf-wd4032-3s-hovering-test
+https://database.tytorobotics.com/tests/3zgm/loki3-gf-wd4032-3s
+https://database.tytorobotics.com/tests/kxy3/vidar-test-d-105-h-30-p-3-01
+https://database.tytorobotics.com/tests/yrkj/vidar-test-d-105-h-25-p-3-01

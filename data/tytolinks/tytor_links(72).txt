@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/yrjg/tmotor-f1404-3800kv-with-gemfan-lr-5126
+https://database.tytorobotics.com/tests/r74x/tmotor-f1408-2-3950kv-with-gemfan-h-4024x2
+https://database.tytorobotics.com/tests/9rd7/tmotor-f1408-2-3950kv-with-gemfan-lr-6026x2
+https://database.tytorobotics.com/tests/z79r/tmotor-f1408-2-3950kv-with-gemfan-h-4525x3
+https://database.tytorobotics.com/tests/7zx3/tmotor-f1408-2-3950kv-with-gemfan-h-4023x3

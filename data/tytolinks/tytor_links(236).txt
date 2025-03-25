@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/4x4y/15inch-carbon-prop-test-1
+https://database.tytorobotics.com/tests/me94/16inch-prop-test-1
+https://database.tytorobotics.com/tests/exw3/14inch-prop-test-1
+https://database.tytorobotics.com/tests/j3ge/halfd16inch
+https://database.tytorobotics.com/tests/d346/halfd14inch

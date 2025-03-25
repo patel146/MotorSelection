@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/ww9e/vidar-2-rotors-v6-4p4-2c18-2b-01
+https://database.tytorobotics.com/tests/64dj/vidar-2-rotors-v6-2p2-6-2b-01
+https://database.tytorobotics.com/tests/xxrx/vidar-2-rotors-v6-1p2-6-2b-01
+https://database.tytorobotics.com/tests/3n3z/vidar-2-rotors-v6-0p4-2-2b-01
+https://database.tytorobotics.com/tests/kzm7/vidar-2-rotors-v6-0p2-6-2b-01

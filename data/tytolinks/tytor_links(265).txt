@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/6wd/dys-samguk-wei-dal-cyclone-5051-ultralight
+https://database.tytorobotics.com/tests/xe9/dys-samguk-wei-ethix-5031
+https://database.tytorobotics.com/tests/3dq/dys-samguk-wei-genfan-windancer-5043
+https://database.tytorobotics.com/tests/kwr/dys-samguk-wei-genfan-hulkie-5055
+https://database.tytorobotics.com/tests/ye4/dys-samguk-wei-t-motor-5143-ultralight

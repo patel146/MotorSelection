@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/qm69/flashhobby-be1806-1400kv-with-gemfan-7035
+https://database.tytorobotics.com/tests/w3mj/flashhobby-be1806-1400kv-with-dalprop-f7-fold
+https://database.tytorobotics.com/tests/6yew/flashhobby-be1806-1400kv-with-gemfan-flash-6042x3
+https://database.tytorobotics.com/tests/xj4e/primopal-pm2316-1430kv-with-gemfan-flash-7035
+https://database.tytorobotics.com/tests/36qj/primopal-pm2316-1430kv-with-gemfan-flash-6040

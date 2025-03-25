@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/z6gr/scorpion4025-520kv-with-16x10
+https://database.tytorobotics.com/tests/7jy3/scorpion4025-520kv-with-15x12
+https://database.tytorobotics.com/tests/g477/scorpion4020-420kv-with-16x12
+https://database.tytorobotics.com/tests/n9xz/scorpion4020-420kv-with-16x10
+https://database.tytorobotics.com/tests/4xz3/scorpion4020-420kv-with-15x12

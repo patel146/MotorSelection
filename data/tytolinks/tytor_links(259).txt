@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/zjq/racerstar-2306-2400kv-vith-gemfan-6030r
+https://database.tytorobotics.com/tests/7ee/gemfan-m2306l-2200kv-with-gemfan-6030r
+https://database.tytorobotics.com/tests/gdz/gemfan-m2306l-2200kv-with-plastic-6045
+https://database.tytorobotics.com/tests/nd4/gemfan-m2306l-2200kv-with-gemfan-5040
+https://database.tytorobotics.com/tests/4en/multistar-elite-2306-2150kv-ccw-gemfan-6030

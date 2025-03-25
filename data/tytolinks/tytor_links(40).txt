@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/mrz7/vidar-v3-v6-0p1-8-01
+https://database.tytorobotics.com/tests/emz7/vidar-v3-v05p2-6-01
+https://database.tytorobotics.com/tests/j7xd/vidar-v3-v06p2-6-02
+https://database.tytorobotics.com/tests/d67x/vidar-v3-v06p2-6-01
+https://database.tytorobotics.com/tests/q4md/artemis-u3-700kv-12x4-carbon-bad-motor

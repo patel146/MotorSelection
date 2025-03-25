@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/44gn/emax-ecoii-2306-1700kv-with-gemfan-6042x3-rev
+https://database.tytorobotics.com/tests/m9qw/emax-ecoii-2306-1700kv-with-lumenier-6x4-slow-rev
+https://database.tytorobotics.com/tests/ewrm/emax-ecoii-2306-1700kv-with-lumenier-67x3x3-rev
+https://database.tytorobotics.com/tests/jgqq/emax-ecoii-2306-1700kv-with-gemfan-7040x3-rev
+https://database.tytorobotics.com/tests/d494/emax-ecoii-2306-1700kv-with-gemfan-7037-3-rev

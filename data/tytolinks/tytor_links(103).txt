@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/d4q6/betafpv-2004-3000kv-with-hqprop-t5x3gr
+https://database.tytorobotics.com/tests/q7qr/hglrc-aeolus-1804-3500kv-with-gemfan-sl-5130x3
+https://database.tytorobotics.com/tests/wnrn/cohub-base-only
+https://database.tytorobotics.com/tests/6xry/tm-mf1302-tm-4014-dmr-3040
+https://database.tytorobotics.com/tests/xmy3/xing2-1404-4600kv-with-gemfan-lr-5126x2

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/ezm7/mini2-k2-4726-fm-prop-v3
+https://database.tytorobotics.com/tests/jx7d/mini2-parot-prop-norm
+https://database.tytorobotics.com/tests/d76x/mini2-parot-prop
+https://database.tytorobotics.com/tests/qm4d/mini2-c4-4726fm-prop-2
+https://database.tytorobotics.com/tests/w3we/mini2-c4-4726fm-prop

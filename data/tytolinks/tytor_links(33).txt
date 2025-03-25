@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/rm79/ldpower-ufo3505-650kv-cam-carbon-z-11x6-28x15
+https://database.tytorobotics.com/tests/9gr4/ldpower-ufo3505-650kv-cam-carbon-z-10x12-255x30
+https://database.tytorobotics.com/tests/zx79/ldpower-ufo3505-650kv-cam-carbon-z-10x8-255x20
+https://database.tytorobotics.com/tests/7qz4/ldpower-ufo3505-650kv-cam-carbon-z-10x6-255x15
+https://database.tytorobotics.com/tests/wwze/ldpower-ufo3505-650kv-cam-carbon-z-95x6-24x15

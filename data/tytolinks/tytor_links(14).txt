@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/rgkq/2810tmoto-as2820-880kv-g-camfold-28x15-11x6-hub45
+https://database.tytorobotics.com/tests/99m6/t-motor-as2820-880kv-grau-camfold-30x15-12x6-hub35
+https://database.tytorobotics.com/tests/kedq/t-motor-antigravity-4006-380kv-5-degree-twisted
+https://database.tytorobotics.com/tests/6jgy/t-motor-antigravity-5006-450kv-with-t16x545dtwis
+https://database.tytorobotics.com/tests/rgjm/reftmotor4006155prop24vt1

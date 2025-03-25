@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/3y4j/lumenier-v2-2407-1700kv-with-hqprop-6x35x3
+https://database.tytorobotics.com/tests/k76z/lumenier-v2-2407-1700kv-with-gemfan-6x4-bullnose
+https://database.tytorobotics.com/tests/ymxr/lumenier-v2-2407-1700kv-with-gemfan-5536x3
+https://database.tytorobotics.com/tests/rz6z/lumenier-v2-2407-1700kv-with-gemfan-5536x3
+https://database.tytorobotics.com/tests/9kwx/lumenier-v2-2407-1700kv-with-gemfan-513d

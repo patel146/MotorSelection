@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/gz44/flywoo-nin-1404-3750kv-avia-3630
+https://database.tytorobotics.com/tests/n69q/flywoo-nin-1404-3750kv-nazgul-t4030-2
+https://database.tytorobotics.com/tests/4yk9/flywoo-nin-1404-3750kv-hq-t3x2
+https://database.tytorobotics.com/tests/zw3y/flywoo-nin-1404-3750kv-hq-3-5x2-5x3
+https://database.tytorobotics.com/tests/746k/flywoo-nin-1404-3750kv-hq-prop-t4x2half

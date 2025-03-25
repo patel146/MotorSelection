@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/k7nq/tm-mf1302-tm-mn2806-dmr-3040-inv
+https://database.tytorobotics.com/tests/ym47/tm-mf1302-tm-mn4006-dmr-3040
+https://database.tytorobotics.com/tests/rznq/tm-mf1302-tm-mn4006-dmr-3040-inverted
+https://database.tytorobotics.com/tests/9k66/60a-no-bec-esc-6s-lipo-15x8-prop
+https://database.tytorobotics.com/tests/zy4g/75a-bec-esc-6s-lipo-15x8-prop-u5

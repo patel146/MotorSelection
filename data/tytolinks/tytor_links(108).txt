@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/m96y/dji-1045-tm-4014-dmr-3040
+https://database.tytorobotics.com/tests/ew7n/apc-12x45mr-tm-4014-dmr-3040
+https://database.tytorobotics.com/tests/jgkn/gemfan-12x45-tm-4014-dmr-3040
+https://database.tytorobotics.com/tests/d4gq/tmotor-f2004-3000kv-with-gemfan-sl-5130x3
+https://database.tytorobotics.com/tests/q7zy/tmotor-f2004-3000kv-with-gemfan-lr-5126x2

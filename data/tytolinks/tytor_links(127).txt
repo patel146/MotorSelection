@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/zydq/multistar-elite-2306-2150kv-with-gemfan-6042x3
+https://database.tytorobotics.com/tests/7g7e/multistar-elite-2306-2150kv-with-gemfan-7035
+https://database.tytorobotics.com/tests/gkez/multistar-elite-2306-2150kv-with-lumenier-6x4-sf
+https://database.tytorobotics.com/tests/nme4/dominic-eco-2207-1700kv-gemfan-5226
+https://database.tytorobotics.com/tests/44jn/dominic-eco-2207-1700kv-hq-5145-biblade

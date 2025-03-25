@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/q7ey/new-t-motor-mn3510-360kv-test-2
+https://database.tytorobotics.com/tests/wnjx/new-motor-test-mn3510-360-kv
+https://database.tytorobotics.com/tests/6xgn/karmar-motor
+https://database.tytorobotics.com/tests/xm77/karmar-motor
+https://database.tytorobotics.com/tests/3yrw/custom-1808-1300kv-with-gemfan-7040x3

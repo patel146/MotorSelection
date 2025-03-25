@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/ezew/brent-motor-2-prop-2
+https://database.tytorobotics.com/tests/jxdx/brent-motor-2-prop-1
+https://database.tytorobotics.com/tests/d7m3/cody-motor-1-prop-2
+https://database.tytorobotics.com/tests/qm9g/cody-motor-1-prop-1
+https://database.tytorobotics.com/tests/w3j7/t-motor-4014-330-kv-w-apc16x55

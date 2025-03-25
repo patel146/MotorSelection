@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/q7kr/rcinpower-s1507-kv3800-with-gemfan-5x3x2
+https://database.tytorobotics.com/tests/wn7n/rcinpower-s1507-kv3800-with-ethix-p3b-5
+https://database.tytorobotics.com/tests/ewn3/flashhobby-a1506-kv3100-with-gemfan-5x3
+https://database.tytorobotics.com/tests/jg9e/flashhobby-a1506-kv3100-with-gemfan-fs-5226x3
+https://database.tytorobotics.com/tests/d4n6/flashhobby-a1506-kv3100-with-gemfan-flash-5552x3

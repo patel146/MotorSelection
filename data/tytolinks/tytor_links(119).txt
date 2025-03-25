@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/ewkn/emax-ecoii-2306-1900kv-with-apc-6x42x3
+https://database.tytorobotics.com/tests/jg4n/emax-ecoii-2306-1900kv-with-master-as-6x45x3
+https://database.tytorobotics.com/tests/d4yq/rcinpower-smoox-2306-1880kv-with-master-as-6x45x3
+https://database.tytorobotics.com/tests/q7dy/rcinpower-smoox-2306-1880kv-with-lumenier-6x4-sf
+https://database.tytorobotics.com/tests/wndx/lumenier-jf2306-2250kv-with-lumenier-6x4-sf

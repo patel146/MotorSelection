@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/6xky/flashhobby-be1806-2700kv-with-hqprop-5x5x2
+https://database.tytorobotics.com/tests/xmn3/flashhobby-be1806-2700kv-with-gemfan-5x4
+https://database.tytorobotics.com/tests/3y93/flashhobby-be1806-2300kv-with-gemfan-flash-5552x3
+https://database.tytorobotics.com/tests/k7yq/flashhobby-be1806-2300kv-with-genfan-sl-5130x3
+https://database.tytorobotics.com/tests/ymk7/flashhobby-be1806-2300kv-with-gemfan-5x4

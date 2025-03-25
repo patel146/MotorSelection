@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/3yg3/xing2-1404-3800kv-with-gemfan-sl-5130x3
+https://database.tytorobotics.com/tests/k7gq/xing2-1404-3800kv-with-gemfan-lr-5226x2
+https://database.tytorobotics.com/tests/ymn7/mamba-toka-1408-4100kv-with-gemfan-lr-5126x2
+https://database.tytorobotics.com/tests/rzkq/jmt-1806-2400kv-with-gemfan-flash-5552x3
+https://database.tytorobotics.com/tests/9km6/hypershot-15075-3922kv-with-gemfan-flash-5552x3

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/xxwe/t-motor-as2820-880kv-supe-carfold-25x15-10x6-hub55
+https://database.tytorobotics.com/tests/3nej/t-motor-as2820-880kv-supe-carfold-25x15-10x6-hub45
+https://database.tytorobotics.com/tests/kzdz/t-motor-as2820-880kv-grau-camfold-28x15-11x6-hub45
+https://database.tytorobotics.com/tests/y3jr/t-motor-as2820-880kv-aero-camcarb-28x15-11x6-hub45
+https://database.tytorobotics.com/tests/rmrz/t-motor-as2820-880kv-aero-camcrbz-25x20-10x8-hub45

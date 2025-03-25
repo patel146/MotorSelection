@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/jqwm/tmotor-f22035-2850kv-with-master-as-5x45x3
+https://database.tytorobotics.com/tests/d9ge/tmotor-f22035-2850kv-with-master-as-5x45x2
+https://database.tytorobotics.com/tests/qrz6/tmotor-f22035-2850kv-with-iflight-5030-mod
+https://database.tytorobotics.com/tests/wzxg/tmotor-f22035-2850kv-with-gemfan-sl5125-3-mod
+https://database.tytorobotics.com/tests/676k/tmotor-f22035-2850kv-with-hqprop-t5x3-mod

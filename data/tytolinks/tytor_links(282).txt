@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/nrk/multistar-elite-2306-2150kv-with-lumenier-3x4x2
+https://database.tytorobotics.com/tests/476/multistar-elite-2306-2150kv-with-dalprop-6040
+https://database.tytorobotics.com/tests/mzn/xoar-47-propeller-test
+https://database.tytorobotics.com/tests/ezd/xoar-ta130-vs-40-propeller-and-pulsea200-esc
+https://database.tytorobotics.com/tests/jxw/multistar-elite-2306-2150kv-with-gemfan-6030

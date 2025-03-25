@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/pmn/turnigy-2836-brushless-1000kv-with-blheli-80a
+https://database.tytorobotics.com/tests/5ed/turnigy-2836-1000kv-with-hobbyking-30a-esc-3a-ubec
+https://database.tytorobotics.com/tests/5jw/emax-2306-with-hobbyking-30a-ubec
+https://database.tytorobotics.com/tests/pdg/test-for-motor-emax-rs2306-with-turnigy-plush-30-a
+https://database.tytorobotics.com/tests/56w/test-with-the-xoar-40-propeller

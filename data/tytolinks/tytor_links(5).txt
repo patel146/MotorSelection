@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/6njk/tmotor5008-340kv-cf-15x12-ccw
+https://database.tytorobotics.com/tests/3ey6/tmotor5008-340kv-cf-15x12-ccw
+https://database.tytorobotics.com/tests/w6kw/tmotor5008-340kv-cf-15x12-ccw
+https://database.tytorobotics.com/tests/jy64/tmotor5008-340kv-cf15x12-ccw
+https://database.tytorobotics.com/tests/x7z6/tmotor5008-340kv-15x12cf-ccw

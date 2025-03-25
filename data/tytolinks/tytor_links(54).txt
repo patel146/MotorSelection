@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/67qk/wt-rpm-150-angle-0-test-2
+https://database.tytorobotics.com/tests/xgzy/wt-rpm-150-angle-0-test-1
+https://database.tytorobotics.com/tests/kxr3/t-motor-u7-490kv-with-triple-t-motor-p16x54
+https://database.tytorobotics.com/tests/yr9j/t-motor-u7-490kv-with-dual-t-motor-p16x54
+https://database.tytorobotics.com/tests/r7q4/t-motor-u7-490kv-with-t-motor-p16x54

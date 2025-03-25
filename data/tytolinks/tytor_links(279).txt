@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/ewd/gemfan-m2306l-2200kv-with-quanum-6045-carbon
+https://database.tytorobotics.com/tests/jgw/gemfan-m2306l-2200kv-with-kingkong-6040
+https://database.tytorobotics.com/tests/d4g/gemfan-m2306l-2200kv-with-5050-bn
+https://database.tytorobotics.com/tests/q79/gemfan-m2306l-2200kv-with-hurricane
+https://database.tytorobotics.com/tests/wnj/gemfan-m2306l-2200kv-with-plastic-6045

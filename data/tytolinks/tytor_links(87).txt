@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/kx6k/t-motor-mn4012-480-kv-with-apc-12x12
+https://database.tytorobotics.com/tests/yrxd/tmotor-f22035-2850kv-with-master-as-6x4
+https://database.tytorobotics.com/tests/r76j/tmotor-f22035-2850kv-with-gemfan-5x3
+https://database.tytorobotics.com/tests/9rw9/fanshawetwst2
+https://database.tytorobotics.com/tests/z76x/test2fanshawe

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/wjk/hglrc-hf1407-3600kv-hq-3040
+https://database.tytorobotics.com/tests/6gd/hglrc-hf1407-3600kv-gemfan-windancer-3028
+https://database.tytorobotics.com/tests/xq9/hglrc-hf1407-3600kv-gemfan-windancer-3028-3s
+https://database.tytorobotics.com/tests/3wq/hglrc-hf1407-3600kv-hq-3040-3s
+https://database.tytorobotics.com/tests/k4r/hglrc-hf1407-3600kv-gemfan-3052-flash

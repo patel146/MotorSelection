@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/wxx/multistar-elite-2306-2150kv-gemfan-6030r
+https://database.tytorobotics.com/tests/66n/emax-rsii-2207-2300kv-gemfan-5040r
+https://database.tytorobotics.com/tests/x67/emax-rsii-2207-2300kv-gemfan-6030r
+https://database.tytorobotics.com/tests/3kw/hypertrain-blaster-2207-2450kv-gemfan-5040r
+https://database.tytorobotics.com/tests/k3w/ta130-25-kv80-xoar47x10-t-motor-u15-kv80-xoar40x10

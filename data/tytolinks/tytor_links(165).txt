@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/mz7q/sunnysky-v4006-with-aeronaut-19x8
+https://database.tytorobotics.com/tests/ezyw/sunnysky-v4006-with-15x5-eolo-retest
+https://database.tytorobotics.com/tests/jxwx/sunnysky-v4006-with-18x9-aeronaut-prop
+https://database.tytorobotics.com/tests/d7r3/sunnysky-v4006-with-15x5-eolo-prop
+https://database.tytorobotics.com/tests/qmyg/sunnysky-v4006-with-aeronaut-15x8

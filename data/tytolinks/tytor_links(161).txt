@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/nrxe/aerodrive-sk3-3548-1050kv-10x7-wood
+https://database.tytorobotics.com/tests/47zq/aerodrive-sk3-3548-1050kv-10x47-f45a-esc
+https://database.tytorobotics.com/tests/mz3q/sunnysky-v4006-15x8-f45a-esc-v2
+https://database.tytorobotics.com/tests/ezdw/sunnysky-v4006-15x8-f45a-esc
+https://database.tytorobotics.com/tests/jxrx/deneme-testi-900-2000-2

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/www7/scorpion-a-5025-220kv-tribunus-esc-xoar-21x8e
+https://database.tytorobotics.com/tests/gqqw/tmotor-f22035c-2850kv-with-mas-mi3b3630fb4
+https://database.tytorobotics.com/tests/nyye/tmotor-f22035c-2850kv-with-mas-mi36030fb4
+https://database.tytorobotics.com/tests/4qqq/tmotor-f22035c-2850kv-with-gemfan-fp-6030
+https://database.tytorobotics.com/tests/mrrq/tmotor-f22035-2850kv-with-lm-6x4

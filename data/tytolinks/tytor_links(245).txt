@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/n9qd/u15xxl-and-62prop-from-t-motor
+https://database.tytorobotics.com/tests/4xky/database-test-drootes
+https://database.tytorobotics.com/tests/meg4/database-test
+https://database.tytorobotics.com/tests/ex93/rcbenchmark-2407-1500kv-8x6-propeller-v2
+https://database.tytorobotics.com/tests/j3me/rcbenchmark-2407-1500kv-8x4-propeller-v2

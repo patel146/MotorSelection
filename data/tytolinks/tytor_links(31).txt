@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/emmw/tmotor-f22035-2850kv-with-gemfan-6026
+https://database.tytorobotics.com/tests/j77x/tmotor-f22035-2850kv-with-gemfan-6042
+https://database.tytorobotics.com/tests/d663/tmotor-f22035-2850kv-with-gemfan-6040
+https://database.tytorobotics.com/tests/q44g/tmotor-f22035-2850kv-with-master-as-6045
+https://database.tytorobotics.com/tests/wwz7/vidar-final-blade-test-01

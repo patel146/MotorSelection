@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/kj9z/primopal-pm2316-1430kv-with-gemfan-flash-6042x3
+https://database.tytorobotics.com/tests/y67r/primopal-pm2316-1430kv-with-gemfan-flash-6042x3
+https://database.tytorobotics.com/tests/rywz/primopal-pm2316-2280kv-with-gemfan-flash-6042x3
+https://database.tytorobotics.com/tests/9x7x/primopal-pm2316-2280kv-with-dalprop-f7-fold
+https://database.tytorobotics.com/tests/zmz6/primopal-pm2316-2280kv-with-gemfan-floppy-6030

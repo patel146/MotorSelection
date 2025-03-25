@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/67kk/hover-test-1
+https://database.tytorobotics.com/tests/xgny/loki3-gf-h4023-4s-2
+https://database.tytorobotics.com/tests/3z9m/loki3-gf-5b-d4050-4s
+https://database.tytorobotics.com/tests/kxn3/loki3-gf-5b-d4050-4s-hovering-test
+https://database.tytorobotics.com/tests/z74e/loki3-gf-5b-d4050-3s-hovering-test

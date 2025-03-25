@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/rzyd/lumenier-zip-v2-2407-2550kv-with-gemfan-7042x2-rev
+https://database.tytorobotics.com/tests/9kxm/lumenier-zip-v2-2407-2550kv-with-gemfan-7035x2-rev
+https://database.tytorobotics.com/tests/zymq/tmotor-f22035-3550kv-with-lumenier-6x5x3-gb-rev
+https://database.tytorobotics.com/tests/7gke/tmotor-f22035-3550kv-with-gemfan-floppy-f6030-rev
+https://database.tytorobotics.com/tests/gkyz/tmotor-f22035-3550kv-with-gemfan-flash-5552x3-rev

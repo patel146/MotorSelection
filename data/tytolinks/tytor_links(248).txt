@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/qkr/test-to-see-if-the-current-limit-detects-correctly
+https://database.tytorobotics.com/tests/976/1045prop-tmotor-900kv-3s-test4
+https://database.tytorobotics.com/tests/zzg/1045prop-tmotor-900kv-3s-test3
+https://database.tytorobotics.com/tests/7mn/1045prop-tmotor-900kv-3s-test1b
+https://database.tytorobotics.com/tests/wmx/1045prop-tmotor-900kv-3s-test2

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/gxw9/tmotor5008-340kv-16x10ep-screw-on-t2
+https://database.tytorobotics.com/tests/9z9x/tmotor5008-340kv-16x10ep-screw-on
+https://database.tytorobotics.com/tests/n47e/tmotor5008-340kv-pt16x10
+https://database.tytorobotics.com/tests/4wgq/tmotor5008-340kv-pt16x10e
+https://database.tytorobotics.com/tests/74k4/sunnysky-4010-375kv-custom-16-75d-split-hub

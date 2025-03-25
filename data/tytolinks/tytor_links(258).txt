@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/xw9/hypetrain-blaster-2207-2450kv-with-gemfan-6030r
+https://database.tytorobotics.com/tests/kdr/hypetrain-blaster-2207-2450kv-with-gemfan-6030r
+https://database.tytorobotics.com/tests/yj4/dys-samguk-wu-2207-2400kv-with-gemfan-6030r
+https://database.tytorobotics.com/tests/rrd/dys-samguk-wei-2207-2600kv-with-gemfan-6030r
+https://database.tytorobotics.com/tests/94m/emax-2306-2750kv-with-gemfan-6030r

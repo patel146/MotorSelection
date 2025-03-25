@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/44y9/tmotor-f60pro-iv-1750kv-with-gemfan-7035
+https://database.tytorobotics.com/tests/m9xy/tmotor-f60pro-v-lv-1950kv-with-lumenier-sf-6x4
+https://database.tytorobotics.com/tests/ew6n/tmotor-f60pro-v-lv-1950kv-with-master-as-6x45x3
+https://database.tytorobotics.com/tests/jgyn/t-motor-mn3510-360kv-test-old
+https://database.tytorobotics.com/tests/d4xq/t-motor-mn3510-360kv-used

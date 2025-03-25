@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/zyey/lumenier-zip-v2-22075-1750kv-with-gemfan-7035
+https://database.tytorobotics.com/tests/7g9k/lumenier-zip-v2-22075-1750kv-with-lumenier-6x4-sf
+https://database.tytorobotics.com/tests/wnek/lumenier-zip-v2-22075-1750kv-with-apc-6x42ex3
+https://database.tytorobotics.com/tests/6xzd/lumenier-zip-v2-22075-1750kv-with-gemfan-6042x3
+https://database.tytorobotics.com/tests/xmk9/lumenier-zip-v2-22075-1750kv-with-master-as-6x45x3

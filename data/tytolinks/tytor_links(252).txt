@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/6qn/tarot-4108-380kv-tarot-1355
+https://database.tytorobotics.com/tests/xz7/tarot-4108-380kv-tarot-1355
+https://database.tytorobotics.com/tests/krw/lf40-2305-2450kv-6535-prop-l-bracket
+https://database.tytorobotics.com/tests/7dk/lf40-2305-hinge-test
+https://database.tytorobotics.com/tests/gn4/elite-2306-2150kv-with-5030-triblade-prop

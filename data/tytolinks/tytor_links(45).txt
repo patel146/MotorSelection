@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/kz67/group-6-prop-1
+https://database.tytorobotics.com/tests/y3x6/loki2-prop-xometry-sample-1-03-2
+https://database.tytorobotics.com/tests/rm66/loki2-prop-xometry-sample-1-02-2
+https://database.tytorobotics.com/tests/9gwq/loki2-prop-xometry-sample-1-01-2
+https://database.tytorobotics.com/tests/zxk3/loki2-prop-loki-2-01-test

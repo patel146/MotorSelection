@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/6xwn/lumenier-jf2306-2250kv-with-apc-6x42x3
+https://database.tytorobotics.com/tests/xmq7/lumenier-jf2306-2250kv-with-master-as-6x45
+https://database.tytorobotics.com/tests/3yww/lumenier-jf2306-2250kv-with-master-as-6x45x3
+https://database.tytorobotics.com/tests/k74w/tmotor-f60-1950kv-with-master-as-6x45x3
+https://database.tytorobotics.com/tests/ymdq/tmotor-f60-1950kv-with-gemfan-7035

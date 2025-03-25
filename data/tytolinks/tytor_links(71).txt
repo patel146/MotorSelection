@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/wz6w/at2814-wood-11x4
+https://database.tytorobotics.com/tests/67n7/tmotor-f1408-2-2800kv-with-gemfan-h-lr-6026
+https://database.tytorobotics.com/tests/xgwm/tmotor-f1408-2-2800kv-with-gemfan-sl-5125x3
+https://database.tytorobotics.com/tests/3ze6/tmotor-f1404-3800kv-with-gemfan-g-4024
+https://database.tytorobotics.com/tests/kxd6/tmotor-f1404-3800kv-with-gemfan-h-4525x3

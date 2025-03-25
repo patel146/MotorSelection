@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/wnxx/tmotor-f2004-3000kv-with-hqprop-t5x3
+https://database.tytorobotics.com/tests/6x6n/geprc-gr2004-2550kv-with-gemfan-sl-5130x3
+https://database.tytorobotics.com/tests/xm67/ummagawd-aero-2004-3500kv-with-gemfan-lr-5126x2
+https://database.tytorobotics.com/tests/3ykw/ummagawd-aero-2004-3500kv-with-gemfan-sl-5130x3
+https://database.tytorobotics.com/tests/k73w/ummagawd-aero-2004-3500kv-with-hqprop-d-t5x3

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/36m9/sunnysky-v4006-aeronaut-15x8-full-throttle-range
+https://database.tytorobotics.com/tests/kjgy/kde-3510xf-475kv-with-kde-155x53-folding
+https://database.tytorobotics.com/tests/y6nn/t-motor-u5-400-kv-with-kde-155x53-folding
+https://database.tytorobotics.com/tests/ryk9/u12ii-kv120-falcon-29x95
+https://database.tytorobotics.com/tests/9xm4/u12ii-kv120-t-motor-29x87

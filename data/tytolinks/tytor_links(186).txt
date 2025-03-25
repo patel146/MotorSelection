@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/d79x/mn501-kv-240-24-12-v32
+https://database.tytorobotics.com/tests/qmrd/mn501-kv-240-new-t-motor-prop-v32
+https://database.tytorobotics.com/tests/w3ze/mn501-kv-240-22-11l-v32
+https://database.tytorobotics.com/tests/xjgx/t-motor-antigravity-6007-320-x-t-motor-ns26x85
+https://database.tytorobotics.com/tests/36zz/t-motor-antigravity-6007-320-x-t-motor-ns24x72

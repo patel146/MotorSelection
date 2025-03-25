@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/r7yj/m-tmotorf1404-p-gf7035-01
+https://database.tytorobotics.com/tests/mqzg/flashhobby-a1506-3100kv-with-master-as-6x4
+https://database.tytorobotics.com/tests/erx4/group-4-motor-test-2306-2500kv
+https://database.tytorobotics.com/tests/jq3z/group-3-motor-test-2306-2400kv
+https://database.tytorobotics.com/tests/d93n/group-2-test-2-2306-2400kv

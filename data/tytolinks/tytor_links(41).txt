@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/ww3e/artemis-u3-700kv-12x4-carbon-good-motor
+https://database.tytorobotics.com/tests/xxjx/vidar-ziggzagg-v06p2-6
+https://database.tytorobotics.com/tests/3n6z/group-9-prop-2
+https://database.tytorobotics.com/tests/kzj7/group-9-prop-1
+https://database.tytorobotics.com/tests/y366/group-5-prop-2

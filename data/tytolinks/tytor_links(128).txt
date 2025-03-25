@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/m9ww/jerome-lhi-2204-2300kv-hq-5145-biblade
+https://database.tytorobotics.com/tests/ewgm/jerome-lhi-2204-2300kv-hq-lemon-lime
+https://database.tytorobotics.com/tests/jgeq/will-lhi-2204-2300kv-gemfan-5226
+https://database.tytorobotics.com/tests/d4j4/will-lhi-2204-2300kv-hqr38-prop
+https://database.tytorobotics.com/tests/q7xm/ashish-3b-2306-2500kv-gemfan-5226

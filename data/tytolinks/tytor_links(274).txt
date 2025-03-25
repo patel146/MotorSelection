@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/y3r/hypertrain-blaster-2207-2450kv-gemfan-5050bn
+https://database.tytorobotics.com/tests/rmz/hypertrain-blaster-2207-2450kv-kingkong-6040
+https://database.tytorobotics.com/tests/9gx/hypertrain-blaster-2207-2450kv-gemfan-hurricane
+https://database.tytorobotics.com/tests/zx6/hypertrain-blaster-2207-2450kv-with-plastic-6045
+https://database.tytorobotics.com/tests/g69/hypertrain-blaster-2207-2450kv-dalprop-6040

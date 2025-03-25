@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/re39/t-motor-4006-380kv-custom-16-75d-split-hub
+https://database.tytorobotics.com/tests/njkg/t-motor-5008-340kv-custom-16-75d-split-hub
+https://database.tytorobotics.com/tests/ze43/t-motor-5008-340kv-twisted-hub-tmotor-prop-16x5
+https://database.tytorobotics.com/tests/yek6/t-motor-5008-340kv-custom-prop-16x10ep-02v
+https://database.tytorobotics.com/tests/gwgq/t-motor-5008-340kv-customprop16x10ep-01v

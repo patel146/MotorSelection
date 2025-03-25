@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/7g3n/75a-bec-esc-4s-lipo-11x4-prop
+https://database.tytorobotics.com/tests/gkjg/60a-no-bec-esc-4s-lipo-11x4-prop
+https://database.tytorobotics.com/tests/nmgd/60a-no-bec-esc-4s-lipo-11x4-prop
+https://database.tytorobotics.com/tests/44ry/75a-bec-2-6s-4s-11x4-carbon
+https://database.tytorobotics.com/tests/m9n4/flashhobby-a1506-4300kv-with-hqprop-5x5

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/ymgr/emax-fs2208-2500kv-with-tmotor-t5143x3
+https://database.tytorobotics.com/tests/rz3z/emax-fs2208-2500kv-with-gemfan-w-5043x3
+https://database.tytorobotics.com/tests/9kqx/emax-fs2208-2500kv-with-gemfan-5552x3
+https://database.tytorobotics.com/tests/zyk6/emax-fs2208-2500kv-with-gemfan-513dx3
+https://database.tytorobotics.com/tests/7grr/emax-fs2208-2500kv-with-gemfan-6x4

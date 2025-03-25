@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/3yjq/lumenier-zip-v2-22075-1750kv-with-master-as-6x45
+https://database.tytorobotics.com/tests/k7er/multistar-elite-2306-2150kv-with-master-as-6x45sg4
+https://database.tytorobotics.com/tests/ymq4/multistar-elite-2306-2150kv-with-master-as-6x45sg4
+https://database.tytorobotics.com/tests/rzgd/multistar-elite-2306-2150kv-with-apc-6x4e
+https://database.tytorobotics.com/tests/9k9m/multistar-elite-2306-2150kv-with-apc-d-6x42e-3

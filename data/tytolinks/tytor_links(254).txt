@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/zny/t-motor-lf40-with-t5143-prop
+https://database.tytorobotics.com/tests/7nk/t-motor-lf40-with-t5150-prop
+https://database.tytorobotics.com/tests/g34/t-motor-u15-v2-kv80-with-xoar-40x10
+https://database.tytorobotics.com/tests/nzq/ta110-20-kv80-with-xoar-40x10
+https://database.tytorobotics.com/tests/439/ta130-25-kv80-with-xoar-40x10

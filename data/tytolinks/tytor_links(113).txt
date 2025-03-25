@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/xmw7/tmotor-f22035-3550kv-with-gemfan-lr-5126-2
+https://database.tytorobotics.com/tests/3yew/tmotor-f22035-1750kv-with-gemfan-fp-6030x3
+https://database.tytorobotics.com/tests/k7dw/tmotor-f22035-1750kv-with-gemfan-7035
+https://database.tytorobotics.com/tests/ymjq/tmotor-f22035-1750kv-with-master-as-6x45x2
+https://database.tytorobotics.com/tests/rzrm/neumotor-3819-t-motor-16x54-6s

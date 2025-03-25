@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/y3g6/vidar-2-rotors-v5p2-6-2b-01
+https://database.tytorobotics.com/tests/rm36/vidar-2-rotors-v4p2-6-2b-01
+https://database.tytorobotics.com/tests/9gqq/vidar-2-rotors-v3p2-6-2b-01
+https://database.tytorobotics.com/tests/7z6m/vidar-birotor-gf6035-01
+https://database.tytorobotics.com/tests/g69n/loki2-prop-loki2-02-3

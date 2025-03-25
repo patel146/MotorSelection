@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/rzz/multistar-elite-2306-2150kv-with-kingkong-6040
+https://database.tytorobotics.com/tests/9kx/multistar-elite-2306-2150kv-with-6045-carbon
+https://database.tytorobotics.com/tests/zy6/multistar-elite-2306-2150kv-with-gemfan-5050bn
+https://database.tytorobotics.com/tests/7gr/multistar-elite-2306-2150kv-with-6045-plastic
+https://database.tytorobotics.com/tests/gy9/multistar-elite-2306-2150kv-with-hurricane-51499

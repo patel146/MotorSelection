@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/n7k/hypertrain-blaster-2207-2450kv-carbon-5030
+https://database.tytorobotics.com/tests/4g6/hypertrain-blaster-2207-2450kv-gemfan-6030
+https://database.tytorobotics.com/tests/mqn/emax-rsii-2207-2300kv-with-quanum-6045-carbon
+https://database.tytorobotics.com/tests/erd/emax-rsii-2207-2300kv-with-kingkong-6040
+https://database.tytorobotics.com/tests/jqw/emax-rsii-2207-2300kv-with-gemfan-5050-bn

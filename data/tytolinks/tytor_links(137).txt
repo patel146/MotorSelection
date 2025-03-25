@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/k77r/tmotor-f22053-1500kv-with-lumenier-67x3x3-rev
+https://database.tytorobotics.com/tests/ymm4/tmotor-f22053-1500kv-with-gemfan-fp-6030x3-rev
+https://database.tytorobotics.com/tests/rzzd/tmotor-f22053-1500kv-with-lumenier-6x4-sf-rev
+https://database.tytorobotics.com/tests/9kkm/tmotor-f22053-2850kv-with-gemfan-5133x3-rev
+https://database.tytorobotics.com/tests/zyyq/tmotor-f22053-2850kv-with-gemfan-floppy-6030-rev

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/9xn4/volantex-b4023kv1050-with-13x65-prop-3s
+https://database.tytorobotics.com/tests/zmq9/volantex-b4023kv1050-with-13x65-prop
+https://database.tytorobotics.com/tests/7kw4/volantex-pheonix-2400-stock-t-motor-esc
+https://database.tytorobotics.com/tests/gygw/volantex-pheonix-2400-stock
+https://database.tytorobotics.com/tests/nrwe/t-motor-u5-kv400-with-apc-16x55

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/zyng/hypershot-15075-3922kv-with-gemfan-lr-5126x2
+https://database.tytorobotics.com/tests/7gnn/tmotor-f1507-3800kv-with-gemfan-flash-5552x3
+https://database.tytorobotics.com/tests/wnqx/tmotor-f1507-3800kv-with-gemfan-sl-5130x3
+https://database.tytorobotics.com/tests/6xmn/tmotor-f1507-3800kv-with-gemfan-lr-5126
+https://database.tytorobotics.com/tests/xmd7/mamba-toka-2004-2900kv-with-gemfan-sl-5130x3

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/rwm/t-motor-2216-900kv-1045prop
+https://database.tytorobotics.com/tests/97r/2216-800kv-6x45prop
+https://database.tytorobotics.com/tests/zzy/2216-920kv-12xxprop
+https://database.tytorobotics.com/tests/7mk/2216-800kv-1045prop
+https://database.tytorobotics.com/tests/469/dji3515-1760s

@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/kxz/emax-rsii-2207-2300kv-with-6030-nylon
+https://database.tytorobotics.com/tests/yrr/qav-2206-2000kv-with-6045-plastic
+https://database.tytorobotics.com/tests/r7z/qav-2206-2000kv-with-dalprop-6040-v2
+https://database.tytorobotics.com/tests/9rx/mr-steele-2306-2345kv-with-gemfan-6030-thick-hub
+https://database.tytorobotics.com/tests/z76/mr-steele-2306-2345kv-with-carbon-5030

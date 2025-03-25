@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/d9g/emax-rsii-2207-2300kv-with-hurricane-51499
+https://database.tytorobotics.com/tests/qr9/emax-rsii-2207-2300kv-with-dalprop-6040
+https://database.tytorobotics.com/tests/wzj/emax-rsii-2207-2300kv-with-plastic-6045
+https://database.tytorobotics.com/tests/67w/emax-rsii-2207-2300kv-with-carbon-5030
+https://database.tytorobotics.com/tests/xge/emax-rsii-2207-2300kv-with-gemfan-6030-thick-hub

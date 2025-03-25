@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/kjx7/t-motor-antigravity-6007-320-x-t-motor-ns22x66
+https://database.tytorobotics.com/tests/y6r6/t-motor-antigravity-6007-320-x-t-motor-p20x6
+https://database.tytorobotics.com/tests/ry76/t-motor-antigravity-6007-320-x-t-motor-p18x61
+https://database.tytorobotics.com/tests/9xrq/t-motor-antigravity-6007ii-160-x-t-motor-ns28x92
+https://database.tytorobotics.com/tests/zmy3/t-motor-antigravity-6007ii-160-x-t-motor-ns26x85

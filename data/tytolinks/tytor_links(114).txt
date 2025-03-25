@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/9k4r/neumotor-3819-6s-t-motor-16x54
+https://database.tytorobotics.com/tests/zyjy/tmotor-f22035-1500kv-with-master-as-6x45x3
+https://database.tytorobotics.com/tests/7gek/tmotor-f22035-1500kv-with-gemfan-7035
+https://database.tytorobotics.com/tests/gkd4/tmotor-f60pro-iv-1750kv-with-lumenier-sf-6x4
+https://database.tytorobotics.com/tests/nmdq/tmotor-f60pro-iv-1750kv-with-master-as-6x45x3

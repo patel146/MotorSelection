@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/m6y/ta130-25-kv80-with-xoar-40x10
+https://database.tytorobotics.com/tests/e7n/ta130-25-kv80-with-xoar-40x10
+https://database.tytorobotics.com/tests/jkn/ta130-25-kv80-with-xoar-47x10
+https://database.tytorobotics.com/tests/dgq/t-motor-u15-kv80-with-xoar-40x10
+https://database.tytorobotics.com/tests/qzy/multistar-elite-2306-2150kv-gemfan-6030r

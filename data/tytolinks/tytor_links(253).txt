@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/4r9/t-motor-lf40-2305-t-6535-prop
+https://database.tytorobotics.com/tests/mny/t-motor-lf40-2305-t-5143-prop
+https://database.tytorobotics.com/tests/eqn/t-motor-lf40-5150-prop
+https://database.tytorobotics.com/tests/w4x/t-lf40-2450kv-t-5150r-propeller
+https://database.tytorobotics.com/tests/rkm/samguk-shu-hq-5151

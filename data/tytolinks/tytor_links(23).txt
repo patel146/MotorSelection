@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/rm49/ecoii-1300kv-characterization-test-1
+https://database.tytorobotics.com/tests/9gd4/ecoii-1300kv-characterization-test-1
+https://database.tytorobotics.com/tests/zx99/tmotor-f22035-1500kv-with-master-as-6x2
+https://database.tytorobotics.com/tests/7qx4/tmotor-f22035-1500kv-with-master-as-6x2
+https://database.tytorobotics.com/tests/gqzw/t-motor-as2814-900kv-aerona-camcarb-z-255x15-10x6

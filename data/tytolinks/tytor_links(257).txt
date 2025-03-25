@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/ywq/ta130-25-kv80-xoar47x10-t-motor-u15-kv80-xoar40x10
+https://database.tytorobotics.com/tests/r9m/ta130-25kv80-xoar40x10-and-ta110-20kv80-xoar34x14
+https://database.tytorobotics.com/tests/9nr/hypetrain-blaster-2207-2450kv-gemfan-5040
+https://database.tytorobotics.com/tests/7wk/hypetrain-blaster-2207-2450kv-kingkong-6040
+https://database.tytorobotics.com/tests/wxk/ta130-25-kv80-xoar40x10-ta110-20-kv80-xoar36x12

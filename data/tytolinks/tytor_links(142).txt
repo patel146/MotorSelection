@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/nmr4/tmotor-f22035-3550kv-with-gemfan-6x4-bullnose-rev
+https://database.tytorobotics.com/tests/447n/tmotor-f22035-3550kv-with-gemfan-5152-2-rev
+https://database.tytorobotics.com/tests/m9zw/tmotor-f22035-3550kv-with-hqprop-dp6x35x3-rev
+https://database.tytorobotics.com/tests/ewzm/tmotor-f22035-3550kv-with-gemfan-5536x3-hurr-rev
+https://database.tytorobotics.com/tests/jgxq/tmotor-f22035-3550kv-with-gemfan-flash-6042x3-rev

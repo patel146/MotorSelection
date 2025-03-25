@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/7gxk/custom-1808-1300kv-with-apc-6x42x3
+https://database.tytorobotics.com/tests/gkz4/custom-1808-1300kv-with-gemfan-7035
+https://database.tytorobotics.com/tests/nm6q/custom-1808-1300kv-with-master-as-6x45x3
+https://database.tytorobotics.com/tests/44w9/custom-1808-1300kv-with-master-as-6x45x3
+https://database.tytorobotics.com/tests/m94y/emax-ecoii-2306-1900kv-with-lumenier-6x4-sf

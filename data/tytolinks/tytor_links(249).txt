@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/6en/1045prop-tmotor-900kv-3s-test1
+https://database.tytorobotics.com/tests/x47/t-motor-2216-900kv-1045prop-dented-prop
+https://database.tytorobotics.com/tests/3qw/t-motor-2216-900kv-1045prop-run2
+https://database.tytorobotics.com/tests/k9w/t-motor-2216-900kv-1045prop-4s
+https://database.tytorobotics.com/tests/y7q/t-motor-2216-900kv-12xxprop

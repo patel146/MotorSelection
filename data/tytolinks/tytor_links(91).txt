@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/r73j/kfupmtest-1
+https://database.tytorobotics.com/tests/9rq9/artemis-u3-700kv-12x4-carbon
+https://database.tytorobotics.com/tests/z7kx/artemis-mn3510-630kv-10x45-v2
+https://database.tytorobotics.com/tests/7zrz/artemis-mn3510-630kv-12x4-carbon
+https://database.tytorobotics.com/tests/wz9n/artemis-mn3510-630kv-10x45

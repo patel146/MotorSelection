@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/ry49/dhruvi-motor-1-prop-2
+https://database.tytorobotics.com/tests/9xd4/dhruvi-motor-1-prop-1
+https://database.tytorobotics.com/tests/zm99/rajiv-motor-1-prop-2
+https://database.tytorobotics.com/tests/7kx4/rajiv-motor-1-prop-1
+https://database.tytorobotics.com/tests/gyzw/tmotor-2508-1200kv-with-gemfan-7037-prop

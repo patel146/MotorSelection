@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/66xw/tmotor-mn4006-380kv-rpm-testing
+https://database.tytorobotics.com/tests/r969/tmotor-mn4006-380kv-cust-15x12
+https://database.tytorobotics.com/tests/3e79/tmotor-mn5008-340-kv-15x10-apc-prop-18v-test
+https://database.tytorobotics.com/tests/w6g7/5008-340-kv-15x10-apc-18v-test-for-rpm
+https://database.tytorobotics.com/tests/kdn7/tmotor-mn4006-380kv-cust-15x12

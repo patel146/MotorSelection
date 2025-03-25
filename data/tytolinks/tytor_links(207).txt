@@ -1,0 +1,5 @@
+https://database.tytorobotics.com/tests/3496/t-motor-300kv-with-18x6
+https://database.tytorobotics.com/tests/k6n6/sunnysky-x4110s
+https://database.tytorobotics.com/tests/yx4g/five33-2207-azure-vanover
+https://database.tytorobotics.com/tests/r6dx/five33-2207-azure-vanover
+https://database.tytorobotics.com/tests/9w37/scorpion4025-520kv-with-16x12
