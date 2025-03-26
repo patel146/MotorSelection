@@ -23,6 +23,7 @@ from selenium.webdriver.common.by import By
 
 import csv
 import pandas as pd
+import sqlite3
 
 
 def concatenate_txt_files(folder_path, output_file):
@@ -143,9 +144,26 @@ def combine_csvs(directory,export_file='data/compiled_tyto_data.csv'):
   # Combine all DataFrames into one
   combined_df = pd.concat(dfs, ignore_index=True)
   combined_df.to_csv(export_file,index=False)
-  
+
+def convert_csv_to_sqlite(csv_file):
+
+  sqlite_db = "data/tyto_database.db"  # Name of the SQLite database file
+
+  # Load CSV into DataFrame
+  df = pd.read_csv(csv_file)
+
+  # Connect to SQLite database (creates it if it doesn't exist)
+  conn = sqlite3.connect(sqlite_db)
+
+  # Write DataFrame to SQLite table (table name = 'data_table')
+  df.to_sql('data_table', conn, if_exists='replace', index=False)
+
+  # Close the connection
+  conn.close()
+
+  print("CSV file successfully converted to SQLite database!")
   
 if __name__ == "__main__":
-  combine_csvs('data/tyto_throttled_csv')
+  convert_csv_to_sqlite('data/compiled_tyto_data.csv')
 
 
