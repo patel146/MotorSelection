@@ -1,0 +1,19 @@
+Time (s),Throttle (µs),Rotation speed (rpm),Thrust (kgf),Torque (N⋅m),Voltage (V),Current (A),Electrical power (W),Mechanical power (W),Motor & ESC efficiency (%),Propeller efficiency (gf/W),Propulsion system efficiency (gf/W),Motor_Name,Propeller_Name
+0.45828359999999,1000,0.0,0,0,24.400682153866,0.090191748028055,2.200740176534141,0,0,,,"https://database.tytorobotics.com/tests/j3ge/halfd16inch
+",undefined
+14.182784,1250,1847.999999999988,0,0,24.38822975996,0.56649895512109,13.815906676270414,0,0,,0.0,"https://database.tytorobotics.com/tests/j3ge/halfd16inch
+",undefined
+18.667837,1300,2942.000000000009,0,0,24.385387960367,0.58178542506143,14.187063299809994,0,0,,0.0,"https://database.tytorobotics.com/tests/j3ge/halfd16inch
+",undefined
+23.405358,1350,3332.0000000000346,0,0,24.377484302505,0.82909535390017,20.21125897498122,0,0,,0.0,"https://database.tytorobotics.com/tests/j3ge/halfd16inch
+",undefined
+28.0575594,1400,3829.0000000000255,0,0,24.366421922187,1.0990107862499,26.77896051479953,0,0,,0.0,"https://database.tytorobotics.com/tests/j3ge/halfd16inch
+",undefined
+32.7224804,1450,4307.999999999959,0,0,24.353859221014,1.411015813309,34.36368047595196,0,0,,0.0,"https://database.tytorobotics.com/tests/j3ge/halfd16inch
+",undefined
+37.3568454,1500,4752.999999999973,0,0,24.342077844259,1.6853794701342,41.02563825912268,0,0,,0.0,"https://database.tytorobotics.com/tests/j3ge/halfd16inch
+",undefined
+41.9337768,1550,5322.000000000006,0,0,24.328350215295,1.9995709553066,48.64626248103095,0,0,,0.0,"https://database.tytorobotics.com/tests/j3ge/halfd16inch
+",undefined
+46.560781,1600,5893.000000000048,0,0,24.309952944888,2.4516630636705,59.5998137145498,0,0,,0.0,"https://database.tytorobotics.com/tests/j3ge/halfd16inch
+",undefined

@@ -1,0 +1,19 @@
+Time (s),Throttle,Rotation speed (rpm),Thrust (kgf),Torque (N⋅m),Voltage (V),Current (A),Electrical power (W),Mechanical power (W),Motor & ESC efficiency (%),Propeller efficiency (gf/W),Propulsion system efficiency (gf/W),Motor_Name,Propeller_Name
+0.32849400000023,0.0,0.0,0,0,0,0.026938164931703,0,0,,,,"https://database.tytorobotics.com/tests/j34z/sixfiveboundary05
+",undefined
+13.4522818,0.4166666666666667,1776.0000000000405,0,0,0,0.023810217436116,0,0,,,,"https://database.tytorobotics.com/tests/j34z/sixfiveboundary05
+",undefined
+24.6347668,0.5,2908.9999999999977,0,0,0,0.026958946120997,0,0,,,,"https://database.tytorobotics.com/tests/j34z/sixfiveboundary05
+",undefined
+35.8249578,0.5833333333333334,3301.00000000003,0,0,0,0.025382421315863,0,0,,,,"https://database.tytorobotics.com/tests/j34z/sixfiveboundary05
+",undefined
+47.0126444,0.6666666666666666,3765.000000000009,0,0,0,0.023523500159712,0,0,,,,"https://database.tytorobotics.com/tests/j34z/sixfiveboundary05
+",undefined
+58.184593,0.75,4358.000000000026,0,0,0,0.026410286573689,0,0,,,,"https://database.tytorobotics.com/tests/j34z/sixfiveboundary05
+",undefined
+69.3964634,0.8333333333333334,4601.99999999996,0,0,0,0.023835624186386,0,0,,,,"https://database.tytorobotics.com/tests/j34z/sixfiveboundary05
+",undefined
+80.5845642,0.9166666666666666,5383.000000000014,0,0,0,0.023497696206834,0,0,,,,"https://database.tytorobotics.com/tests/j34z/sixfiveboundary05
+",undefined
+91.7950704,1.0,5579.999999999985,0,0,0,0.02671016626724,0,0,,,,"https://database.tytorobotics.com/tests/j34z/sixfiveboundary05
+",undefined

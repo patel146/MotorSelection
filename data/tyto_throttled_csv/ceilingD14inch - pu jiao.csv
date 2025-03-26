@@ -1,0 +1,19 @@
+Time (s),Throttle,Rotation speed (rpm),Thrust (kgf),Torque (N⋅m),Voltage (V),Current (A),Electrical power (W),Mechanical power (W),Motor & ESC efficiency (%),Propeller efficiency (gf/W),Propulsion system efficiency (gf/W),Motor_Name,Propeller_Name
+0.32563139999986,0.0,0.0,0,0,24.500137368033,0.064245773557825,1.5740302774822543,0,0,,,"https://database.tytorobotics.com/tests/j3xe/ceilingd14inch
+",undefined
+13.0678758,0.4166666666666667,1901.9999999999725,0,0,24.486585326238,0.54698204832921,13.39372259833364,0,0,,0.0,"https://database.tytorobotics.com/tests/j3xe/ceilingd14inch
+",undefined
+17.2820532,0.5,2768.000000000017,0,0,24.483881564131,0.55978503999858,13.705710620697566,0,0,,0.0,"https://database.tytorobotics.com/tests/j3xe/ceilingd14inch
+",undefined
+21.546536,0.5833333333333334,3330.0000000000286,0,0,24.474751735108,0.81957593339263,20.05891749785403,0,0,,0.0,"https://database.tytorobotics.com/tests/j3xe/ceilingd14inch
+",undefined
+25.7707654,0.6666666666666666,3836.999999999957,0,0,24.464176131002,1.0848678487814,26.54039813144941,0,0,,0.0,"https://database.tytorobotics.com/tests/j3xe/ceilingd14inch
+",undefined
+30.0232488,0.75,4299.0000000000255,0,0,24.451441084567,1.4080930415156,34.429904046207454,0,0,,0.0,"https://database.tytorobotics.com/tests/j3xe/ceilingd14inch
+",undefined
+34.2854322,0.8333333333333334,4732.0,0,0,24.440045718387,1.6794086453789,41.04482407291469,0,0,,0.0,"https://database.tytorobotics.com/tests/j3xe/ceilingd14inch
+",undefined
+38.5512204,0.9166666666666666,5307.999999999962,0,0,24.425672357769,2.0076494341145,49.03818728694112,0,0,,0.0,"https://database.tytorobotics.com/tests/j3xe/ceilingd14inch
+",undefined
+42.8163944,1.0,5840.999999999975,0,0,24.405741827,2.4897008989181,60.762997365444974,0,0,,0.0,"https://database.tytorobotics.com/tests/j3xe/ceilingd14inch
+",undefined

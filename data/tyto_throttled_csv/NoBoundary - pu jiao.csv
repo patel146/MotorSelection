@@ -1,0 +1,21 @@
+Time (s),Throttle,Rotation speed (rpm),Thrust (kgf),Torque (N⋅m),Voltage (V),Current (A),Electrical power (W),Mechanical power (W),Motor & ESC efficiency (%),Propeller efficiency (gf/W),Propulsion system efficiency (gf/W),Motor_Name,Propeller_Name
+0.35636960000003,0.0,0.0,0,0,24.128401708955,0,0,0,,,,"https://database.tytorobotics.com/tests/mejg/noboundary
+",undefined
+46.0771676,0.3333333333333333,3.0000000000000067,0,0,24.090227819728,0,0,0,,,,"https://database.tytorobotics.com/tests/mejg/noboundary
+",undefined
+67.4468782,0.4166666666666667,1775.0000000000375,0,0,24.066092830412,0,0,0,,,,"https://database.tytorobotics.com/tests/mejg/noboundary
+",undefined
+87.845586,0.5,2957.999999999965,0,0,24.054113801179,0,0,0,,,,"https://database.tytorobotics.com/tests/mejg/noboundary
+",undefined
+107.4677096,0.5833333333333334,3292.0000000000005,0,0,24.036078934552,0,0,0,,,,"https://database.tytorobotics.com/tests/mejg/noboundary
+",undefined
+126.312864,0.6666666666666666,3760.999999999997,0,0,24.017206051188,0,0,0,,,,"https://database.tytorobotics.com/tests/mejg/noboundary
+",undefined
+144.1955096,0.75,4657.000000000043,0,0,23.997018189577,0,0,0,,,,"https://database.tytorobotics.com/tests/mejg/noboundary
+",undefined
+161.2028714,0.8333333333333334,4597.000000000039,0,0,23.977623212908,0,0,0,,,,"https://database.tytorobotics.com/tests/mejg/noboundary
+",undefined
+177.2434886,0.9166666666666666,5266.000000000016,0,0,23.957262312882,0,0,0,,,,"https://database.tytorobotics.com/tests/mejg/noboundary
+",undefined
+192.1954096,1.0,5458.999999999975,0,0,23.932912257936,0,0,0,,,,"https://database.tytorobotics.com/tests/mejg/noboundary
+",undefined

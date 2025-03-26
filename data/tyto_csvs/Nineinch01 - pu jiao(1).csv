@@ -1,0 +1,19 @@
+Time (s),Throttle (µs),Rotation speed (rpm),Thrust (kgf),Torque (N⋅m),Voltage (V),Current (A),Electrical power (W),Mechanical power (W),Motor & ESC efficiency (%),Propeller efficiency (gf/W),Propulsion system efficiency (gf/W),Motor_Name,Propeller_Name
+0.31916959999945,1000,0.0,0,0,0,0.025523841499366,0,0,,,,"https://database.tytorobotics.com/tests/7jxz/nineinch01
+",undefined
+13.514917,1250,1722.9999999999638,0,0,0,0.026659178488324,0,0,,,,"https://database.tytorobotics.com/tests/7jxz/nineinch01
+",undefined
+24.7025908,1300,2791.9999999999995,0,0,0,0.025187682538209,0,0,,,,"https://database.tytorobotics.com/tests/7jxz/nineinch01
+",undefined
+35.8831424,1350,3253.9999999999727,0,0,0,0.025688493725436,0,0,,,,"https://database.tytorobotics.com/tests/7jxz/nineinch01
+",undefined
+47.0947854,1400,3747.0000000000464,0,0,0,0.027816152703559,0,0,,,,"https://database.tytorobotics.com/tests/7jxz/nineinch01
+",undefined
+58.3015958,1450,6343.999999999985,0,0,0,0.026992362599705,0,0,,,,"https://database.tytorobotics.com/tests/7jxz/nineinch01
+",undefined
+69.4939468,1500,4575.999999999971,0,0,0,0.024160722014665,0,0,,,,"https://database.tytorobotics.com/tests/7jxz/nineinch01
+",undefined
+80.6989902,1550,5160.999999999962,0,0,0,0.026142774953466,0,0,,,,"https://database.tytorobotics.com/tests/7jxz/nineinch01
+",undefined
+91.891736,1600,5423.999999999956,0,0,0,0.029326931762244,0,0,,,,"https://database.tytorobotics.com/tests/7jxz/nineinch01
+",undefined

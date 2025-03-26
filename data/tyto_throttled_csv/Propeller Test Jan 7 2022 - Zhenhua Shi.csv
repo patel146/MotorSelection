@@ -1,0 +1,9 @@
+Time (s),Throttle,Rotation speed (rpm),Thrust (kgf),Torque (N⋅m),Voltage (V),Current (A),Electrical power (W),Mechanical power (W),Motor & ESC efficiency (%),Propeller efficiency (gf/W),Propulsion system efficiency (gf/W),Motor_Name,Propeller_Name
+0.3986456000003,0.0,0.0,0.0005402430455896,-4.71323830731e-05,0,0.021665562378674,0,0.0,,,,"https://database.tytorobotics.com/tests/w3ye/propeller-test-jan-7-2022
+",undefined
+9.4658622,0.6666666666666666,230.00000000000244,0.0002594995448979,0.0024721458641823,0,0.016363480907463,0,0.0595429771889681,,4.358188944337841,,"https://database.tytorobotics.com/tests/w3ye/propeller-test-jan-7-2022
+",undefined
+13.9740486,0.8333333333333334,2075.999999999965,0.0296853599741124,0.010886565996157,0,0.018960028286922,0,2.366719978339192,,12.542827307750914,,"https://database.tytorobotics.com/tests/w3ye/propeller-test-jan-7-2022
+",undefined
+18.5049002,1.0,3180.000000000018,0.0706528706826296,0.0217568114093,0,0.016744748379149,0,7.245210122233563,,9.751666203001534,,"https://database.tytorobotics.com/tests/w3ye/propeller-test-jan-7-2022
+",undefined

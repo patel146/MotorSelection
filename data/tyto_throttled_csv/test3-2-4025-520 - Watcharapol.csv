@@ -1,0 +1,19 @@
+Time (s),Throttle,Rotation speed (rpm),Thrust (kgf),Torque (N⋅m),Voltage (V),Current (A),Electrical power (W),Mechanical power (W),Motor & ESC efficiency (%),Propeller efficiency (gf/W),Propulsion system efficiency (gf/W),Motor_Name,Propeller_Name
+0.29634520000001,0.0,0.0,0.0003739163964489,0,0,0.034992005040789,0,0,,,,"https://database.tytorobotics.com/tests/wkzr/test3-2-4025-520
+",undefined
+8.0469504,0.125,1170.9999999999848,0.0660551509895173,0,0,0.037133214175512,0,0,,,,"https://database.tytorobotics.com/tests/wkzr/test3-2-4025-520
+",undefined
+12.1970396,0.25,2623.000000000024,0.443828844100799,0,0,0.036924015744459,0,0,,,,"https://database.tytorobotics.com/tests/wkzr/test3-2-4025-520
+",undefined
+16.3472648,0.375,3652.000000000024,0.9030132351291522,0,0,0.034834366228582,0,0,,,,"https://database.tytorobotics.com/tests/wkzr/test3-2-4025-520
+",undefined
+20.4968664,0.5,4466.999999999998,1.3809005822617306,0,0,0.036269515853637,0,0,,,,"https://database.tytorobotics.com/tests/wkzr/test3-2-4025-520
+",undefined
+24.6252694,0.625,5203.000000000003,1.9010801862853268,0,0,0.038506413870101,0,0,,,,"https://database.tytorobotics.com/tests/wkzr/test3-2-4025-520
+",undefined
+28.7481012,0.75,6075.999999999975,2.611143595167259,0,0,0.036215234929548,0,0,,,,"https://database.tytorobotics.com/tests/wkzr/test3-2-4025-520
+",undefined
+32.898462,0.875,6806.999999999961,3.361297902323832,0,0,0.033878491693028,0,0,,,,"https://database.tytorobotics.com/tests/wkzr/test3-2-4025-520
+",undefined
+37.0501832,1.0,7570.999999999961,4.202357078963867,0,0,0.035690407207969,0,0,,,,"https://database.tytorobotics.com/tests/wkzr/test3-2-4025-520
+",undefined

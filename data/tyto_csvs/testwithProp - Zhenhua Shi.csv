@@ -1,0 +1,7 @@
+Time (s),Throttle (µs),Rotation speed (rpm),Thrust (kgf),Torque (N⋅m),Voltage (V),Current (A),Electrical power (W),Mechanical power (W),Motor & ESC efficiency (%),Propeller efficiency (gf/W),Propulsion system efficiency (gf/W),Motor_Name,Propeller_Name
+0.37945560000002,1000,0.0,0.0006866028610026,-1.30595766446e-05,0,0.0025050486096635,0,0.0,,,,"https://database.tytorobotics.com/tests/ryg6/testwithprop
+",undefined
+18.4370158,1250,2034.00000000002,0.026875651911664,0.0093037570792387,0,0.0071455698808332,0,1.9817000896044168,,13.561916887751106,,"https://database.tytorobotics.com/tests/ryg6/testwithprop
+",undefined
+22.9271076,1300,3256.9999999999823,0.0731562251226963,0.020792488923417,0,0.0061620085999154,0,7.091740822701197,,10.315693558416257,,"https://database.tytorobotics.com/tests/ryg6/testwithprop
+",undefined

@@ -1,0 +1,7 @@
+Time (s),Throttle (µs),Rotation speed (rpm),Thrust (kgf),Torque (N⋅m),Voltage (V),Current (A),Electrical power (W),Mechanical power (W),Motor & ESC efficiency (%),Propeller efficiency (gf/W),Propulsion system efficiency (gf/W),Motor_Name,Propeller_Name
+0.43432199999962,1000,0.0,0.0004378919758914,0.0001209406160359,11.370625939537,8.63621297739e-05,0.0009819914730007,0.0,0.0,,,"https://database.tytorobotics.com/tests/qmqg/deneme-testi
+",undefined
+15.1348414,1100,1985.999999999959,0.0705497674806993,0.017096124921131,11.354118585744,0.83644259092323,9.497068367509312,3.555539802258525,37.43828795023191,19.84221001713585,7.428583721905079,"https://database.tytorobotics.com/tests/qmqg/deneme-testi
+",undefined
+20.0255616,1200,3070.000000000043,0.1512310985994504,0.036902009970231,11.318832179197,2.3444488661403,26.53642326855075,11.863614203843076,44.70690749760185,12.747472734781017,5.699000843820565,"https://database.tytorobotics.com/tests/qmqg/deneme-testi
+",undefined

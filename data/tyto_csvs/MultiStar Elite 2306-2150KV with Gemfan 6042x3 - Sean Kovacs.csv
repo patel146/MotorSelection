@@ -1,0 +1,19 @@
+Time (s),Throttle (µs),Rotation speed (rpm),Thrust (kgf),Torque (N⋅m),Voltage (V),Current (A),Electrical power (W),Mechanical power (W),Motor & ESC efficiency (%),Propeller efficiency (gf/W),Propulsion system efficiency (gf/W),Motor_Name,Propeller_Name
+0.30288539999999,1000,0.0,-4.93978096281e-05,,12.120956294298,0.0055369363452667,0.0671129634452877,,,,,"https://database.tytorobotics.com/tests/zydq/multistar-elite-2306-2150kv-with-gemfan-6042x3
+",undefined
+9.5778268,1200,4388.000000000028,0.0573557273411297,,12.101120740946,0.63479774884099,7.681764204805534,,,,7.466478508315752,"https://database.tytorobotics.com/tests/zydq/multistar-elite-2306-2150kv-with-gemfan-6042x3
+",undefined
+13.7030464,1250,5272.000000000036,0.0864117875960282,,12.0861233258,1.0049398742284,12.145827254938382,,,,7.114524666147707,"https://database.tytorobotics.com/tests/zydq/multistar-elite-2306-2150kv-with-gemfan-6042x3
+",undefined
+17.8284782,1300,5958.999999999975,0.1103505235282079,,12.066803025605,1.3859246983276,16.72368034304018,,,,6.5984592664217,"https://database.tytorobotics.com/tests/zydq/multistar-elite-2306-2150kv-with-gemfan-6042x3
+",undefined
+21.9567176,1350,6691.99999999997,0.1412334523938042,,12.043702663931,1.918142633577,23.10153954581094,,,,6.113594815347033,"https://database.tytorobotics.com/tests/zydq/multistar-elite-2306-2150kv-with-gemfan-6042x3
+",undefined
+26.1020732,1400,7373.99999999999,0.1752800360564209,,12.013980713319,2.5559259002775,30.706844470606388,,,,5.708174808525337,"https://database.tytorobotics.com/tests/zydq/multistar-elite-2306-2150kv-with-gemfan-6042x3
+",undefined
+30.753284,1500,8695.999999999987,0.2481770663706872,,11.945273534444,4.1617369182787,49.71308586723308,,,,4.992187912725528,"https://database.tytorobotics.com/tests/zydq/multistar-elite-2306-2150kv-with-gemfan-6042x3
+",undefined
+35.4050464,1600,9871.00000000037,0.3324088718258834,,11.850529466607,6.395261834304,75.78723881408668,,,,4.38607972829455,"https://database.tytorobotics.com/tests/zydq/multistar-elite-2306-2150kv-with-gemfan-6042x3
+",undefined
+40.0552528,1700,11122.00000000042,0.4297971894621404,,11.721400482477,9.3598169542789,109.7101629637811,,,,3.9175695108941775,"https://database.tytorobotics.com/tests/zydq/multistar-elite-2306-2150kv-with-gemfan-6042x3
+",undefined

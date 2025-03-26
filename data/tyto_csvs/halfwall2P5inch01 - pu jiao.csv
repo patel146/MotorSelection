@@ -1,0 +1,19 @@
+Time (s),Throttle (µs),Rotation speed (rpm),Thrust (kgf),Torque (N⋅m),Voltage (V),Current (A),Electrical power (W),Mechanical power (W),Motor & ESC efficiency (%),Propeller efficiency (gf/W),Propulsion system efficiency (gf/W),Motor_Name,Propeller_Name
+0.31168319999998,1000,0.0,0,0,0,-0.037493771888758,0,0,,,,"https://database.tytorobotics.com/tests/n9dz/halfwall2p5inch01
+",undefined
+0.33358359999998,1250,1827.000000000016,0,0,0,-0.037492765893254,0,0,,,,"https://database.tytorobotics.com/tests/n9dz/halfwall2p5inch01
+",undefined
+11.5078716,1300,2793.0000000000027,0,0,0,-0.038731125548291,0,0,,,,"https://database.tytorobotics.com/tests/n9dz/halfwall2p5inch01
+",undefined
+22.7151812,1350,3372.9999999999773,0,0,0,-0.03679036120269,0,0,,,,"https://database.tytorobotics.com/tests/n9dz/halfwall2p5inch01
+",undefined
+33.9344466,1400,3854.000000000012,0,0,0,-0.034492224161662,0,0,,,,"https://database.tytorobotics.com/tests/n9dz/halfwall2p5inch01
+",undefined
+45.122699,1450,4329.000000000027,0,0,0,-0.035027321078845,0,0,,,,"https://database.tytorobotics.com/tests/n9dz/halfwall2p5inch01
+",undefined
+56.302834,1500,4832.000000000038,0,0,0,-0.0369352800706,0,0,,,,"https://database.tytorobotics.com/tests/n9dz/halfwall2p5inch01
+",undefined
+67.5071674,1550,5321.000000000004,0,0,0,-0.035477067385849,0,0,,,,"https://database.tytorobotics.com/tests/n9dz/halfwall2p5inch01
+",undefined
+78.7653742,1600,5951.999999999953,0,0,0,-0.036097353406756,0,0,,,,"https://database.tytorobotics.com/tests/n9dz/halfwall2p5inch01
+",undefined

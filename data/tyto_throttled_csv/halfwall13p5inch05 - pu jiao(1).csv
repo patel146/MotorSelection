@@ -1,0 +1,19 @@
+Time (s),Throttle,Rotation speed (rpm),Thrust (kgf),Torque (N⋅m),Voltage (V),Current (A),Electrical power (W),Mechanical power (W),Motor & ESC efficiency (%),Propeller efficiency (gf/W),Propulsion system efficiency (gf/W),Motor_Name,Propeller_Name
+0.31099580000009,0.0,0.0,0,0,0,0.0053733452139516,0,0,,,,"https://database.tytorobotics.com/tests/g437/halfwall13p5inch05
+",undefined
+13.5111078,0.4166666666666667,1717.00000000004,0,0,0,0.0074954358071917,0,0,,,,"https://database.tytorobotics.com/tests/g437/halfwall13p5inch05
+",undefined
+24.7001526,0.5,2899.999999999968,0,0,0,0.0084332708954391,0,0,,,,"https://database.tytorobotics.com/tests/g437/halfwall13p5inch05
+",undefined
+35.8919304,0.5833333333333334,3276.000000000044,0,0,0,0.0051127733168693,0,0,,,,"https://database.tytorobotics.com/tests/g437/halfwall13p5inch05
+",undefined
+47.0888654,0.6666666666666666,3766.0000000000127,0,0,0,0.007265066488338,0,0,,,,"https://database.tytorobotics.com/tests/g437/halfwall13p5inch05
+",undefined
+58.2755478,0.75,4340.999999999971,0,0,0,0.0053451543974868,0,0,,,,"https://database.tytorobotics.com/tests/g437/halfwall13p5inch05
+",undefined
+69.461697,0.8333333333333334,4577.999999999977,0,0,0,0.0080080119015982,0,0,,,,"https://database.tytorobotics.com/tests/g437/halfwall13p5inch05
+",undefined
+80.6737514,0.9166666666666666,5174.000000000004,0,0,0,0.0065477562392022,0,0,,,,"https://database.tytorobotics.com/tests/g437/halfwall13p5inch05
+",undefined
+91.8520692,1.0,5380.000000000005,0,0,0,0.0041143079416211,0,0,,,,"https://database.tytorobotics.com/tests/g437/halfwall13p5inch05
+",undefined

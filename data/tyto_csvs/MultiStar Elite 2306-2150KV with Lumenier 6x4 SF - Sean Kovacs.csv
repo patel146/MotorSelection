@@ -1,0 +1,19 @@
+Time (s),Throttle (µs),Rotation speed (rpm),Thrust (kgf),Torque (N⋅m),Voltage (V),Current (A),Electrical power (W),Mechanical power (W),Motor & ESC efficiency (%),Propeller efficiency (gf/W),Propulsion system efficiency (gf/W),Motor_Name,Propeller_Name
+0.29810080000001,1000,0.0,0.0005857831526699,,12.237504305577,0.0056421710397338,0.0690460923915442,,,,,"https://database.tytorobotics.com/tests/gkez/multistar-elite-2306-2150kv-with-lumenier-6x4-sf
+",undefined
+9.5723782,1200,4618.000000000012,0.0495658560315235,,12.220449300073,0.52847873459149,6.458247582242039,,,,7.67481509501317,"https://database.tytorobotics.com/tests/gkez/multistar-elite-2306-2150kv-with-lumenier-6x4-sf
+",undefined
+13.6986058,1250,5642.999999999999,0.0756713702484844,,12.20750767155,0.85418598635092,10.42748198130936,,,,7.256916903248634,"https://database.tytorobotics.com/tests/gkez/multistar-elite-2306-2150kv-with-lumenier-6x4-sf
+",undefined
+17.8492284,1300,6548.999999999984,0.1056142254715932,,12.189004676143,1.2441697048559,15.16519035040402,,,,6.9642532029793855,"https://database.tytorobotics.com/tests/gkez/multistar-elite-2306-2150kv-with-lumenier-6x4-sf
+",undefined
+22.0014826,1350,7360.00000000004,0.1313168274756925,,12.168581068977,1.6460885170481,20.030561566411933,,,,6.55582356192599,"https://database.tytorobotics.com/tests/gkez/multistar-elite-2306-2150kv-with-lumenier-6x4-sf
+",undefined
+26.125004,1400,8052.999999999999,0.1565356619832868,,12.146758372366,2.0607886226418,25.03190145575088,,,,6.253446717181928,"https://database.tytorobotics.com/tests/gkez/multistar-elite-2306-2150kv-with-lumenier-6x4-sf
+",undefined
+30.7504544,1500,9552.999999999907,0.22894366990484,,12.091148650053,3.36492991028,40.68586774220498,,,,5.627105494111121,"https://database.tytorobotics.com/tests/gkez/multistar-elite-2306-2150kv-with-lumenier-6x4-sf
+",undefined
+35.3757562,1600,11137.000000000471,0.3131987264943278,,12.009483869874,5.2679954626304,63.2659065350292,,,,4.950513533239508,"https://database.tytorobotics.com/tests/gkez/multistar-elite-2306-2150kv-with-lumenier-6x4-sf
+",undefined
+40.0282784,1700,12543.000000000073,0.4080007785415407,,11.898623972571,7.7199845912613,91.85719372546043,,,,4.441685642617814,"https://database.tytorobotics.com/tests/gkez/multistar-elite-2306-2150kv-with-lumenier-6x4-sf
+",undefined

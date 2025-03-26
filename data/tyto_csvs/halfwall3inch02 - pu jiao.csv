@@ -1,0 +1,19 @@
+Time (s),Throttle (µs),Rotation speed (rpm),Thrust (kgf),Torque (N⋅m),Voltage (V),Current (A),Electrical power (W),Mechanical power (W),Motor & ESC efficiency (%),Propeller efficiency (gf/W),Propulsion system efficiency (gf/W),Motor_Name,Propeller_Name
+0.32729860000007,1000,0.0,-0.0001825305857502,0,0,-0.03656363435209,0,0,,,,"https://database.tytorobotics.com/tests/k636/halfwall3inch02
+",undefined
+13.5777172,1250,1832.000000000032,0.0272950395413653,0,0,-0.037757691050491,0,0,,,,"https://database.tytorobotics.com/tests/k636/halfwall3inch02
+",undefined
+24.7807922,1300,2838.9999999999613,0.0693920922056716,0,0,-0.039559915728961,0,0,,,,"https://database.tytorobotics.com/tests/k636/halfwall3inch02
+",undefined
+35.9640536,1350,3347.999999999992,0.1043504220583889,0,0,-0.038906908302756,0,0,,,,"https://database.tytorobotics.com/tests/k636/halfwall3inch02
+",undefined
+47.1884566,1400,3829.0000000000255,0.1413391131792202,0,0,-0.03954462226363,0,0,,,,"https://database.tytorobotics.com/tests/k636/halfwall3inch02
+",undefined
+58.4166804,1450,4288.999999999993,0.1822486780799865,0,0,-0.036199739414656,0,0,,,,"https://database.tytorobotics.com/tests/k636/halfwall3inch02
+",undefined
+69.6153944,1500,4751.99999999997,0.2142692593601383,0,0,-0.035417618899572,0,0,,,,"https://database.tytorobotics.com/tests/k636/halfwall3inch02
+",undefined
+80.8423624,1550,5314.9999999999845,0.2595450500284093,0,0,-0.036044138444143,0,0,,,,"https://database.tytorobotics.com/tests/k636/halfwall3inch02
+",undefined
+92.1131952,1600,5750.999999999968,0.3056557067703752,0,0,-0.035957188557943,0,0,,,,"https://database.tytorobotics.com/tests/k636/halfwall3inch02
+",undefined
