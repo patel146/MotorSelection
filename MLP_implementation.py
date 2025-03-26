@@ -5,3 +5,4 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 import pandas as pd
 import numpy as np
 
+df = pd.read_csv('data/compiled_tyto_data.csv')
