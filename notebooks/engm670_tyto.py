@@ -11,8 +11,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("merged_table.csv")
-df
+df = pd.read_csv("data/merged_table.csv")
 
-sns.pairplot(df)
+sns.pairplot(df.sample(10), diag_kind="kde")
 plt.show()
