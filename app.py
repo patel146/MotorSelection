@@ -2,6 +2,20 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 import os
+import sqlite3
+
+# Connect to the database
+conn = sqlite3.connect("data/tyto_database.db")
+cursor = conn.cursor()
+
+# Fetch unique motor names
+cursor.execute("SELECT DISTINCT Motor_Name FROM merged_table")
+motor_choices = [row[0] for row in cursor.fetchall()]
+
+cursor.execute("SELECT DISTINCT Propeller_Name FROM merged_table")
+propeller_choices = [row[0] for row in cursor.fetchall()]
+
+conn.close()  # Close the connection
 
 # Load the model
 MODEL_PATH = "ml_models/mlp_model_v2.keras"
@@ -28,8 +42,8 @@ def encode_features(motor, propeller):
 st.title("MLP Thrust Prediction")
 st.write("Enter a motor and propeller to predict thrust:")
 
-motor = st.text_input("Motor Name:")
-propeller = st.text_input("Propeller Name:")
+motor = st.selectbox("Motor Name:", motor_choices)
+propeller = st.selectbox("Propeller Name:", propeller_choices)
 
 if st.button("Predict Thrust"):
     features = encode_features(motor, propeller)
