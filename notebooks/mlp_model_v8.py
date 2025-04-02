@@ -29,7 +29,8 @@ propeller_names = df["Propeller_Name"]
 
 df = df.dropna()
 
-features = df[['Throttle', 'Voltage (V)', 'Motor_kv(RPM/V)', 'Motor_Weight(g)', 'Motor_Diameter(mm)', 'Motor_Height(mm)', 'Propeller_Diameter(in)', 'Pitch(in)', 'Number_of_Blades']]
+features = df[['Throttle', 'Voltage (V)', 'Motor_kv(RPM/V)', 'Motor_Weight(g)', 'Motor_Diameter(mm)',
+               'Motor_Height(mm)', 'Propeller_Diameter(in)', 'Pitch(in)', 'Number_of_Blades']]
 targets = df['Thrust(gf)']
 
 
@@ -51,7 +52,7 @@ targets_log = np.log(df['Thrust(gf)'] + epsilon)
 inspection_df = df[features_log.columns.tolist() + [targets_log.name]]
 
 # Display the new DataFrame
-sns.pairplot(inspection_df.sample(25),diag_kind='kde')
+sns.pairplot(inspection_df.sample(25), diag_kind='kde')
 plt.show()
 
 targets_log
@@ -63,6 +64,7 @@ X_train, X_test, y_train, y_test = train_test_split(features_scaled, targets_log
 
 y_train = np.nan_to_num(y_train, nan=0)
 y_test = np.nan_to_num(y_test, nan=0)
+
 
 def check_data_cleanliness(df, name):
     print(f"🔍 Checking {name}...")
@@ -78,6 +80,7 @@ def check_data_cleanliness(df, name):
 
     print(f"📊 {name} shape: {df.shape}\n")
 
+
 # Check training and test data
 check_data_cleanliness(X_train, "X_train")
 check_data_cleanliness(X_test, "X_test")
@@ -86,8 +89,8 @@ check_data_cleanliness(y_test, "y_test")
 
 model = tf.keras.Sequential([
     tf.keras.layers.InputLayer(shape=(X_train.shape[1],)),
-    tf.keras.layers.Dense(128,activation='relu'),
-    tf.keras.layers.Dense(64,activation='relu'),
+    tf.keras.layers.Dense(128, activation='relu'),
+    tf.keras.layers.Dense(64, activation='relu'),
     tf.keras.layers.Dense(1)
 ])
 
@@ -107,7 +110,7 @@ history = model.fit(
     verbose=1
 )
 
-8test_loss, test_mae = model.evaluate(X_test, y_test)
+test_loss, test_mae = model.evaluate(X_test, y_test)
 test_loss, test_mae = model.evaluate(X_test, y_test)
 print(f"Test Loss: {test_loss}")
 print(f"Test MAE: {test_mae}")

@@ -4,6 +4,12 @@ import numpy as np
 import os
 import sqlite3
 from dataclasses import dataclass
+import pickle
+import joblib
+import matplotlib.pyplot as plt
+
+feature_scaler = joblib.load('ml_models/mlp_model_v11_feature_scaler.pkl')
+target_scaler = joblib.load('ml_models/mlp_model_v11_target_scaler.pkl')
 
 
 @dataclass
@@ -81,25 +87,89 @@ selected_propeller_name = st.selectbox("Propeller Name:", propeller_choices)
 # Access the full motor object based on the selected name
 selected_propeller = propeller_dict[selected_propeller_name]
 
-throttle = st.number_input("Throttle (0-1)")
+
+use_range = st.checkbox("Run 10 throttle settings")
+
+if use_range:
+    throttle_values = np.linspace(0.1, 1, 10)  # 10 throttle values from 0 to 1
+else:
+    throttle = st.number_input("Throttle (0-1)", min_value=0.0, max_value=1.0, step=0.01)
+    throttle_values = [throttle]  # Convert single value to list for consistency
+
+# Display selected throttle values
+st.write("Selected Throttle Values:", throttle_values)
+
 voltage = st.number_input("Voltage (V)")
 
 
 def create_features(throttle, voltage, motor: Motor, propeller: Propeller):
     features = np.array([throttle, voltage, motor.kv, motor.weight, motor.diameter, motor.height,
                         propeller.diameter, propeller.pitch, propeller.number_of_blades])
+    print(f"raw features: {features}")
+
     features = features.reshape(1, -1)
-    # features = np.log(features)
+    features = feature_scaler.transform(features)
+    print(f"scaled features: {features}")
+
     return features
 
 
-model = tf.keras.models.load_model("ml_models/mlp_model_v9.keras")
+model = tf.keras.models.load_model("ml_models/mlp_model_v10.keras")
 
 if st.button("Predict Thrust"):
-    features = create_features(throttle, voltage, selected_motor, selected_propeller)
-    # print(features.shape)
-    prediction = model.predict(features)
-    st.write(f"Predicted Thrust: {prediction[0][0]} gf")
+    predicted_thrusts = []
+    for throttle in throttle_values:
+        features = create_features(throttle, voltage, selected_motor, selected_propeller)
+        prediction = model.predict(features)
+        prediction = target_scaler.inverse_transform(prediction)
+
+        predicted_thrusts.append(prediction[0][0])
+
+    # Initialize actual thrust values
+    actual_throttle_values = []
+    actual_thrust_values = []
+
+    # Connect to SQLite database and fetch real data
+    conn = sqlite3.connect("data/tyto_database.db")
+    cursor = conn.cursor()
+
+    query = """
+        SELECT Throttle, \"Thrust(gf)\"
+        FROM merged_table 
+        WHERE motor_name = ? AND propeller_name = ? 
+        ORDER BY throttle ASC
+    """
+    cursor.execute(query, (selected_motor_name, selected_propeller_name))
+    results = cursor.fetchall()
+
+    # Close the connection
+    conn.close()
+
+    # Process actual data if available
+    if results:
+        actual_throttle_values, actual_thrust_values = zip(*results)  # Unpack throttle and thrust values
+
+    # Create the plot
+    fig, ax = plt.subplots()
+
+    # Plot predicted thrust curve
+    ax.plot(throttle_values, predicted_thrusts,
+            label=f"Predicted: {selected_motor_name} & {selected_propeller_name}", linestyle="dashed")
+
+    # Plot actual thrust data if available
+    if results:
+        ax.scatter(actual_throttle_values, actual_thrust_values, color="red", label="Actual Data", zorder=3)
+        print(actual_throttle_values)
+        print(actual_thrust_values)
+
+    # Formatting
+    ax.set_title("Thrust Curve Comparison")
+    ax.set_xlabel("Throttle Setting [0-1]")
+    ax.set_ylabel("Thrust [gf]")
+    ax.legend()
+
+    # Display in Streamlit
+    st.pyplot(fig)
 
 
 def stop_app():
