@@ -88,16 +88,22 @@ selected_propeller_name = st.selectbox("Propeller Name:", propeller_choices)
 selected_propeller = propeller_dict[selected_propeller_name]
 
 
-use_range = st.checkbox("Run 10 throttle settings")
+use_range = st.checkbox("Run full throttle range")
 
 if use_range:
-    throttle_values = np.linspace(0.1, 1, 10)  # 10 throttle values from 0 to 1
+    throttle_values = np.linspace(0, 1, 25)  # 10 throttle values from 0 to 1
 else:
     throttle = st.number_input("Throttle (0-1)", min_value=0.0, max_value=1.0, step=0.01)
     throttle_values = [throttle]  # Convert single value to list for consistency
 
 # Display selected throttle values
-st.write("Selected Throttle Values:", throttle_values)
+st.write("Motor Diameter (mm):", selected_motor.diameter)
+st.write("Motor Height (mm):", selected_motor.height)
+st.write("Motor Kv (RPM/V):", selected_motor.kv)
+
+st.write("Propeller Diameter (in):", selected_propeller.diameter)
+st.write("Motor Pitch (in):", selected_propeller.pitch)
+st.write("Number of Blades:", selected_propeller.number_of_blades)
 
 voltage = st.number_input("Voltage (V)")
 
